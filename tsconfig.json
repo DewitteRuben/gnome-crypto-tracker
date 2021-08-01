@@ -1,0 +1,19 @@
+{
+  "version": "1.2.0",
+  "compileOnSave": true,
+  "compilerOptions": {
+    "target": "es2015",
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "downlevelIteration": true,
+    "lib": ["es2015"],
+    "pretty": true,
+    "outDir": ".",
+    "skipLibCheck": true,
+    "removeComments": true,
+    "incremental": true,
+    "noUnusedLocals": true,
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}
