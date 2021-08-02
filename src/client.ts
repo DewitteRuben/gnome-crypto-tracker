@@ -73,7 +73,7 @@ class HttpClient {
   }
 }
 
-interface CoinAPI {
+export interface CoinAPI {
   refreshCoinList(): Promise<void>
   listSupportedCoins(): Coin[];
   isAvailable(): Promise<boolean>;
