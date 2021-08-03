@@ -1,6 +1,7 @@
 // @ts-ignore
 const Me = imports.misc.extensionUtils.getCurrentExtension();
 import { coins } from "./coins";
+import { FuzzySearch } from "./search_utils";
 
 const { Soup } = imports.gi;
 
@@ -12,6 +13,25 @@ export interface Session {
 export interface Coin {
   id: string;
   name: string;
+}
+
+export interface CoinDetail extends Coin {
+  image: string;
+  current_price: number;
+  market_cap: number;
+  market_cap_rank: number;
+  fully_diluted_valuation: number;
+  total_volume: number;
+  high_24h: number;
+  low_24h: number;
+  price_change_24h: number;
+  price_change_percentage_24h: number;
+  market_cap_change_24h: number;
+  market_cap_change_percentage_24h: number;
+  circulating_supply: number;
+  total_supply: number;
+  max_supply: number;
+  last_updated: string;
 }
 
 export interface CoinPrice {
@@ -74,33 +94,62 @@ class HttpClient {
 }
 
 export interface CoinAPI {
-  refreshCoinList(): Promise<void>
+  refreshCoinList(): Promise<void>;
+  getCoinDetails(
+    coinID: string,
+    currency: string
+  ): Promise<CoinDetail | CoinDetail[]>;
+  getCoinPrice(coinID: string, currency: string): Promise<CoinPrice>;
+  searchCoin(query: string): Promise<CoinDetail[]>;
   listSupportedCoins(): Coin[];
   isAvailable(): Promise<boolean>;
-  getCoinPrice(coinID: string, currency: string): Promise<CoinPrice>;
 }
 
 export class GeckoCoinAPI implements CoinAPI {
   private baseURL = "https://api.coingecko.com/api/v3/";
   private httpClient = new HttpClient();
-  private coinListCache: Coin[] = coins
+  private coinListCache: Coin[] = coins;
 
   listSupportedCoins(): Coin[] {
-    return this.coinListCache
+    return this.coinListCache;
   }
 
   async refreshCoinList(): Promise<void> {
     const url = this.computeEndpointURL("coins/list");
     const updatedCoins = await this.httpClient.request<Coin[]>("GET", url);
-    this.coinListCache = updatedCoins
+    this.coinListCache = updatedCoins;
+  }
+
+  async searchCoin(query: string): Promise<CoinDetail[]> {
+    const searcher = new FuzzySearch(
+      this.listSupportedCoins(),
+      ["id", "name"],
+      { sort: true }
+    );
+
+    const filteredCoins: Coin[] = searcher.search(query).slice(0, 100);
+    const coinIDs = filteredCoins.map(({ id }) => id);
+    log(JSON.stringify(coinIDs))
+
+    // TODO: replace with saved currency
+    const coinDetails = await this.getCoinDetails(coinIDs, "eur");
+
+    if (Array.isArray(coinDetails)) {
+      return coinDetails;
+    }
+
+    return [coinDetails];
   }
 
   async isAvailable(): Promise<boolean> {
     try {
-      await this.httpClient.request<Coin[]>("GET", this.computeEndpointURL("ping"));
-      return true
+      await this.httpClient.request<Coin[]>(
+        "GET",
+        this.computeEndpointURL("ping")
+      );
+      return true;
     } catch (error) {
-      return false
+      return false;
     }
   }
 
@@ -125,5 +174,28 @@ export class GeckoCoinAPI implements CoinAPI {
 
     return await this.httpClient.request<CoinPrice>("GET", url);
   }
-}
 
+  async getCoinDetails(
+    coinID: string | string[],
+    currency: string
+  ): Promise<CoinDetail | CoinDetail[]> {
+    const coins: string[] = !Array.isArray(coinID) ? [coinID] : coinID;
+
+    const url = this.computeEndpointURL(
+      `markets?vs_currency=${currency}&ids=${coins.join(
+        ","
+      )}&order=market_cap_desc&per_page=250&page=1&sparkline=false`
+    );
+
+    const coinDetailArr = await this.httpClient.request<CoinDetail[]>(
+      "GET",
+      url
+    );
+
+    if (coinDetailArr.length == 1) {
+      return coinDetailArr[0];
+    }
+
+    return coinDetailArr;
+  }
+}

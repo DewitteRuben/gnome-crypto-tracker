@@ -2,12 +2,12 @@
 const Me = imports.misc.extensionUtils.getCurrentExtension();
 
 import { clearInterval, setInterval } from "./helpers";
-import type { CoinAPI, CoinPrice } from "./client";
+import { CoinAPI, CoinPrice, GeckoCoinAPI } from "./client";
 
-export class PriceService {
+class PriceService {
   private coinAPI: CoinAPI;
-  private updateFunc: (pricePayload: CoinPrice) => void;
   private interval: number;
+  private updateFunc: (pricePayload: CoinPrice) => void;
 
   constructor(coinAPI: CoinAPI) {
     this.coinAPI = coinAPI;
@@ -27,7 +27,13 @@ export class PriceService {
     this.updateFunc(pricePayload);
   }
 
+  get api() {
+    return this.coinAPI
+  }
+
   stop() {
     clearInterval(this.interval);
   }
 }
+
+export const priceService = new PriceService(new GeckoCoinAPI())

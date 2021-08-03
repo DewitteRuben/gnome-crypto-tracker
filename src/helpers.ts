@@ -1,37 +1,40 @@
-
 // @ts-ignore
 const Me = imports.misc.extensionUtils.getCurrentExtension();
 
 const GLib = imports.gi.GLib;
 
-export const setTimeout = (func: Function, millis: number): number => {
-  return GLib.timeout_add(
-    GLib.PRIORITY_DEFAULT,
-    millis,
-    () => {
-      func();
+export function setTimeout(func: Function, millis: number): number {
+  const timeout = () => {
+    func();
+    return GLib.SOURCE_REMOVE; // Don't repeat
+  };
 
-      return false; // Don't repeat
-    },
-    null
-  );
-};
+  return GLib.timeout_add(GLib.PRIORITY_DEFAULT, millis, timeout);
+}
 
 export const clearTimeout = (id: number) => GLib.Source.remove(id);
 
-export const setInterval = (func: Function, millis: number): number => {
-  let id = GLib.timeout_add(
-    GLib.PRIORITY_DEFAULT,
-    millis,
-    () => {
-      func();
+export function setInterval(func: Function, millis: number): number {
+  const interval = () => {
+    func();
+    return GLib.SOURCE_CONTINUE; // Repeat
+  };
 
-      return true; // Repeat
-    },
-    null
-  );
+  return GLib.timeout_add(GLib.PRIORITY_DEFAULT, millis, interval);
+}
 
-  return id;
-};
+export function debounce(this: any, func: Function, timeout = 300) {
+  let timer: number | undefined;
+  return (...args: any) => {
+    if (!timer) {
+      func.apply(this, args);
+    }
+    if (timer) clearTimeout(timer);
+    timer = setTimeout(() => {
+      timer = undefined;
+    }, timeout);
+  };
+}
+
 
 export const clearInterval = (id: number) => GLib.Source.remove(id);

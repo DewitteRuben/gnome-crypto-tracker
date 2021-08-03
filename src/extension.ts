@@ -32,6 +32,7 @@ class Extension {
   private uuid: any;
   private trayButton: any;
   private settings: any;
+
   constructor(uuid: string) {
     this.uuid = uuid;
     ExtensionUtils.initTranslations(GETTEXT_DOMAIN);
@@ -44,6 +45,8 @@ class Extension {
   enable() {
     this.trayButton = new TrayButton();
 
+    log("Hello!")
+  
     this.settings.bind(
       "show-indicator",
       this.trayButton,

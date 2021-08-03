@@ -8,4 +8,4 @@ run:
 	dbus-run-session -- gnome-shell --nested --wayland
 
 prefs:
-	gnome-extensions prefs cryptopricetracker@rubendewitte.com
+	gnome-extensions prefs cryptopricetracker@rubendewitte.com && journalctl -f | grep gjs

@@ -1,9 +1,9 @@
 //@ts-ignore
 const Me = imports.misc.extensionUtils.getCurrentExtension();
 
-import { PriceService } from "./price_service";
-import { GeckoCoinAPI } from "./client";
+import { CoinPrice } from "./client";
 import { GETTEXT_DOMAIN } from "./constants";
+import { priceService } from "./price_service";
 
 const { GObject, St } = imports.gi;
 
@@ -16,8 +16,6 @@ const _ = Gettext.gettext;
 
 export const TrayButton = GObject.registerClass(
   class TrayButton extends PanelMenu.Button {
-    private coinPriceService?: PriceService;
-    private coinAPI?: GeckoCoinAPI
 
     onMenuItemClick() {
       Main.notify(_("Whats up dingusSSSSS"));
@@ -25,10 +23,8 @@ export const TrayButton = GObject.registerClass(
 
     _init() {
       super._init(0.0, _("My Shiny Indicator"));
-      this.coinAPI = new GeckoCoinAPI()
-      this.coinPriceService = new PriceService(this.coinAPI);
 
-      const button = new St.Bin({ style_class: "panel-button" });
+      const button = new St.Bin();
 
       this.label = new St.Label({
         text: "test label",
@@ -36,7 +32,7 @@ export const TrayButton = GObject.registerClass(
 
       button.set_child(this.label);
 
-      this.coinPriceService.start((payload) =>
+      priceService.start((payload: CoinPrice) =>
         this.label.set_text(JSON.stringify(payload))
       );
 
