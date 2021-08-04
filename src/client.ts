@@ -45,6 +45,8 @@ export type RequestOptions = {
   headers?: {
     "Content-Type": "application/json";
   };
+  method?: "GET" | "POST";
+  bufferResult?: boolean;
   parseJSON?: boolean;
 };
 
@@ -55,18 +57,21 @@ class HttpClient {
     this.session = new Soup.SessionAsync();
   }
   request<T>(
-    method: "GET" | "POST",
-    uri: string,
+    url: string,
     options: RequestOptions = {
+      method: "GET",
       parseJSON: true,
       headers: { "Content-Type": "application/json" },
     }
   ): Promise<T> {
     return new Promise((resolve, reject) => {
-      const soup_request = Soup.Message.new(method, uri);
+      const soup_request = Soup.Message.new_from_uri(
+        options.method,
+        new Soup.URI(url)
+      );
 
       if (
-        method === "POST" &&
+        options.method === "POST" &&
         options.headers?.["Content-Type"] &&
         options.body
       ) {
@@ -81,19 +86,24 @@ class HttpClient {
       }
 
       this.session.queue_message(soup_request, (sess, mess) => {
-        let result = mess.response_body.data;
+        let result;
+
+        if (options.bufferResult) {
+          return resolve(mess.response_body.flatten().get_as_bytes());
+        }
 
         if (options.parseJSON) {
           result = JSON.parse(mess.response_body.data);
         }
 
-        resolve(result);
+        return resolve(result);
       });
     });
   }
 }
 
 export interface CoinAPI {
+  httpClient: HttpClient;
   refreshCoinList(): Promise<void>;
   getCoinDetails(
     coinID: string,
@@ -107,7 +117,7 @@ export interface CoinAPI {
 
 export class GeckoCoinAPI implements CoinAPI {
   private baseURL = "https://api.coingecko.com/api/v3/";
-  private httpClient = new HttpClient();
+  public httpClient = new HttpClient();
   private coinListCache: Coin[] = coins;
 
   listSupportedCoins(): Coin[] {
@@ -116,7 +126,7 @@ export class GeckoCoinAPI implements CoinAPI {
 
   async refreshCoinList(): Promise<void> {
     const url = this.computeEndpointURL("coins/list");
-    const updatedCoins = await this.httpClient.request<Coin[]>("GET", url);
+    const updatedCoins = await this.httpClient.request<Coin[]>(url);
     this.coinListCache = updatedCoins;
   }
 
@@ -129,7 +139,6 @@ export class GeckoCoinAPI implements CoinAPI {
 
     const filteredCoins: Coin[] = searcher.search(query).slice(0, 100);
     const coinIDs = filteredCoins.map(({ id }) => id);
-    log(JSON.stringify(coinIDs))
 
     // TODO: replace with saved currency
     const coinDetails = await this.getCoinDetails(coinIDs, "eur");
@@ -141,12 +150,10 @@ export class GeckoCoinAPI implements CoinAPI {
     return [coinDetails];
   }
 
+  // TODO: check status code instead
   async isAvailable(): Promise<boolean> {
     try {
-      await this.httpClient.request<Coin[]>(
-        "GET",
-        this.computeEndpointURL("ping")
-      );
+      await this.httpClient.request<Coin[]>(this.computeEndpointURL("ping"));
       return true;
     } catch (error) {
       return false;
@@ -172,7 +179,7 @@ export class GeckoCoinAPI implements CoinAPI {
       )}`
     );
 
-    return await this.httpClient.request<CoinPrice>("GET", url);
+    return await this.httpClient.request<CoinPrice>(url);
   }
 
   async getCoinDetails(
@@ -182,15 +189,12 @@ export class GeckoCoinAPI implements CoinAPI {
     const coins: string[] = !Array.isArray(coinID) ? [coinID] : coinID;
 
     const url = this.computeEndpointURL(
-      `markets?vs_currency=${currency}&ids=${coins.join(
+      `coins/markets?vs_currency=${currency}&ids=${coins.join(
         ","
       )}&order=market_cap_desc&per_page=250&page=1&sparkline=false`
     );
 
-    const coinDetailArr = await this.httpClient.request<CoinDetail[]>(
-      "GET",
-      url
-    );
+    const coinDetailArr = await this.httpClient.request<CoinDetail[]>(url);
 
     if (coinDetailArr.length == 1) {
       return coinDetailArr[0];

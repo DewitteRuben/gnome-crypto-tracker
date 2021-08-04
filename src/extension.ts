@@ -44,8 +44,6 @@ class Extension {
 
   enable() {
     this.trayButton = new TrayButton();
-
-    log("Hello!")
   
     this.settings.bind(
       "show-indicator",
