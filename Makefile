@@ -4,8 +4,8 @@ clean:
 compile:
 	glib-compile-schemas schemas && tsc -p . && node fileParser/parser.js
 
-run:
+run: compile
 	dbus-run-session -- gnome-shell --nested --wayland
 
-prefs:
+prefs: compile
 	gnome-extensions prefs cryptopricetracker@rubendewitte.com && journalctl -f --since 'now'

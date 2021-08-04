@@ -5,5 +5,11 @@
         <key name="show-indicator" type="b">
             <default>true</default>
         </key>
+        <key name="coin" type="s">
+            <default>"bitcoin"</default>
+        </key>
+        <key name="currency" type="s">
+            <default>"eur"</default>
+        </key>
     </schema>
 </schemalist>

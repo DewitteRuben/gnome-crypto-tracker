@@ -23,18 +23,18 @@ export function setInterval(func: Function, millis: number): number {
   return GLib.timeout_add(GLib.PRIORITY_DEFAULT, millis, interval);
 }
 
-export function debounce(this: any, func: Function, timeout = 300) {
-  let timer: number | undefined;
-  return (...args: any) => {
-    if (!timer) {
+export function debounce(func: Function, wait: number) {
+  let sourceId: number | null;
+  return function (this: any, ...args: any) {
+    const debouncedFunc = () => {
+      sourceId = null;
       func.apply(this, args);
-    }
-    if (timer) clearTimeout(timer);
-    timer = setTimeout(() => {
-      timer = undefined;
-    }, timeout);
+    };
+
+    // It is a programmer error to attempt to remove a non-existent source
+    if (sourceId) GLib.Source.remove(sourceId);
+    sourceId = GLib.timeout_add(GLib.PRIORITY_DEFAULT, wait, debouncedFunc);
   };
 }
-
 
 export const clearInterval = (id: number) => GLib.Source.remove(id);

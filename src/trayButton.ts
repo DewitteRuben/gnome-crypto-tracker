@@ -3,7 +3,7 @@ const Me = imports.misc.extensionUtils.getCurrentExtension();
 
 import { CoinPrice } from "./client";
 import { GETTEXT_DOMAIN } from "./constants";
-import { priceService } from "./price_service";
+import { getPriceService } from "./price_service";
 
 const { GObject, St } = imports.gi;
 
@@ -32,7 +32,7 @@ export const TrayButton = GObject.registerClass(
 
       button.set_child(this.label);
 
-      priceService.start((payload: CoinPrice) =>
+      getPriceService().start((payload: CoinPrice) =>
         this.label.set_text(JSON.stringify(payload))
       );
 
