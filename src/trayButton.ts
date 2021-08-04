@@ -17,8 +17,8 @@ const _ = Gettext.gettext;
 export const TrayButton = GObject.registerClass(
   class TrayButton extends PanelMenu.Button {
 
-    onMenuItemClick() {
-      Main.notify(_("Whats up dingusSSSSS"));
+    onSettingsClick() {
+      Main.extensionManager.openExtensionPrefs(Me.metadata​.uuid, '', {});
     }
 
     _init() {
@@ -38,10 +38,10 @@ export const TrayButton = GObject.registerClass(
 
       this.add_child(button);
 
-      const item = new PopupMenu.PopupMenuItem(_("Show Notification"));
-      item.connect("activate", this.onMenuItemClick);
+      const settings = new PopupMenu.PopupMenuItem(_("Settings"));
+      settings.connect("activate", this.onSettingsClick);
 
-      this.menu.addMenuItem(item);
+      this.menu.addMenuItem(settings);
     }
   }
 );
