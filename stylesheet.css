@@ -8,6 +8,12 @@
   margin-top: 1px;
 }
 
+.price-time-range-label {
+  margin-top: 1px;
+  font-size: 9px;
+  vertical-align: super;
+}
+
 .price-change-label {
   margin-left: 5px;
 }

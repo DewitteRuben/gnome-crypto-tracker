@@ -86,6 +86,7 @@ class PriceService {
     const prefix = increase ? "+" : "";
     const percentage = priceChange.toFixed(2) + "%";
     this.trayButton.priceChangeLabel.set_text(prefix + percentage);
+    this.trayButton.timeRange.set_text(this.priceChangeRange)
     this.trayButton.priceChangeLabel.set_style(`color: ${style}`);
   }
 

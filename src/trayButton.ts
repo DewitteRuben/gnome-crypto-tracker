@@ -40,6 +40,11 @@ export const TrayButton = GObject.registerClass(
         y_align: St.Align.MIDDLE,
       });
 
+      this.timeRange = new St.Label({
+        text: "",
+        style_class: "price-time-range-label",
+      });
+
       this.icon = new St.Icon({
         style_class: "system-status-icon",
         y_align: St.Align.MIDDLE,
@@ -48,6 +53,7 @@ export const TrayButton = GObject.registerClass(
       this.container.add_actor(this.icon);
       this.container.add_actor(this.priceLabel);
       this.container.add_actor(this.priceChangeLabel);
+      this.container.add_actor(this.timeRange);
 
       this.container.connect(
         "button-press-event",
