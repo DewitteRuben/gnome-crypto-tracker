@@ -29,16 +29,22 @@ export const TrayButton = GObject.registerClass(
       });
 
       this.label = new St.Label({
-        text: "test label",
+        text: "Loading price data...",
+        style_class: "tray-label",
+        y_align: St.Align.MIDDLE,
       });
 
       this.icon = new St.Icon({
         style_class: "system-status-icon",
+        y_align: St.Align.MIDDLE,
       });
 
       this.container.add_actor(this.icon);
       this.container.add_actor(this.label);
-      this.container.connect('button-press-event', this.onSettingsClick.bind(this))
+      this.container.connect(
+        "button-press-event",
+        this.onSettingsClick.bind(this)
+      );
 
       getPriceService().setTrayButton(this);
       getPriceService().start();

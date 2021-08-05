@@ -1,4 +1,8 @@
 /* Add your custom extension styling here */
-.search_bar {
-  background-color: red;
+.system-status-icon {
+  margin-right: 5px;
+}
+
+.tray-label {
+  margin-top: 1px;
 }
