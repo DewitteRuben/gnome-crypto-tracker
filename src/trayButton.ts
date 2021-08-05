@@ -1,7 +1,6 @@
 //@ts-ignore
 const Me = imports.misc.extensionUtils.getCurrentExtension();
 
-import { CoinPrice } from "./client";
 import { GETTEXT_DOMAIN } from "./constants";
 import { getPriceService } from "./price_service";
 
@@ -16,27 +15,35 @@ const _ = Gettext.gettext;
 
 export const TrayButton = GObject.registerClass(
   class TrayButton extends PanelMenu.Button {
-
     onSettingsClick() {
-      Main.extensionManager.openExtensionPrefs(Me.metadata​.uuid, '', {});
+      Main.extensionManager.openExtensionPrefs(Me.metadata.uuid, "", {});
     }
 
     _init() {
       super._init(0.0, _("My Shiny Indicator"));
 
-      const button = new St.Bin();
+      this.container = new St.BoxLayout({
+        style_class: "panel-button",
+        reactive: true,
+        can_focus: true,
+        track_hover: true,
+      });
 
       this.label = new St.Label({
         text: "test label",
       });
 
-      button.set_child(this.label);
+      this.icon = new St.Icon({
+        style_class: "system-status-icon github-background-symbolic",
+      });
 
-      getPriceService().start((payload: CoinPrice) =>
-        this.label.set_text(JSON.stringify(payload))
-      );
+      this.container.add_actor(this.icon);
+      this.container.add_actor(this.label);
 
-      this.add_child(button);
+      getPriceService().setTrayButton(this);
+      getPriceService().start();
+
+      this.add_child(this.container);
 
       const settings = new PopupMenu.PopupMenuItem(_("Settings"));
       settings.connect("activate", this.onSettingsClick);

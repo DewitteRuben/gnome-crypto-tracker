@@ -1,8 +1,8 @@
 // @ts-ignore
 const Me = imports.misc.extensionUtils.getCurrentExtension();
 
-import { SCHEMA_COIN } from "./constants";
-import { debounce } from "./helpers";
+import { SCHEMA_COIN, SCHEMA_COIN_ICON_URL } from "./constants";
+import { debounce, downloadImageIfNotExists } from "./helpers";
 import { getPriceService } from "./price_service";
 
 const Gio = imports.gi.Gio;
@@ -25,6 +25,7 @@ function createCoinListStore() {
     GObject.TYPE_STRING,
     GObject.TYPE_STRING,
     GdkPixbuf.Pixbuf,
+    GObject.TYPE_STRING,
   ]);
 
   return coinSearchBarListStore;
@@ -57,29 +58,6 @@ function init() {
   );
 }
 
-async function downloadImageIfNotExists(path: string) {
-  const fileName = path.split("/").splice(-1)[0].split("?")[0];
-  const filePath = `${Me.path}/icons/${fileName}`;
-
-  if (!GLib.file_test(filePath, GLib.FileTest.EXISTS)) {
-    const bytes = await getPriceService().api.httpClient.request<Uint8Array>(
-      path,
-      {
-        bufferResult: true,
-        method: "GET",
-      }
-    );
-
-    const file = Gio.File.new_for_path(filePath);
-    const outstream = file.replace(null, false, Gio.FileCreateFlags.NONE, null);
-    outstream.write_bytes(bytes, null);
-  }
-
-  let pixbuf = GdkPixbuf.Pixbuf.new_from_file(filePath);
-
-  return pixbuf.scale_simple(32, 32, GdkPixbuf.InterpType.BILINEAR);
-}
-
 function createSearchbar() {
   let searchEntry: any;
 
@@ -100,8 +78,8 @@ function createSearchbar() {
 
           coinSearchBarListStore.set(
             coinSearchBarListStore.append(),
-            [0, 1, 2],
-            [coin.id, coin.name, pixbuf]
+            [0, 1, 2, 3],
+            [coin.id, coin.name, pixbuf, coin.image]
           );
         });
 
@@ -121,7 +99,11 @@ function setCoin() {
   const [success, iter] = coinCombobox.get_active_iter();
   if (!success) return;
 
-  const coin = coinSearchBarListStore.get_value(iter, 0); // get value
+  const coin = coinSearchBarListStore.get_value(iter, 0);
+  const coinImageURL = coinSearchBarListStore.get_value(iter, 3);
+
+  log("setting coin " + coinImageURL)
+  settings.set_string(SCHEMA_COIN_ICON_URL, coinImageURL);
   settings.set_string(SCHEMA_COIN, coin);
 
   currentlyTrackingLabel.set_text(

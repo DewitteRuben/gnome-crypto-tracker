@@ -11,5 +11,8 @@
         <key name="currency" type="s">
             <default>"eur"</default>
         </key>
+        <key name="coin-icon-url" type="s">
+            <default>""</default>
+        </key>
     </schema>
 </schemalist>
