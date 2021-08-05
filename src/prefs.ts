@@ -3,9 +3,10 @@ const Me = imports.misc.extensionUtils.getCurrentExtension();
 
 import { SCHEMA_COIN, SCHEMA_COIN_ICON_URL } from "./constants";
 import { CurrencyComboBox } from "./currency_combobox";
-import { debounce, downloadImageIfNotExists } from "./helpers";
+import { debounce } from "./helpers";
 import { getPriceService } from "./price_service";
 
+const Gio = imports.gi.Gio;
 const Gtk = imports.gi.Gtk;
 const GdkPixbuf = imports.gi.GdkPixbuf;
 //@ts-ignore
@@ -57,6 +58,31 @@ function init() {
     "org.gnome.shell.extensions.cryptopricetracker"
   );
 }
+
+const downloadImageIfNotExists = async (path: string) => {
+  const fileName = path.split("/").splice(-1)[0].split("?")[0];
+  const filePath = `${Me.path}/icons/${fileName}`;
+
+  if (!GLib.file_test(filePath, GLib.FileTest.EXISTS)) {
+    log("this is the one 1");
+    log(typeof getPriceService);
+    const bytes = await getPriceService().api.httpClient.request<Uint8Array>(
+      path,
+      {
+        bufferResult: true,
+        method: "GET",
+      }
+    );
+
+    const file = Gio.File.new_for_path(filePath);
+    const outstream = file.replace(null, false, Gio.FileCreateFlags.NONE, null);
+    outstream.write_bytes(bytes, null);
+  }
+
+  let pixbuf = GdkPixbuf.Pixbuf.new_from_file(filePath);
+
+  return pixbuf.scale_simple(32, 32, GdkPixbuf.InterpType.BILINEAR);
+};
 
 function createSearchbar() {
   let searchEntry: any;
@@ -158,11 +184,10 @@ function buildPrefsWidget(this: any) {
 
   prefsWidget.attach(currencyLabel, 0, 3, 1, 1);
 
-  const currencyComboBox = new CurrencyComboBox()
-  currencyComboBox.populate()
+  const currencyComboBox = new CurrencyComboBox();
+  currencyComboBox.populate();
 
   prefsWidget.attach(currencyComboBox.getWidget(), 1, 3, 1, 1);
-
 
   return prefsWidget;
 }
