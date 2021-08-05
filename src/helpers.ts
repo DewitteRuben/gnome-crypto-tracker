@@ -2,6 +2,7 @@
 const Me = imports.misc.extensionUtils.getCurrentExtension();
 
 const GLib = imports.gi.GLib;
+const Gio = imports.gi.Gio;
 
 export function setTimeout(func: Function, millis: number): number {
   const timeout = () => {
@@ -35,6 +36,29 @@ export function debounce(func: Function, wait: number) {
     if (sourceId) GLib.Source.remove(sourceId);
     sourceId = GLib.timeout_add(GLib.PRIORITY_DEFAULT, wait, debouncedFunc);
   };
+}
+
+export function runCommandAsync(command: string) {
+  return new Promise((resolve, reject) => {
+    const proc = Gio.Subprocess.new(
+      [`ls`, '/'],
+      Gio.SubprocessFlags.STDOUT_PIPE | Gio.SubprocessFlags.STDERR_PIPE
+    );
+
+    proc.communicate_utf8_async(null, null, (proc: any, res: any) => {
+      try {
+        const [, stdout, stderr] = proc.communicate_utf8_finish(res);
+
+        if (proc.get_successful()) {
+          resolve(stdout);
+        } else {
+          throw new Error(stderr);
+        }
+      } catch (e) {
+        reject(e);
+      }
+    });
+  });
 }
 
 export const clearInterval = (id: number) => GLib.Source.remove(id);
