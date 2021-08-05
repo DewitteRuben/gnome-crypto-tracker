@@ -111,6 +111,7 @@ export interface CoinAPI {
   ): Promise<CoinDetail | CoinDetail[]>;
   getCoinPrice(coinID: string, currency: string): Promise<CoinPrice>;
   searchCoin(query: string): Promise<CoinDetail[]>;
+  listSupportedCurrencies(): Promise<string[]>;
   listSupportedCoins(): Coin[];
   isAvailable(): Promise<boolean>;
 }
@@ -180,6 +181,12 @@ export class GeckoCoinAPI implements CoinAPI {
     );
 
     return await this.httpClient.request<CoinPrice>(url);
+  }
+
+  async listSupportedCurrencies(): Promise<string[]> {
+    return await this.httpClient.request<string[]>(
+      this.computeEndpointURL("simple/supported_vs_currencies")
+    );
   }
 
   async getCoinDetails(

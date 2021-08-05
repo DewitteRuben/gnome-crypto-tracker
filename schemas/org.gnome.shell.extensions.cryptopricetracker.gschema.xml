@@ -2,9 +2,6 @@
 <schemalist>
     <schema id="org.gnome.shell.extensions.cryptopricetracker" path="/org/gnome/shell/extensions/cryptopricetracker/">
         <!-- See also: https://developer.gnome.org/glib/stable/gvariant-format-strings.html -->
-        <key name="show-indicator" type="b">
-            <default>true</default>
-        </key>
         <key name="coin" type="s">
             <default>"bitcoin"</default>
         </key>

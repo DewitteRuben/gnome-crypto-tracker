@@ -24,34 +24,20 @@ import { TrayButton } from "./trayButton";
 
 /* exported init */
 
-const Gio = imports.gi.Gio;
 const ExtensionUtils = imports.misc.extensionUtils;
 const Main = imports.ui.main;
 
 class Extension {
   private uuid: any;
   private trayButton: any;
-  private settings: any;
 
   constructor(uuid: string) {
     this.uuid = uuid;
     ExtensionUtils.initTranslations(GETTEXT_DOMAIN);
-
-    this.settings = ExtensionUtils.getSettings(
-      "org.gnome.shell.extensions.cryptopricetracker"
-    );
   }
 
   enable() {
     this.trayButton = new TrayButton();
-  
-    this.settings.bind(
-      "show-indicator",
-      this.trayButton,
-      "visible",
-      Gio.SettingsBindFlags.DEFAULT
-    );
-
     Main.panel.addToStatusArea(this.uuid, this.trayButton);
   }
 

@@ -27,7 +27,8 @@ class PriceService {
     this.interval = -1;
     this.coin = "bitcoin";
     this.currency = "eur";
-    this.coinIconURL = "";
+    this.coinIconURL = "https://assets.coingecko.com/coins/images/1/large/bitcoin.png";
+
     this.settings = ExtensionUtils.getSettings(
       "org.gnome.shell.extensions.cryptopricetracker"
     );
@@ -36,6 +37,11 @@ class PriceService {
   async start() {
     this.coinChangedHandler = this.settings.connect(
       "changed::coin",
+      this.reset.bind(this)
+    );
+    
+    this.coinChangedHandler = this.settings.connect(
+      "changed::currency",
       this.reset.bind(this)
     );
 
@@ -63,8 +69,7 @@ class PriceService {
     this.trayButton = trayButton;
   }
 
-  async reset(changed: any) {
-    log(JSON.stringify(changed));
+  async reset() {
     this.stop();
     this.start();
   }

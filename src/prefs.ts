@@ -2,10 +2,10 @@
 const Me = imports.misc.extensionUtils.getCurrentExtension();
 
 import { SCHEMA_COIN, SCHEMA_COIN_ICON_URL } from "./constants";
+import { CurrencyComboBox } from "./currency_combobox";
 import { debounce, downloadImageIfNotExists } from "./helpers";
 import { getPriceService } from "./price_service";
 
-const Gio = imports.gi.Gio;
 const Gtk = imports.gi.Gtk;
 const GdkPixbuf = imports.gi.GdkPixbuf;
 //@ts-ignore
@@ -102,7 +102,6 @@ function setCoin() {
   const coin = coinSearchBarListStore.get_value(iter, 0);
   const coinImageURL = coinSearchBarListStore.get_value(iter, 3);
 
-  log("setting coin " + coinImageURL)
   settings.set_string(SCHEMA_COIN_ICON_URL, coinImageURL);
   settings.set_string(SCHEMA_COIN, coin);
 
@@ -133,7 +132,7 @@ function buildPrefsWidget(this: any) {
   const button = new Gtk.Button({
     label: "Save",
     visible: true,
-    valign: Gtk.Align.START,
+    halign: Gtk.Align.START,
   });
 
   button.connect("clicked", setCoin);
@@ -142,7 +141,6 @@ function buildPrefsWidget(this: any) {
   prefsWidget.attach(coinCombobox, 1, 1, 1, 1);
   prefsWidget.attach(button, 2, 1, 1, 1);
 
-  // Create a label & switch for `show-indicator`
   currentlyTrackingLabel = new Gtk.Label({
     label: `Currently Tracking: ${settings.get_string("coin")}`,
     halign: Gtk.Align.START,
@@ -150,29 +148,21 @@ function buildPrefsWidget(this: any) {
   });
   prefsWidget.attach(currentlyTrackingLabel, 0, 2, 1, 1);
 
-  // Create a label & switch for `show-indicator`
-  const toggleLabel = new Gtk.Label({
-    label: "Show Extension Indicator:",
+  const currencyLabel = new Gtk.Label({
+    label: `<b>Choose a currency:</b>`,
     halign: Gtk.Align.START,
+    use_markup: true,
+
     visible: true,
   });
-  prefsWidget.attach(toggleLabel, 0, 3, 1, 1);
 
-  const toggle = new Gtk.Switch({
-    active: settings.get_boolean("show-indicator"),
-    halign: Gtk.Align.END,
-    visible: true,
-  });
-  prefsWidget.attach(toggle, 1, 3, 1, 1);
+  prefsWidget.attach(currencyLabel, 0, 3, 1, 1);
 
-  // Bind the switch to the `show-indicator` key
-  settings.bind(
-    "show-indicator",
-    toggle,
-    "active",
-    Gio.SettingsBindFlags.DEFAULT
-  );
+  const currencyComboBox = new CurrencyComboBox()
+  currencyComboBox.populate()
 
-  // Return our widget which will be added to the window
+  prefsWidget.attach(currencyComboBox.getWidget(), 1, 3, 1, 1);
+
+
   return prefsWidget;
 }

@@ -7,7 +7,6 @@ import { getPriceService } from "./price_service";
 const { GObject, St } = imports.gi;
 
 const PanelMenu = imports.ui.panelMenu;
-const PopupMenu = imports.ui.popupMenu;
 const Main = imports.ui.main;
 
 const Gettext = imports.gettext.domain(GETTEXT_DOMAIN);
@@ -34,21 +33,17 @@ export const TrayButton = GObject.registerClass(
       });
 
       this.icon = new St.Icon({
-        style_class: "system-status-icon github-background-symbolic",
+        style_class: "system-status-icon",
       });
 
       this.container.add_actor(this.icon);
       this.container.add_actor(this.label);
+      this.container.connect('button-press-event', this.onSettingsClick.bind(this))
 
       getPriceService().setTrayButton(this);
       getPriceService().start();
 
       this.add_child(this.container);
-
-      const settings = new PopupMenu.PopupMenuItem(_("Settings"));
-      settings.connect("activate", this.onSettingsClick);
-
-      this.menu.addMenuItem(settings);
     }
   }
 );
