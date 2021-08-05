@@ -1,7 +1,11 @@
 // @ts-ignore
 const Me = imports.misc.extensionUtils.getCurrentExtension();
 
-import { SCHEMA_COIN, SCHEMA_COIN_ICON_URL } from "./constants";
+import {
+  SCHEMA_COIN,
+  SCHEMA_COIN_ICON_URL,
+  SCHEMA_PRICE_CHANGE_RANGE,
+} from "./constants";
 import { CurrencyComboBox } from "./currency_combobox";
 import { debounce } from "./helpers";
 import { getPriceService } from "./price_service";
@@ -64,8 +68,6 @@ const downloadImageIfNotExists = async (path: string) => {
   const filePath = `${Me.path}/icons/${fileName}`;
 
   if (!GLib.file_test(filePath, GLib.FileTest.EXISTS)) {
-    log("this is the one 1");
-    log(typeof getPriceService);
     const bytes = await getPriceService().api.httpClient.request<Uint8Array>(
       path,
       {
@@ -100,12 +102,13 @@ function createSearchbar() {
 
         coinSearchBarListStore.clear();
         const coinPromises = coinDetailList.map((coin) => async () => {
-          const pixbuf = await downloadImageIfNotExists(coin.image);
+          const imageURL = coin.image.replace("large", "small");
+          const pixbuf = await downloadImageIfNotExists(imageURL);
 
           coinSearchBarListStore.set(
             coinSearchBarListStore.append(),
             [0, 1, 2, 3],
-            [coin.id, coin.name, pixbuf, coin.image]
+            [coin.id, coin.name, pixbuf, imageURL]
           );
         });
 
@@ -135,6 +138,12 @@ function setCoin() {
     `Currently Tracking: ${settings.get_string(SCHEMA_COIN)}`
   );
 }
+
+const setPriceChangeIndicatorTimeRange = (type: string) => (btn: any) => {
+  if (btn.get_active()) {
+    settings.set_string(SCHEMA_PRICE_CHANGE_RANGE, type);
+  }
+};
 
 //@ts-ignore
 function buildPrefsWidget(this: any) {
@@ -188,6 +197,50 @@ function buildPrefsWidget(this: any) {
   currencyComboBox.populate();
 
   prefsWidget.attach(currencyComboBox.getWidget(), 1, 3, 1, 1);
+
+  currentlyTrackingLabel = new Gtk.Label({
+    label: `<b>Select the time range of the price change indicator:</b>`,
+    use_markup: true,
+    visible: true,
+  });
+  prefsWidget.attach(currentlyTrackingLabel, 0, 4, 1, 1);
+
+  this.radioButton1h = new Gtk.RadioButton({ visible: true, label: "1h" });
+  this.radioButton24h = new Gtk.RadioButton({
+    label: "24h",
+    visible: true,
+    group: this.radioButton1h,
+  });
+  this.radioButton7d = new Gtk.RadioButton({
+    label: "7d",
+    visible: true,
+    group: this.radioButton1h,
+  });
+  this.radioButton14d = new Gtk.RadioButton({
+    label: "14d",
+    visible: true,
+    group: this.radioButton1h,
+  });
+
+  const priceChangeRange = settings.get_string(SCHEMA_PRICE_CHANGE_RANGE);
+  this[`radioButton${priceChangeRange}`].set_active(true);
+
+  this.radioButton1h.connect("toggled", setPriceChangeIndicatorTimeRange("1h"));
+  this.radioButton24h.connect(
+    "toggled",
+    setPriceChangeIndicatorTimeRange("24h")
+  );
+
+  this.radioButton7d.connect("toggled", setPriceChangeIndicatorTimeRange("7d"));
+  this.radioButton14d.connect(
+    "toggled",
+    setPriceChangeIndicatorTimeRange("14d")
+  );
+
+  prefsWidget.attach(this.radioButton1h, 0, 5, 1, 1);
+  prefsWidget.attach(this.radioButton24h, 1, 5, 1, 1);
+  prefsWidget.attach(this.radioButton7d, 2, 5, 1, 1);
+  prefsWidget.attach(this.radioButton14d, 3, 5, 1, 1);
 
   return prefsWidget;
 }

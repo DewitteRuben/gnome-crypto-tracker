@@ -3,6 +3,11 @@
   margin-right: 5px;
 }
 
-.tray-label {
+.price-label,
+.price-change-label {
   margin-top: 1px;
+}
+
+.price-change-label {
+  margin-left: 5px;
 }

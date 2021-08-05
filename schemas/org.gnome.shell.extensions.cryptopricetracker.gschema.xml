@@ -9,7 +9,10 @@
             <default>"eur"</default>
         </key>
         <key name="coin-icon-url" type="s">
-            <default>""</default>
+            <default>"https://assets.coingecko.com/coins/images/1/small/bitcoin.png"</default>
+        </key>
+        <key name="price-change-range" type="s">
+            <default>"24h"</default>
         </key>
     </schema>
 </schemalist>
