@@ -116,7 +116,7 @@ function createSearchbar() {
 
         coinCombobox.set_active(0);
       } catch (error) {
-        log(error);
+        log(error as string);
       }
     }, 1000)
   );

@@ -76,6 +76,7 @@ class PriceService {
     this.trayButton.priceLabel.set_text(
       `${new Intl.NumberFormat(undefined, {
         currency: this.currency,
+        ...(price < 1 && { minimumFractionDigits: 5 }),
         style: "currency",
       }).format(price)}`
     );

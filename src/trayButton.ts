@@ -65,5 +65,10 @@ export const TrayButton = GObject.registerClass(
 
       this.add_child(this.container);
     }
+
+    destroy() {
+      super.destroy();
+      getPriceService().stop();
+    }
   }
 );

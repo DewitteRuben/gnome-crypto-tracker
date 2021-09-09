@@ -95,11 +95,6 @@ export const coins = [
     name: "0.5X Long Matic Token",
   },
   {
-    id: "0-5x-long-midcap-index-token",
-    symbol: "midhalf",
-    name: "0.5X Long Midcap Index Token",
-  },
-  {
     id: "0-5x-long-okb-token",
     symbol: "OKBHALF",
     name: "0.5X Long OKB Token",
@@ -188,6 +183,11 @@ export const coins = [
     id: "10084-grayton",
     symbol: "realtoken-s-10084-grayton-st-detroit-mi",
     name: "RealT Token - 10084 Grayton St, Detroit, MI 48224",
+  },
+  {
+    id: "100man",
+    symbol: "man",
+    name: "100Man",
   },
   {
     id: "100x-coin",
@@ -570,6 +570,11 @@ export const coins = [
     name: "RealT Token - 19996 Joann Ave, Detroit, MI 48205",
   },
   {
+    id: "1doge",
+    symbol: "1doge",
+    name: "1Doge",
+  },
+  {
     id: "1inch",
     symbol: "1inch",
     name: "1inch",
@@ -648,11 +653,6 @@ export const coins = [
     id: "1x-short-compound-token-token",
     symbol: "comphedge",
     name: "1X Short Compound Token Token",
-  },
-  {
-    id: "1x-short-compound-usdt-token",
-    symbol: "cusdthedge",
-    name: "1X Short Compound USDT Token",
   },
   {
     id: "1x-short-cosmos-token",
@@ -1350,19 +1350,9 @@ export const coins = [
     name: "6ix9ine Chain",
   },
   {
-    id: "7chain",
-    symbol: "vii",
-    name: "7Chain",
-  },
-  {
     id: "7eleven",
     symbol: "7e",
     name: "7ELEVEN",
-  },
-  {
-    id: "7finance",
-    symbol: "svn",
-    name: "7Finance",
   },
   {
     id: "7plus-coin",
@@ -1388,6 +1378,11 @@ export const coins = [
     id: "8342-schaefer",
     symbol: "realtoken-s-8342-schaefer-highway-detroit-mi",
     name: "RealT Token - 8342 Schaefer Highway, Detroit, MI 48228",
+  },
+  {
+    id: "867",
+    symbol: "867",
+    name: "867",
   },
   {
     id: "888tron",
@@ -1875,6 +1870,11 @@ export const coins = [
     name: "Abitshadow Token",
   },
   {
+    id: "able-finance",
+    symbol: "able",
+    name: "Able Finance",
+  },
+  {
     id: "absolute",
     symbol: "abs",
     name: "Absolute",
@@ -2050,6 +2050,11 @@ export const coins = [
     name: "AdMonkey",
   },
   {
+    id: "adora-token",
+    symbol: "ara",
+    name: "Adora Token",
+  },
+  {
     id: "adshares",
     symbol: "ads",
     name: "Adshares",
@@ -2065,6 +2070,11 @@ export const coins = [
     name: "Advanced Integrated Blocks",
   },
   {
+    id: "adventure-gold",
+    symbol: "agld",
+    name: "Adventure Gold",
+  },
+  {
     id: "adventure-token",
     symbol: "twa",
     name: "Adventure Token",
@@ -2073,11 +2083,6 @@ export const coins = [
     id: "advertise-coin",
     symbol: "adco",
     name: "Advertise Coin",
-  },
-  {
-    id: "advertisingcoin",
-    symbol: "advc",
-    name: "Advertisingcoin",
   },
   {
     id: "adzcoin",
@@ -2155,11 +2160,6 @@ export const coins = [
     name: "AEUR",
   },
   {
-    id: "aevo",
-    symbol: "aevo",
-    name: "Always Evolving",
-  },
-  {
     id: "aezora",
     symbol: "azr",
     name: "Aezora",
@@ -2198,6 +2198,16 @@ export const coins = [
     id: "afrodex-labs-token",
     symbol: "afdlt",
     name: "AfroDex Labs Token",
+  },
+  {
+    id: "afterback",
+    symbol: "aftrbck",
+    name: "AfterBack",
+  },
+  {
+    id: "afterburn",
+    symbol: "aftrbrn",
+    name: "AfterBurn",
   },
   {
     id: "aga-carbon-credit",
@@ -2247,12 +2257,17 @@ export const coins = [
   {
     id: "agoras",
     symbol: "agrs",
-    name: "Agoras Token",
+    name: "Agoras",
   },
   {
     id: "agouti",
     symbol: "agu",
     name: "Agouti",
+  },
+  {
+    id: "agpc",
+    symbol: "agpc",
+    name: "AGPC",
   },
   {
     id: "agrello",
@@ -2268,6 +2283,11 @@ export const coins = [
     id: "agrinovuscoin",
     symbol: "agri",
     name: "AgriNovusCoin",
+  },
+  {
+    id: "agrocash-x",
+    symbol: "xagc",
+    name: "AgroCash X",
   },
   {
     id: "agrolot",
@@ -2340,9 +2360,9 @@ export const coins = [
     name: "Ainori",
   },
   {
-    id: "ainu-swap-token",
-    symbol: "ast",
-    name: "Ainu Swap Token",
+    id: "ainu-token",
+    symbol: "ainu",
+    name: "Ainu Token",
   },
   {
     id: "aion",
@@ -2358,11 +2378,6 @@ export const coins = [
     id: "aipichain",
     symbol: "aipi",
     name: "AiPiChain",
-  },
-  {
-    id: "ai-predicting-ecosystem",
-    symbol: "aipe",
-    name: "AI Prediction Ecosystem",
   },
   {
     id: "airbloc-protocol",
@@ -2423,11 +2438,6 @@ export const coins = [
     id: "akash-network",
     symbol: "akt",
     name: "Akash Network",
-  },
-  {
-    id: "akikcoin",
-    symbol: "akc",
-    name: "Akikcoin",
   },
   {
     id: "akita-inu",
@@ -2515,6 +2525,11 @@ export const coins = [
     name: "Alchemy Pay",
   },
   {
+    id: "aldrin",
+    symbol: "rin",
+    name: "Aldrin",
+  },
+  {
     id: "aleph",
     symbol: "aleph",
     name: "Aleph.im",
@@ -2570,9 +2585,19 @@ export const coins = [
     name: "Alien Worlds (BSC)",
   },
   {
+    id: "alinx",
+    symbol: "alix",
+    name: "AlinX",
+  },
+  {
     id: "alis",
     symbol: "alis",
     name: "ALIS",
+  },
+  {
+    id: "alita",
+    symbol: "ali",
+    name: "Alita",
   },
   {
     id: "alita-network",
@@ -2588,6 +2613,11 @@ export const coins = [
     id: "alium-swap",
     symbol: "alm",
     name: "Alium Swap",
+  },
+  {
+    id: "alkimi",
+    symbol: "$ads",
+    name: "Alkimi",
   },
   {
     id: "all-best-ico",
@@ -2735,6 +2765,11 @@ export const coins = [
     name: "Alpha Impact",
   },
   {
+    id: "alpha-kombat",
+    symbol: "alkom",
+    name: "Alpha Kombat",
+  },
+  {
     id: "alphalink",
     symbol: "ank",
     name: "AlphaLink",
@@ -2778,6 +2813,11 @@ export const coins = [
     id: "altcommunity-coin",
     symbol: "altom",
     name: "ALTOM",
+  },
+  {
+    id: "altered-protocol",
+    symbol: "alte",
+    name: "Altered Protocol",
   },
   {
     id: "alt-estate",
@@ -2838,11 +2878,6 @@ export const coins = [
     id: "american-akita",
     symbol: "uskita",
     name: "American Akita",
-  },
-  {
-    id: "americanhorror-finance",
-    symbol: "AHF",
-    name: "AmericanHorror.Finance",
   },
   {
     id: "american-shiba",
@@ -3010,6 +3045,11 @@ export const coins = [
     name: "Aragon Court",
   },
   {
+    id: "ankaragucu-fan-token",
+    symbol: "anka",
+    name: "Ankaragücü Fan Tokens",
+  },
+  {
     id: "ankr",
     symbol: "ankr",
     name: "Ankr",
@@ -3031,7 +3071,7 @@ export const coins = [
   },
   {
     id: "anon-inu",
-    symbol: "anon inu",
+    symbol: "ainu",
     name: "Anon Inu",
   },
   {
@@ -3105,11 +3145,6 @@ export const coins = [
     name: "ANY Blocknet",
   },
   {
-    id: "anysale",
-    symbol: "sale",
-    name: "AnySale",
-  },
-  {
     id: "anyswap",
     symbol: "any",
     name: "Anyswap",
@@ -3135,6 +3170,11 @@ export const coins = [
     name: "APEcoin",
   },
   {
+    id: "ape-fun-token",
+    symbol: "aft",
+    name: "Ape Fun Token",
+  },
+  {
     id: "apehaven",
     symbol: "apes",
     name: "ApeHaven",
@@ -3148,6 +3188,11 @@ export const coins = [
     id: "ape-punk",
     symbol: "ape$",
     name: "APE Punk",
+  },
+  {
+    id: "apes-of-empires",
+    symbol: "aoe",
+    name: "Apes of Empires",
   },
   {
     id: "ape-stax",
@@ -3193,6 +3238,11 @@ export const coins = [
     id: "apeusd-uni-synthetic-usd-dec-2021",
     symbol: "apeUSD-UNI-DEC21",
     name: "apeUSD-UNI Synthetic USD (Dec 2021)",
+  },
+  {
+    id: "ape-x",
+    symbol: "ape-x",
+    name: "Ape-X",
   },
   {
     id: "apex-army",
@@ -3410,6 +3460,11 @@ export const coins = [
     name: "ArbitrageCT",
   },
   {
+    id: "arcadium",
+    symbol: "arcadium",
+    name: "Arcadium",
+  },
+  {
     id: "arcane-bear",
     symbol: "bear",
     name: "arcane bear",
@@ -3497,7 +3552,7 @@ export const coins = [
   {
     id: "argo",
     symbol: "argo",
-    name: "ArGo Token",
+    name: "ArGoApp",
   },
   {
     id: "argon",
@@ -3535,6 +3590,11 @@ export const coins = [
     name: "Arise Finance",
   },
   {
+    id: "ariva",
+    symbol: "arv",
+    name: "Ariva",
+  },
+  {
     id: "arix",
     symbol: "arix",
     name: "Arix",
@@ -3570,6 +3630,11 @@ export const coins = [
     name: "Armx Unidos",
   },
   {
+    id: "around-network",
+    symbol: "art",
+    name: "Around Network",
+  },
+  {
     id: "arowana-token",
     symbol: "arw",
     name: "Arowana Token",
@@ -3590,9 +3655,24 @@ export const coins = [
     name: "Arrow",
   },
   {
+    id: "arsenal-fan-token",
+    symbol: "AFC",
+    name: "Arsenal Fan Token",
+  },
+  {
     id: "artax",
     symbol: "xax",
     name: "ARTAX",
+  },
+  {
+    id: "art-blocks-curated-fidenza-855",
+    symbol: "fdnza",
+    name: "Art Blocks Curated Fidenza #855",
+  },
+  {
+    id: "art-blocks-curated-full-set",
+    symbol: "abc123",
+    name: "Art Blocks Curated Full Set",
   },
   {
     id: "artbyte",
@@ -3735,11 +3815,6 @@ export const coins = [
     name: "Asko",
   },
   {
-    id: "asla",
-    symbol: "asla",
-    name: "ASLA",
-  },
-  {
     id: "aspire",
     symbol: "asp",
     name: "Aspire",
@@ -3753,6 +3828,11 @@ export const coins = [
     id: "assemble-protocol",
     symbol: "asm",
     name: "Assemble Protocol",
+  },
+  {
+    id: "assgard",
+    symbol: "assg",
+    name: "Assgard",
   },
   {
     id: "assy-index",
@@ -3798,6 +3878,11 @@ export const coins = [
     id: "astroelon",
     symbol: "elonone",
     name: "AstroElon",
+  },
+  {
+    id: "astrofarms",
+    symbol: "leo",
+    name: "AstroFarms",
   },
   {
     id: "astrokitty",
@@ -3903,6 +3988,11 @@ export const coins = [
     id: "atn",
     symbol: "atn",
     name: "ATN",
+  },
+  {
+    id: "atomic-token",
+    symbol: "atmc",
+    name: "Atomic Token",
   },
   {
     id: "atomic-wallet-coin",
@@ -4030,6 +4120,11 @@ export const coins = [
     name: "AurumCoin",
   },
   {
+    id: "aurum-raiders",
+    symbol: "aurum",
+    name: "Aurum-raiders",
+  },
+  {
     id: "auruscoin",
     symbol: "awx",
     name: "AurusDeFi",
@@ -4043,11 +4138,6 @@ export const coins = [
     id: "aurus-silver",
     symbol: "aws",
     name: "AurusSILVER",
-  },
-  {
-    id: "auscoin",
-    symbol: "ausc",
-    name: "Auscoin",
   },
   {
     id: "ausd",
@@ -4075,6 +4165,11 @@ export const coins = [
     name: "Auto",
   },
   {
+    id: "autoglyph-271",
+    symbol: "aglyph",
+    name: "Autoglyph #271",
+  },
+  {
     id: "automata",
     symbol: "ata",
     name: "Automata",
@@ -4088,6 +4183,11 @@ export const coins = [
     id: "autoshark",
     symbol: "jaws",
     name: "AutoShark",
+  },
+  {
+    id: "autostake",
+    symbol: "auto",
+    name: "Autostake",
   },
   {
     id: "autz-token",
@@ -4290,11 +4390,6 @@ export const coins = [
     name: "B2U Coin",
   },
   {
-    id: "b360",
-    symbol: "b360",
-    name: "B360",
-  },
-  {
     id: "baanx",
     symbol: "bxx",
     name: "Baanx",
@@ -4310,9 +4405,19 @@ export const coins = [
     name: "BABB",
   },
   {
+    id: "baby-ada",
+    symbol: "babyada",
+    name: "Baby ADA",
+  },
+  {
     id: "baby-akita",
     symbol: "bkita",
     name: "Baby Akita",
+  },
+  {
+    id: "babyavengers",
+    symbol: "avngrs",
+    name: "BabyAvengers",
   },
   {
     id: "babybackdoge",
@@ -4323,6 +4428,11 @@ export const coins = [
     id: "baby-bake",
     symbol: "babybake",
     name: "BabyBake",
+  },
+  {
+    id: "babybilz",
+    symbol: "babybilz",
+    name: "BabyBilz",
   },
   {
     id: "babybitcoin",
@@ -4343,6 +4453,11 @@ export const coins = [
     id: "baby-boxer",
     symbol: "bboxer",
     name: "Baby Boxer",
+  },
+  {
+    id: "babybsc",
+    symbol: "bbsc",
+    name: "BabyBSC",
   },
   {
     id: "babybusd",
@@ -4405,14 +4520,34 @@ export const coins = [
     name: "BabyDot",
   },
   {
+    id: "baby-doug",
+    symbol: "babydoug",
+    name: "Baby Doug",
+  },
+  {
     id: "babyelon",
     symbol: "babyelon",
     name: "BabyElon",
   },
   {
+    id: "babyeth",
+    symbol: "babyeth",
+    name: "BabyEth",
+  },
+  {
     id: "baby-everdoge",
     symbol: "baby everdoge",
     name: "Baby EverDoge",
+  },
+  {
+    id: "baby-falcon-doge",
+    symbol: "bfdoge",
+    name: "Baby Falcon Doge",
+  },
+  {
+    id: "babyfeg",
+    symbol: "bbfeg",
+    name: "Babyfeg",
   },
   {
     id: "baby-feg",
@@ -4430,6 +4565,11 @@ export const coins = [
     name: "Baby Floki Inu",
   },
   {
+    id: "baby-jeju",
+    symbol: "bbjeju",
+    name: "Baby Jeju",
+  },
+  {
     id: "baby-kishu",
     symbol: "babykishu",
     name: "Baby Kishu",
@@ -4438,6 +4578,11 @@ export const coins = [
     id: "babykraken",
     symbol: "krakbaby",
     name: "BabyKraken",
+  },
+  {
+    id: "baby-kshark",
+    symbol: "bks",
+    name: "Baby KShark",
   },
   {
     id: "babylink",
@@ -4455,6 +4600,16 @@ export const coins = [
     name: "Baby Lion",
   },
   {
+    id: "babylondon",
+    symbol: "babylondon",
+    name: "BabyLondon",
+  },
+  {
+    id: "babylons",
+    symbol: "babi",
+    name: "Babylons",
+  },
+  {
     id: "baby-matic",
     symbol: "babymatic",
     name: "Baby Matic",
@@ -4465,6 +4620,16 @@ export const coins = [
     name: "Baby Moon Wolf",
   },
   {
+    id: "baby-pancake",
+    symbol: "bpcake",
+    name: "Baby Pancake",
+  },
+  {
+    id: "babypenguin",
+    symbol: "bpeng",
+    name: "BabyPenguin",
+  },
+  {
     id: "baby-pig-token",
     symbol: "babypig",
     name: "Baby Pig Token",
@@ -4473,6 +4638,26 @@ export const coins = [
     id: "baby-poocoin",
     symbol: "babypoo",
     name: "Baby Poocoin",
+  },
+  {
+    id: "babypunks",
+    symbol: "bpunks",
+    name: "BabyPunks",
+  },
+  {
+    id: "babysafemoon",
+    symbol: "bsfm",
+    name: "BabySafeMoon",
+  },
+  {
+    id: "baby-saitama",
+    symbol: "babysaitama",
+    name: "Baby Saitama",
+  },
+  {
+    id: "babysatoshi",
+    symbol: "bsatoshi",
+    name: "BabySatoshi",
   },
   {
     id: "baby-satoshi",
@@ -4505,6 +4690,11 @@ export const coins = [
     name: "Baby Shiba Inu",
   },
   {
+    id: "baby-shiba-rocket",
+    symbol: "bshibr",
+    name: "Baby Shiba Rocket",
+  },
+  {
     id: "babyshibby-inu",
     symbol: "babyshib",
     name: "BabyShibby Inu",
@@ -4513,6 +4703,11 @@ export const coins = [
     id: "baby-starlink-doge",
     symbol: "starlinkdoge",
     name: "Baby Starlink Doge",
+  },
+  {
+    id: "babysun",
+    symbol: "babysun",
+    name: "BabySun",
   },
   {
     id: "babyswap",
@@ -4525,9 +4720,24 @@ export const coins = [
     name: "Baby Token",
   },
   {
+    id: "baby-trump",
+    symbol: "babytrump",
+    name: "Baby Trump",
+  },
+  {
     id: "babyuni",
     symbol: "babyuni",
     name: "BabyUni",
+  },
+  {
+    id: "babyusdt",
+    symbol: "babyusdt",
+    name: "BabyUSDT",
+  },
+  {
+    id: "babywhitetiger",
+    symbol: "bwt",
+    name: "BabyWhiteTiger",
   },
   {
     id: "babyxrp",
@@ -4560,6 +4770,11 @@ export const coins = [
     name: "BaconCoin",
   },
   {
+    id: "bacondao",
+    symbol: "bacon",
+    name: "BaconDAO",
+  },
+  {
     id: "baconswap",
     symbol: "bacon",
     name: "BaconSwap",
@@ -4580,6 +4795,11 @@ export const coins = [
     name: "Badger Sett Digg",
   },
   {
+    id: "bae",
+    symbol: "bae",
+    name: "Bae",
+  },
+  {
     id: "baepay",
     symbol: "baepay",
     name: "BAEPAY",
@@ -4595,6 +4815,11 @@ export const coins = [
     name: "Bafi Finance Token",
   },
   {
+    id: "bagel",
+    symbol: "bagel",
+    name: "Bagel",
+  },
+  {
     id: "baguette",
     symbol: "bag",
     name: "Baguette",
@@ -4603,6 +4828,11 @@ export const coins = [
     id: "baguette-token",
     symbol: "bgtt",
     name: "Baguette Token",
+  },
+  {
+    id: "baitcoin",
+    symbol: "bait",
+    name: "Baitcoin",
   },
   {
     id: "bakc-vault-nftx",
@@ -4628,6 +4858,11 @@ export const coins = [
     id: "bakerytools",
     symbol: "tbake",
     name: "BakeryTools",
+  },
+  {
+    id: "bakumatsu-swap-finance",
+    symbol: "ryma",
+    name: "Bakumatsu Swap Finance",
   },
   {
     id: "balancer",
@@ -4670,6 +4905,11 @@ export const coins = [
     name: "BallSwap",
   },
   {
+    id: "ball-token",
+    symbol: "ball",
+    name: "Ball Token",
+  },
+  {
     id: "balpha",
     symbol: "balpha",
     name: "bAlpha",
@@ -4688,6 +4928,11 @@ export const coins = [
     id: "bamboo-token-2",
     symbol: "bamboo",
     name: "Bamboo Token",
+  },
+  {
+    id: "banana",
+    symbol: "banana",
+    name: "Banana",
   },
   {
     id: "banana-finance",
@@ -4730,6 +4975,11 @@ export const coins = [
     name: "Band Protocol",
   },
   {
+    id: "bank-btc",
+    symbol: "bankbtc",
+    name: "Bank BTC",
+  },
+  {
     id: "bankcoincash",
     symbol: "bcash",
     name: "BankCoin BCash",
@@ -4770,6 +5020,11 @@ export const coins = [
     name: "Banklife",
   },
   {
+    id: "bankroll",
+    symbol: "bankr",
+    name: "BankRoll",
+  },
+  {
     id: "bankroll-extended-token",
     symbol: "bnkrx",
     name: "Bankroll Extended Token",
@@ -4793,6 +5048,11 @@ export const coins = [
     id: "banque-universal",
     symbol: "cbu",
     name: "Banque Universal",
+  },
+  {
+    id: "bantu",
+    symbol: "xbn",
+    name: "Bantu",
   },
   {
     id: "bao-finance",
@@ -4825,11 +5085,6 @@ export const coins = [
     name: "BarnBridge",
   },
   {
-    id: "baroin",
-    symbol: "bri",
-    name: "Baroin",
-  },
-  {
     id: "barrel",
     symbol: "barrel",
     name: "Barrel",
@@ -4843,6 +5098,11 @@ export const coins = [
     id: "bartertrade",
     symbol: "bart",
     name: "BarterTrade",
+  },
+  {
+    id: "based-gold",
+    symbol: "bgld",
+    name: "Based Gold",
   },
   {
     id: "based-loans-ownership",
@@ -4915,11 +5175,6 @@ export const coins = [
     name: "Basis Gold",
   },
   {
-    id: "basis-gold-mdex",
-    symbol: "bag",
-    name: "Basis Gold (Heco)",
-  },
-  {
     id: "basis-gold-share",
     symbol: "bsgs",
     name: "Basis Gold Share",
@@ -4990,6 +5245,11 @@ export const coins = [
     name: "Bavala",
   },
   {
+    id: "bayc-history",
+    symbol: "sweep",
+    name: "BAYC History -The Great Floor Sweep",
+  },
+  {
     id: "bayc-vault-nftx",
     symbol: "bayc",
     name: "BAYC Vault (NFTX)",
@@ -5035,6 +5295,11 @@ export const coins = [
     name: "bDollar Share",
   },
   {
+    id: "beach-token",
+    symbol: "beach",
+    name: "Beach Token",
+  },
+  {
     id: "beacon",
     symbol: "becn",
     name: "Beacon",
@@ -5060,9 +5325,19 @@ export const coins = [
     name: "Bearn.fi",
   },
   {
+    id: "beast-token",
+    symbol: "beast",
+    name: "Beast Token",
+  },
+  {
     id: "beatbind",
     symbol: "bbnd",
     name: "BeatBind",
+  },
+  {
+    id: "beatify",
+    symbol: "song",
+    name: "Beatify",
   },
   {
     id: "beatzcoin",
@@ -5105,6 +5380,11 @@ export const coins = [
     name: "Beenode",
   },
   {
+    id: "beer-inu",
+    symbol: "beer",
+    name: "Beer Inu",
+  },
+  {
     id: "beer-money",
     symbol: "beer",
     name: "Beer Money",
@@ -5123,11 +5403,6 @@ export const coins = [
     id: "beetr",
     symbol: "btr",
     name: "BeeTR",
-  },
-  {
-    id: "beflect-finance",
-    symbol: "bfi",
-    name: "Beflect.Finance",
   },
   {
     id: "be-gaming-coin",
@@ -5185,7 +5460,7 @@ export const coins = [
     name: "Belt",
   },
   {
-    id: "beluga.fi",
+    id: "beluga-fi",
     symbol: "beluga",
     name: "Beluga.fi",
   },
@@ -5230,9 +5505,9 @@ export const coins = [
     name: "Beowulf",
   },
   {
-    id: "bergco-coin",
-    symbol: "berg",
-    name: "BergCo Coin",
+    id: "bepro-network",
+    symbol: "bepro",
+    name: "BEPRO Network",
   },
   {
     id: "bernard",
@@ -5243,6 +5518,11 @@ export const coins = [
     id: "berncash",
     symbol: "bern",
     name: "BERNcash",
+  },
+  {
+    id: "berry",
+    symbol: "Berry",
+    name: "Berry",
   },
   {
     id: "berry-data",
@@ -5305,11 +5585,6 @@ export const coins = [
     name: "Betnomi",
   },
   {
-    id: "bet-protocol",
-    symbol: "bepro",
-    name: "BEPRO Network",
-  },
-  {
     id: "betrium",
     symbol: "btrm",
     name: "Betrium",
@@ -5318,6 +5593,11 @@ export const coins = [
     id: "better-money",
     symbol: "better",
     name: "Better Money",
+  },
+  {
+    id: "betu",
+    symbol: "betu",
+    name: "Betu",
   },
   {
     id: "betxoin",
@@ -5363,6 +5643,11 @@ export const coins = [
     id: "bezop",
     symbol: "bez",
     name: "Bezop",
+  },
+  {
+    id: "bfg-token",
+    symbol: "bfg",
+    name: "BFG Token",
   },
   {
     id: "bficoin",
@@ -5450,11 +5735,6 @@ export const coins = [
     name: "Bigbom",
   },
   {
-    id: "bigboys-industry",
-    symbol: "bbi",
-    name: "BigBoys Industry",
-  },
-  {
     id: "bigcash",
     symbol: "bgc",
     name: "BigCash",
@@ -5463,11 +5743,6 @@ export const coins = [
     id: "big-cat-rescue",
     symbol: "cat",
     name: "Big Cat Rescue",
-  },
-  {
-    id: "big-coin",
-    symbol: "big",
-    name: "Big Coin",
   },
   {
     id: "bigdata-cash",
@@ -5480,9 +5755,19 @@ export const coins = [
     name: "Big Data Protocol",
   },
   {
-    id: "bignite",
-    symbol: "bignite",
-    name: "Bignite",
+    id: "big-defi-energy",
+    symbol: "bde",
+    name: "Big Defi Energy",
+  },
+  {
+    id: "big-digital-shares",
+    symbol: "bds",
+    name: "Big Digital Shares",
+  },
+  {
+    id: "bigfoot",
+    symbol: "foot",
+    name: "BIGFOOT",
   },
   {
     id: "bigo-token",
@@ -5538,6 +5823,11 @@ export const coins = [
     id: "binamars",
     symbol: "bmars",
     name: "Binamars",
+  },
+  {
+    id: "binamars-game",
+    symbol: "bgame",
+    name: "Binamars Game",
   },
   {
     id: "binamon",
@@ -5640,14 +5930,29 @@ export const coins = [
     name: "Binance Wrapped BTC",
   },
   {
+    id: "binapet",
+    symbol: "bpet",
+    name: "Binapet",
+  },
+  {
     id: "binarium",
     symbol: "bin",
     name: "Binarium",
   },
   {
+    id: "binaryx",
+    symbol: "bnx",
+    name: "BinaryX",
+  },
+  {
     id: "bincentive",
     symbol: "bcnt",
     name: "Bincentive",
+  },
+  {
+    id: "binemon",
+    symbol: "bin",
+    name: "Binemon",
   },
   {
     id: "bingo-cash",
@@ -5668,6 +5973,11 @@ export const coins = [
     id: "binjit-coin",
     symbol: "bnj",
     name: "Binjit Coin",
+  },
+  {
+    id: "binstarter",
+    symbol: "bsr",
+    name: "BinStarter",
   },
   {
     id: "bintex-futures",
@@ -5770,6 +6080,11 @@ export const coins = [
     name: "Biswap",
   },
   {
+    id: "biswap-token",
+    symbol: "biswap",
+    name: "Biswap Token",
+  },
+  {
     id: "bitalgo",
     symbol: "alg",
     name: "Bitalgo",
@@ -5833,6 +6148,11 @@ export const coins = [
     id: "bitbot-protocol",
     symbol: "bbp",
     name: "Bitbot Protocol",
+  },
+  {
+    id: "bitbucks",
+    symbol: "bitbucks",
+    name: "BitBucks",
   },
   {
     id: "bitcanna",
@@ -5948,11 +6268,6 @@ export const coins = [
     id: "bitcoinbrand",
     symbol: "btcb",
     name: "BitcoinBrand",
-  },
-  {
-    id: "bitcoin-bull",
-    symbol: "bitb",
-    name: "Bitcoin Bull",
   },
   {
     id: "bitcoin-cash",
@@ -6270,6 +6585,11 @@ export const coins = [
     name: "Bitcoiva",
   },
   {
+    id: "bitcomine",
+    symbol: "bme",
+    name: "BitcoMine",
+  },
+  {
     id: "bitcomo",
     symbol: "bm",
     name: "Bitcomo",
@@ -6310,6 +6630,11 @@ export const coins = [
     name: "Bitcrex Coin",
   },
   {
+    id: "bitcrush",
+    symbol: "crush",
+    name: "Bitcrush",
+  },
+  {
     id: "bitcurate",
     symbol: "btcr",
     name: "Bitcurate",
@@ -6318,6 +6643,11 @@ export const coins = [
     id: "bitcurrency",
     symbol: "bc",
     name: "Bitcurrency",
+  },
+  {
+    id: "bitdao",
+    symbol: "bit",
+    name: "BitDAO",
   },
   {
     id: "bitdefi",
@@ -6398,6 +6728,11 @@ export const coins = [
     id: "bitget-token",
     symbol: "bgb",
     name: "Bitget Token",
+  },
+  {
+    id: "bitgrit",
+    symbol: "bgr",
+    name: "bitgrit",
   },
   {
     id: "bitguild",
@@ -6490,16 +6825,6 @@ export const coins = [
     name: "BitOnyx Token",
   },
   {
-    id: "bitor",
-    symbol: "btr",
-    name: "Bitor",
-  },
-  {
-    id: "bitorcash-token",
-    symbol: "boc",
-    name: "Bitorcash Token",
-  },
-  {
     id: "bitpakcointoken",
     symbol: "bpakc",
     name: "BitpakcoinToken",
@@ -6568,11 +6893,6 @@ export const coins = [
     id: "bitrue-token",
     symbol: "btr",
     name: "Bitrue Coin",
-  },
-  {
-    id: "bitscoin",
-    symbol: "btcx",
-    name: "BITSCOIN",
   },
   {
     id: "bitscreener",
@@ -6683,11 +7003,6 @@ export const coins = [
     id: "bittorrent-2",
     symbol: "btt",
     name: "BitTorrent",
-  },
-  {
-    id: "bittorro",
-    symbol: "torro",
-    name: "BitTorro",
   },
   {
     id: "bittracksystems",
@@ -6850,6 +7165,11 @@ export const coins = [
     name: "Black Kishu Inu",
   },
   {
+    id: "black-market-gaming",
+    symbol: "bmg",
+    name: "Black Market Gaming",
+  },
+  {
     id: "blackmoon-crypto",
     symbol: "bmc",
     name: "Blackmoon Crypto",
@@ -6895,11 +7215,6 @@ export const coins = [
     name: "Blastx",
   },
   {
-    id: "blaze-defi",
-    symbol: "bnfi",
-    name: "Blaze DeFi",
-  },
-  {
     id: "blaze-network",
     symbol: "BLZN",
     name: "Blaze Network",
@@ -6918,11 +7233,6 @@ export const coins = [
     id: "blinky-bob",
     symbol: "blinky",
     name: "Blinky Bob",
-  },
-  {
-    id: "blipcoin",
-    symbol: "bpcn",
-    name: "BlipCoin",
   },
   {
     id: "bliss-2",
@@ -7040,6 +7350,16 @@ export const coins = [
     name: "Blockcloud",
   },
   {
+    id: "block-commerce-protocol",
+    symbol: "bcp",
+    name: "Block Commerce Protocol",
+  },
+  {
+    id: "block-creatures",
+    symbol: "moolah",
+    name: "Block Creatures",
+  },
+  {
     id: "block-duelers",
     symbol: "bdt",
     name: "Block Duelers",
@@ -7095,6 +7415,11 @@ export const coins = [
     name: "BUX Token",
   },
   {
+    id: "blockspace-token",
+    symbol: "bls",
+    name: "Blocks Space",
+  },
+  {
     id: "blockstack",
     symbol: "stx",
     name: "Stacks",
@@ -7145,11 +7470,6 @@ export const coins = [
     name: "blocsport.one",
   },
   {
-    id: "bloody-token",
-    symbol: "bloody",
-    name: "Bloody Token",
-  },
-  {
     id: "bloom",
     symbol: "blt",
     name: "Bloom",
@@ -7173,6 +7493,11 @@ export const coins = [
     id: "blox",
     symbol: "cdt",
     name: "Blox",
+  },
+  {
+    id: "blox-token",
+    symbol: "blox",
+    name: "Blox Token",
   },
   {
     id: "blucon",
@@ -7280,6 +7605,16 @@ export const coins = [
     name: "BNBeanstalk",
   },
   {
+    id: "bnbpay",
+    symbol: "bpay",
+    name: "BNBPay",
+  },
+  {
+    id: "bnbrain",
+    symbol: "brain",
+    name: "BnbRain",
+  },
+  {
     id: "bnbrise",
     symbol: "brise",
     name: "BNBRise",
@@ -7335,9 +7670,9 @@ export const coins = [
     name: "BOAT",
   },
   {
-    id: "boboo-token",
-    symbol: "bobt",
-    name: "Boboo Token",
+    id: "bobo-cash",
+    symbol: "bobo",
+    name: "Bobo Cash",
   },
   {
     id: "bobs_repair",
@@ -7432,7 +7767,7 @@ export const coins = [
   {
     id: "bondappetit-gov-token",
     symbol: "bag",
-    name: "BondAppétit Governance Token",
+    name: "BondAppetit Governance Token",
   },
   {
     id: "bonded-finance",
@@ -7555,6 +7890,11 @@ export const coins = [
     name: "Boom Token",
   },
   {
+    id: "boost",
+    symbol: "boost",
+    name: "Boost",
+  },
+  {
     id: "boosted-finance",
     symbol: "boost",
     name: "Boosted Finance",
@@ -7583,6 +7923,16 @@ export const coins = [
     id: "borderless",
     symbol: "bds",
     name: "Borderless",
+  },
+  {
+    id: "bored-ark",
+    symbol: "bark",
+    name: "Bored Ark",
+  },
+  {
+    id: "bored-museum",
+    symbol: "bored",
+    name: "Bored Museum",
   },
   {
     id: "boringdao",
@@ -7620,6 +7970,11 @@ export const coins = [
     name: "Bor Protocol",
   },
   {
+    id: "boruto-inu",
+    symbol: "boruto",
+    name: "Boruto Inu",
+  },
+  {
     id: "bosagora",
     symbol: "boa",
     name: "BOSAGORA",
@@ -7630,14 +7985,14 @@ export const coins = [
     name: "BOScoin",
   },
   {
-    id: "boscore",
-    symbol: "bos",
-    name: "BOSCore",
-  },
-  {
     id: "boson-protocol",
     symbol: "boson",
     name: "Boson Protocol",
+  },
+  {
+    id: "boss",
+    symbol: "boss",
+    name: "Boss",
   },
   {
     id: "bot-ocean",
@@ -7685,6 +8040,11 @@ export const coins = [
     name: "BoxAxis",
   },
   {
+    id: "boxerdoge",
+    symbol: "boxerdoge",
+    name: "BoxerDOGE",
+  },
+  {
     id: "boxer-inu",
     symbol: "boxer",
     name: "Boxer Inu",
@@ -7710,14 +8070,14 @@ export const coins = [
     name: "B.Protocol",
   },
   {
-    id: "br34p",
-    symbol: "br34p",
-    name: "BR34P",
-  },
-  {
     id: "brainaut-defi",
     symbol: "brn",
     name: "Brainaut DeFi",
+  },
+  {
+    id: "brank",
+    symbol: "brnk",
+    name: "Brank",
   },
   {
     id: "brapper-token",
@@ -7728,6 +8088,11 @@ export const coins = [
     id: "bravo-coin",
     symbol: "bravo",
     name: "BravoCoin",
+  },
+  {
+    id: "brazil-fan-token",
+    symbol: "bft",
+    name: "Brazil Fan Token",
   },
   {
     id: "brazio",
@@ -7795,6 +8160,11 @@ export const coins = [
     name: "Bridge Protocol",
   },
   {
+    id: "bright-union",
+    symbol: "bright",
+    name: "Bright Union",
+  },
+  {
     id: "brilliancex",
     symbol: "brilx",
     name: "BrillianceX",
@@ -7803,6 +8173,11 @@ export const coins = [
     id: "bring",
     symbol: "nor",
     name: "Noir",
+  },
+  {
+    id: "bring-finance",
+    symbol: "brng",
+    name: "bRing.Finance",
   },
   {
     id: "brixcoin",
@@ -7833,6 +8208,11 @@ export const coins = [
     id: "browncoin",
     symbol: "brwn",
     name: "Browncoin",
+  },
+  {
+    id: "bruce-non-fungible-token",
+    symbol: "bnft",
+    name: "Bruce Non Fungible Token",
   },
   {
     id: "brz",
@@ -7905,6 +8285,11 @@ export const coins = [
     name: "BSHA3",
   },
   {
+    id: "bsocial",
+    symbol: "bins",
+    name: "BSocial",
+  },
+  {
     id: "bstable",
     symbol: "bstbl",
     name: "bStable",
@@ -7930,29 +8315,14 @@ export const coins = [
     name: "BTC-Alpha Token",
   },
   {
-    id: "btc-eth-75-25-weight-set",
-    symbol: "btceth7525",
-    name: "BTC ETH 75%/25% Weight Set",
-  },
-  {
     id: "btc-eth-equal-weight-set",
     symbol: "btceth5050",
     name: "BTC ETH Equal Weight Set",
   },
   {
-    id: "btc-fund-active-trading-set",
-    symbol: "btcfund",
-    name: "BTC Fund Active Trading Set",
-  },
-  {
     id: "btc-lite",
     symbol: "btcl",
     name: "BTC Lite",
-  },
-  {
-    id: "btc-long-only-alpha-portfolio",
-    symbol: "bloap",
-    name: "BTC Long-Only Alpha Portfolio",
   },
   {
     id: "btcmoon",
@@ -8025,14 +8395,14 @@ export const coins = [
     name: "BudaCoin",
   },
   {
-    id: "budbo",
-    symbol: "bubo",
-    name: "Budbo",
-  },
-  {
     id: "buddy",
     symbol: "bud",
     name: "Buddy",
+  },
+  {
+    id: "buffalo-swap",
+    symbol: "buff",
+    name: "Buffalo Swap",
   },
   {
     id: "buff-doge",
@@ -8068,11 +8438,6 @@ export const coins = [
     id: "bulk-network",
     symbol: "bulk",
     name: "Bulk Network",
-  },
-  {
-    id: "bullbearbitcoin-set-ii",
-    symbol: "bbb",
-    name: "BullBearBitcoin Set II",
   },
   {
     id: "bullbearethereum-set-ii",
@@ -8120,9 +8485,19 @@ export const coins = [
     name: "BullPerks",
   },
   {
+    id: "bullrise",
+    symbol: "bull",
+    name: "BullRise",
+  },
+  {
     id: "bull-run",
     symbol: "brun",
     name: "Bull Run",
+  },
+  {
+    id: "bullrun2-0",
+    symbol: "br2.0",
+    name: "BullRun2.0",
   },
   {
     id: "bull-run-token",
@@ -8143,6 +8518,16 @@ export const coins = [
     id: "bumo",
     symbol: "bu",
     name: "BUMO",
+  },
+  {
+    id: "bumoon",
+    symbol: "bumn",
+    name: "BUMooN",
+  },
+  {
+    id: "bumper",
+    symbol: "bump",
+    name: "Bumper",
   },
   {
     id: "bundle-dao",
@@ -8205,19 +8590,24 @@ export const coins = [
     name: "Burger Swap",
   },
   {
-    id: "burn-1",
-    symbol: "burn1",
-    name: "Burn1",
+    id: "burn1coin",
+    symbol: "burn1coin",
+    name: "Burn1Coin",
+  },
+  {
+    id: "burndoge",
+    symbol: "burndoge",
+    name: "BurnDoge",
+  },
+  {
+    id: "burningmoon",
+    symbol: "bm",
+    name: "BurningMoon",
   },
   {
     id: "burnx20",
     symbol: "burnx20",
     name: "BurnX 2.0",
-  },
-  {
-    id: "burn-yield-burn",
-    symbol: "xyx",
-    name: "Burn Yield Burn",
   },
   {
     id: "business-credit-alliance-chain",
@@ -8258,6 +8648,11 @@ export const coins = [
     id: "buy-coin-pos",
     symbol: "bcp",
     name: "BuyCoinPos",
+  },
+  {
+    id: "buying",
+    symbol: "buy",
+    name: "Buying.com",
   },
   {
     id: "buypay",
@@ -8360,9 +8755,14 @@ export const coins = [
     name: "bZx Protocol",
   },
   {
-    id: "cachecoin",
-    symbol: "cach",
-    name: "Cachecoin",
+    id: "bzzone",
+    symbol: "bzzone",
+    name: "Bzzone",
+  },
+  {
+    id: "caave",
+    symbol: "caave",
+    name: "cAAVE",
   },
   {
     id: "cache-gold",
@@ -8375,14 +8775,14 @@ export const coins = [
     name: "Cactus Finance",
   },
   {
-    id: "cad-coin",
-    symbol: "cadc",
-    name: "CAD Coin",
-  },
-  {
     id: "cafeswap-token",
     symbol: "brew",
     name: "CafeSwap Token",
+  },
+  {
+    id: "cage",
+    symbol: "c4g3",
+    name: "Cage",
   },
   {
     id: "caica-coin",
@@ -8393,6 +8793,11 @@ export const coins = [
     id: "cajutel",
     symbol: "caj",
     name: "Cajutel",
+  },
+  {
+    id: "cake-bank",
+    symbol: "cakebank",
+    name: "Cake Bank",
   },
   {
     id: "cakecrypt",
@@ -8433,6 +8838,11 @@ export const coins = [
     id: "campuscash",
     symbol: "ccash",
     name: "CampusCash",
+  },
+  {
+    id: "canada-coin",
+    symbol: "cadax",
+    name: "Canada Coin",
   },
   {
     id: "canary",
@@ -8540,6 +8950,11 @@ export const coins = [
     name: "Carboncoin",
   },
   {
+    id: "carbon-coin",
+    symbol: "cbc",
+    name: "Carbon Coin",
+  },
+  {
     id: "carbondefi",
     symbol: "carbo",
     name: "CarbonDEFI",
@@ -8575,6 +8990,11 @@ export const coins = [
     name: "Cardano",
   },
   {
+    id: "cardence",
+    symbol: "$crdn",
+    name: "Cardence",
+  },
+  {
     id: "cardstack",
     symbol: "card",
     name: "Cardstack",
@@ -8585,9 +9005,19 @@ export const coins = [
     name: "Cardstarter",
   },
   {
+    id: "cardswap",
+    symbol: "cswap",
+    name: "CardSwap",
+  },
+  {
     id: "card-vaulti-nftx",
     symbol: "card",
     name: "CARD Vault (NFTX)",
+  },
+  {
+    id: "cardwallet",
+    symbol: "cw",
+    name: "CardWallet",
   },
   {
     id: "carebit",
@@ -8760,6 +9190,11 @@ export const coins = [
     name: "Catgirl",
   },
   {
+    id: "catnip",
+    symbol: "nip",
+    name: "CatNIP",
+  },
+  {
     id: "catnip-money",
     symbol: "catnip",
     name: "Catnip Money",
@@ -8805,11 +9240,6 @@ export const coins = [
     name: "Cazi Cazi",
   },
   {
-    id: "cbccoin",
-    symbol: "cbc",
-    name: "CryptoBharatCoin",
-  },
-  {
     id: "cbdao",
     symbol: "bree",
     name: "CBDAO",
@@ -8853,11 +9283,6 @@ export const coins = [
     id: "ccswap",
     symbol: "cc",
     name: "CCSwap",
-  },
-  {
-    id: "cctcoin",
-    symbol: "cctc",
-    name: "cctcoin",
   },
   {
     id: "ccuniverse",
@@ -8970,6 +9395,11 @@ export const coins = [
     name: "Centric Swap",
   },
   {
+    id: "centrifuge",
+    symbol: "cfg",
+    name: "Centrifuge",
+  },
+  {
     id: "centurion",
     symbol: "cnt",
     name: "Centurion",
@@ -8978,6 +9408,11 @@ export const coins = [
     id: "cerberus",
     symbol: "ccf",
     name: "Cerberus Finance",
+  },
+  {
+    id: "ceres",
+    symbol: "ceres",
+    name: "Ceres",
   },
   {
     id: "cerium",
@@ -8995,6 +9430,11 @@ export const coins = [
     name: "Certurium",
   },
   {
+    id: "cetf",
+    symbol: "cetf",
+    name: "CETF",
+  },
+  {
     id: "cexlt",
     symbol: "clt",
     name: "Cexlt",
@@ -9003,6 +9443,16 @@ export const coins = [
     id: "cezo",
     symbol: "cez",
     name: "Cezo",
+  },
+  {
+    id: "cfl365-finance",
+    symbol: "cfl365",
+    name: "CFL365 Finance",
+  },
+  {
+    id: "cforforum-token",
+    symbol: "cfo",
+    name: "Cfoforum Token",
   },
   {
     id: "cfx-quantum",
@@ -9025,6 +9475,11 @@ export const coins = [
     name: "Chai",
   },
   {
+    id: "chainbing",
+    symbol: "cbg",
+    name: "Chainbing",
+  },
+  {
     id: "chaincade",
     symbol: "chaincade",
     name: "ChainCade",
@@ -9033,6 +9488,11 @@ export const coins = [
     id: "chaincoin",
     symbol: "chc",
     name: "Chaincoin",
+  },
+  {
+    id: "chainflix",
+    symbol: "cfxt",
+    name: "Chainflix",
   },
   {
     id: "chain-flowers",
@@ -9195,6 +9655,11 @@ export const coins = [
     name: "CheeseSwap",
   },
   {
+    id: "cheese-swap",
+    symbol: "cheese",
+    name: "Cheese Swap",
+  },
+  {
     id: "cherry",
     symbol: "cherry",
     name: "Cherry",
@@ -9203,6 +9668,11 @@ export const coins = [
     id: "cherrypick",
     symbol: "cherry",
     name: "CherryPick",
+  },
+  {
+    id: "cherryswap",
+    symbol: "che",
+    name: "CherrySwap",
   },
   {
     id: "cherry-token",
@@ -9285,6 +9755,11 @@ export const coins = [
     name: "ChipShop Finance",
   },
   {
+    id: "chipz",
+    symbol: "chpz",
+    name: "Chipz",
+  },
+  {
     id: "chonk",
     symbol: "chonk",
     name: "Chonk",
@@ -9315,6 +9790,11 @@ export const coins = [
     name: "chrono.tech",
   },
   {
+    id: "chronobase",
+    symbol: "tik",
+    name: "ChronoBase",
+  },
+  {
     id: "chronocoin",
     symbol: "crn",
     name: "ChronoCoin",
@@ -9325,9 +9805,19 @@ export const coins = [
     name: "Chronologic",
   },
   {
+    id: "chubbies",
+    symbol: "chubbies20",
+    name: "Chubbies",
+  },
+  {
     id: "chubbyakita",
     symbol: "cakita",
     name: "ChubbyAkita",
+  },
+  {
+    id: "chubbydoge",
+    symbol: "cdoge",
+    name: "ChubbyDoge",
   },
   {
     id: "chubby-inu",
@@ -9395,9 +9885,19 @@ export const coins = [
     name: "Cirquity",
   },
   {
+    id: "cirus",
+    symbol: "cirus",
+    name: "Cirus",
+  },
+  {
     id: "citadel",
     symbol: "ctl",
     name: "Citadel",
+  },
+  {
+    id: "citadel-one",
+    symbol: "xct",
+    name: "Citadel.one",
   },
   {
     id: "citios",
@@ -9423,6 +9923,11 @@ export const coins = [
     id: "civic",
     symbol: "cvc",
     name: "Civic",
+  },
+  {
+    id: "civilization",
+    symbol: "civ",
+    name: "Civilization",
   },
   {
     id: "civitas",
@@ -9605,6 +10110,11 @@ export const coins = [
     name: "Cockapoo",
   },
   {
+    id: "cocktail",
+    symbol: "cocktail",
+    name: "Cocktail",
+  },
+  {
     id: "cocktailbar",
     symbol: "coc",
     name: "cocktailbar.finance",
@@ -9675,6 +10185,11 @@ export const coins = [
     name: "Coil",
   },
   {
+    id: "coin",
+    symbol: "coin",
+    name: "Coin",
+  },
+  {
     id: "coin4trade",
     symbol: "c4t",
     name: "Coin4Trade",
@@ -9695,6 +10210,11 @@ export const coins = [
     name: "Coin Artist",
   },
   {
+    id: "coinary-token",
+    symbol: "cyt",
+    name: "Coinary Token",
+  },
+  {
     id: "coinbase-stock",
     symbol: "coin",
     name: "Coinbase Tokenized Stock on FTX",
@@ -9703,11 +10223,6 @@ export const coins = [
     id: "coinbase-stock-bittrex",
     symbol: "coin",
     name: "Coinbase Tokenized Stock on Bittrex",
-  },
-  {
-    id: "coinbase-tokenized",
-    symbol: "Coin",
-    name: "Coinbase Tokenized Stock on Binance",
   },
   {
     id: "coinbene-future-token",
@@ -9770,16 +10285,6 @@ export const coins = [
     name: "Coin Guardian",
   },
   {
-    id: "coinhe-token",
-    symbol: "cht",
-    name: "CoinHe Token",
-  },
-  {
-    id: "coinjanitor",
-    symbol: "jan",
-    name: "CoinJanitor",
-  },
-  {
     id: "coinlancer",
     symbol: "cl",
     name: "Coinlancer",
@@ -9830,14 +10335,9 @@ export const coins = [
     name: "Coinsbit Token",
   },
   {
-    id: "coinshares-gold-and-cryptoassets-index-lite",
-    symbol: "cgi",
-    name: "CoinShares Gold and Cryptoassets Index Lite",
-  },
-  {
-    id: "coinstarter",
-    symbol: "stc",
-    name: "CoinStarter",
+    id: "coinspaid",
+    symbol: "cpd",
+    name: "CoinsPaid",
   },
   {
     id: "coinstox",
@@ -9848,6 +10348,11 @@ export const coins = [
     id: "coinsuper-ecosystem-network",
     symbol: "cen",
     name: "Coinsuper Ecosystem Network",
+  },
+  {
+    id: "coinswap-space",
+    symbol: "css",
+    name: "CoinSwap Space",
   },
   {
     id: "cointorox",
@@ -9865,24 +10370,9 @@ export const coins = [
     name: "CoinUs",
   },
   {
-    id: "coinvest",
-    symbol: "coin",
-    name: "Coin",
-  },
-  {
-    id: "coinwaycoin",
-    symbol: "can",
-    name: "Coinwaycoin",
-  },
-  {
     id: "coinwind",
     symbol: "cow",
     name: "CoinWind",
-  },
-  {
-    id: "coinxclub",
-    symbol: "cpx",
-    name: "COINXCLUB",
   },
   {
     id: "coinzoom-token",
@@ -9903,6 +10393,11 @@ export const coins = [
     id: "coldstack",
     symbol: "cls",
     name: "Coldstack",
+  },
+  {
+    id: "collar-dobe-defender",
+    symbol: "collar",
+    name: "Collar: Dobe Defender",
   },
   {
     id: "collateral-pay",
@@ -9985,6 +10480,11 @@ export const coins = [
     name: "Communication Development Resources Token",
   },
   {
+    id: "communifty",
+    symbol: "cnft",
+    name: "Communifty",
+  },
+  {
     id: "community-business-token",
     symbol: "cbt",
     name: "Community Business Token",
@@ -9995,9 +10495,19 @@ export const coins = [
     name: "Community Chain",
   },
   {
-    id: "community-generation",
-    symbol: "cgen",
-    name: "Community Generation Core",
+    id: "community-coin-2",
+    symbol: "ctc",
+    name: "Community Coin Token",
+  },
+  {
+    id: "community-coin-token",
+    symbol: "cmc",
+    name: "Community Coin",
+  },
+  {
+    id: "community-doge-coin",
+    symbol: "ccdoge",
+    name: "Community Doge Coin",
   },
   {
     id: "communitytoken",
@@ -10008,6 +10518,11 @@ export const coins = [
     id: "community-token",
     symbol: "com",
     name: "Community Token",
+  },
+  {
+    id: "comodo-coin",
+    symbol: "cmd",
+    name: "Comodo Coin",
   },
   {
     id: "compact",
@@ -10070,9 +10585,19 @@ export const coins = [
     name: "Compound",
   },
   {
+    id: "compound-maker",
+    symbol: "cmkr",
+    name: "cMKR",
+  },
+  {
     id: "compound-sai",
     symbol: "csai",
     name: "cSAI",
+  },
+  {
+    id: "compound-sushi",
+    symbol: "csushi",
+    name: "cSUSHI",
   },
   {
     id: "compound-uniswap",
@@ -10098,6 +10623,11 @@ export const coins = [
     id: "compound-wrapped-btc-legacy",
     symbol: "cwbtc",
     name: "cWBTC (Legacy)",
+  },
+  {
+    id: "compound-yearn-finance",
+    symbol: "cyfi",
+    name: "cYFI",
   },
   {
     id: "comsa",
@@ -10140,14 +10670,9 @@ export const coins = [
     name: "Conflux",
   },
   {
-    id: "conjuret",
+    id: "conjure",
     symbol: "cnj",
     name: "Conjure",
-  },
-  {
-    id: "connect",
-    symbol: "cnct",
-    name: "Connect",
   },
   {
     id: "connect-business-network",
@@ -10245,6 +10770,11 @@ export const coins = [
     name: "Cook",
   },
   {
+    id: "cool-cats",
+    symbol: "cool20",
+    name: "Cool Cats",
+  },
+  {
     id: "cool-vault-nftx",
     symbol: "cool",
     name: "COOL Vault (NFTX)",
@@ -10273,6 +10803,11 @@ export const coins = [
     id: "cops-finance",
     symbol: "cops",
     name: "Cops Finance",
+  },
+  {
+    id: "copuppy",
+    symbol: "cp",
+    name: "CoPuppy",
   },
   {
     id: "coral-farm",
@@ -10418,6 +10953,11 @@ export const coins = [
     id: "covesting",
     symbol: "cov",
     name: "Covesting",
+  },
+  {
+    id: "covid-token",
+    symbol: "covidtoken",
+    name: "Covid Token",
   },
   {
     id: "covir",
@@ -10580,9 +11120,19 @@ export const coins = [
     name: "Cribnb",
   },
   {
+    id: "criptoro-coin",
+    symbol: "ctro",
+    name: "Criptoro Coin",
+  },
+  {
     id: "croat",
     symbol: "croat",
     name: "CROAT",
+  },
+  {
+    id: "cropperfinance",
+    symbol: "crp",
+    name: "CropperFinance",
   },
   {
     id: "crossfi",
@@ -10605,6 +11155,11 @@ export const coins = [
     name: "CrossPad",
   },
   {
+    id: "crossswap",
+    symbol: "cswap",
+    name: "CrossSwap",
+  },
+  {
     id: "crosswallet",
     symbol: "cwt",
     name: "CrossWallet",
@@ -10615,14 +11170,14 @@ export const coins = [
     name: "CRowdCLassic",
   },
   {
+    id: "crowdhero",
+    symbol: "crwd",
+    name: "CrowdHero",
+  },
+  {
     id: "crowd-machine",
     symbol: "cmct",
     name: "Crowd Machine",
-  },
-  {
-    id: "crowd-one",
-    symbol: "crd",
-    name: "Crowd One",
   },
   {
     id: "crown",
@@ -10657,17 +11212,22 @@ export const coins = [
   {
     id: "crudeoil-finance",
     symbol: "oil",
-    name: "Crudeoil Finance",
+    name: "Oil Token",
+  },
+  {
+    id: "crude-token",
+    symbol: "crude",
+    name: "Crude Token",
+  },
+  {
+    id: "crunch",
+    symbol: "crunch",
+    name: "Crunchy",
   },
   {
     id: "crusaders-of-crypto",
     symbol: "crusader",
     name: "Crusaders of Crypto",
-  },
-  {
-    id: "crush-coin",
-    symbol: "crush",
-    name: "Crush Coin",
   },
   {
     id: "crust-network",
@@ -10755,9 +11315,19 @@ export const coins = [
     name: "Crypto Application Token",
   },
   {
+    id: "cryptoart-ai",
+    symbol: "cart",
+    name: "CryptoArt.Ai",
+  },
+  {
     id: "crypto-bank",
     symbol: "cbank",
     name: "Crypto Bank",
+  },
+  {
+    id: "crypto-bank-coin",
+    symbol: "cbc",
+    name: "Crypto Bank Coin",
   },
   {
     id: "cryptobet",
@@ -10810,6 +11380,16 @@ export const coins = [
     name: "Crypto Candy",
   },
   {
+    id: "crypto-carbon-energy",
+    symbol: "cyce",
+    name: "Crypto Carbon Energy",
+  },
+  {
+    id: "cryptocars",
+    symbol: "ccar",
+    name: "CryptoCars",
+  },
+  {
     id: "cryptocart",
     symbol: "cc",
     name: "Cryptocart",
@@ -10835,11 +11415,6 @@ export const coins = [
     name: "CryptoCricketClub",
   },
   {
-    id: "cryptocurrencies-ai",
-    symbol: "ccai",
-    name: "Cryptocurrencies.Ai",
-  },
-  {
     id: "cryptocurrency",
     symbol: "ccy",
     name: "Cryptocurrency",
@@ -10853,11 +11428,6 @@ export const coins = [
     id: "cryptocurrency-top-10-tokens-index",
     symbol: "cc10",
     name: "Cryptocurrency Top 10 Index",
-  },
-  {
-    id: "crypto-dash",
-    symbol: "cdash",
-    name: "Crypto Dash",
   },
   {
     id: "cryptodogs",
@@ -10900,6 +11470,11 @@ export const coins = [
     name: "Crypto Global Bank",
   },
   {
+    id: "cryptographic-ultra-money",
+    symbol: "cum",
+    name: "Cryptographic Ultra Money",
+  },
+  {
     id: "cryptohashtank-coin",
     symbol: "chtc",
     name: "CryptoHashTank Coin",
@@ -10910,14 +11485,24 @@ export const coins = [
     name: "Crypto Holding Frank Token",
   },
   {
+    id: "crypto-hounds",
+    symbol: "cth",
+    name: "Crypto Hounds",
+  },
+  {
     id: "cryptoindex-io",
     symbol: "cix100",
     name: "Cryptoindex.com 100",
   },
   {
+    id: "crypto-island",
+    symbol: "cisla",
+    name: "Crypto Island",
+  },
+  {
     id: "cryptokek",
     symbol: "kek",
-    name: "CryptoKek",
+    name: "Cryptokek",
   },
   {
     id: "cryptokenz",
@@ -10935,9 +11520,9 @@ export const coins = [
     name: "Cryptolandy",
   },
   {
-    id: "cryptonewsnet",
-    symbol: "news",
-    name: "NewsTokens",
+    id: "cryptomeda",
+    symbol: "tech",
+    name: "Cryptomeda",
   },
   {
     id: "cryptonex",
@@ -10970,6 +11555,11 @@ export const coins = [
     name: "Cryptopay",
   },
   {
+    id: "crypto-phoenix",
+    symbol: "cphx",
+    name: "Crypto Phoenix",
+  },
+  {
     id: "cryptoping",
     symbol: "ping",
     name: "CryptoPing",
@@ -10990,9 +11580,24 @@ export const coins = [
     name: "CryptoProfile",
   },
   {
+    id: "crypto-puffs",
+    symbol: "puffs",
+    name: "Crypto Puffs",
+  },
+  {
+    id: "cryptopunk-7171-hoodie",
+    symbol: "hoodie",
+    name: "CryptoPunk #7171",
+  },
+  {
     id: "crypto-puzzles",
     symbol: "cpte",
     name: "Crypto Puzzles",
+  },
+  {
+    id: "crypto-raiders",
+    symbol: "raider",
+    name: "Crypto Raiders",
   },
   {
     id: "cryptorewards",
@@ -11023,6 +11628,11 @@ export const coins = [
     id: "cryptospot-token",
     symbol: "spot",
     name: "Cryptospot Token",
+  },
+  {
+    id: "cryptosummoner",
+    symbol: "smnr",
+    name: "CryptoSummoner",
   },
   {
     id: "cryptotask-2",
@@ -11085,6 +11695,11 @@ export const coins = [
     name: "Cryptrust",
   },
   {
+    id: "cryptyk",
+    symbol: "ctk",
+    name: "Cryptyk",
+  },
+  {
     id: "crystal-clear",
     symbol: "cct",
     name: "Crystal Clear",
@@ -11115,6 +11730,11 @@ export const coins = [
     name: "C2C System",
   },
   {
+    id: "c-token",
+    symbol: "c",
+    name: "C Token",
+  },
+  {
     id: "cts-coin",
     symbol: "ctsc",
     name: "Crypto Trading Solutions Coin",
@@ -11140,6 +11760,11 @@ export const coins = [
     name: "Cubiex Power",
   },
   {
+    id: "cudl-finance",
+    symbol: "cudl",
+    name: "Cudl Finance",
+  },
+  {
     id: "cudos",
     symbol: "cudos",
     name: "Cudos",
@@ -11162,7 +11787,7 @@ export const coins = [
   {
     id: "cuminu",
     symbol: "cuminu",
-    name: "Cum Inu",
+    name: "Cuminu",
   },
   {
     id: "cumrocket",
@@ -11275,9 +11900,19 @@ export const coins = [
     name: "Cybercoin",
   },
   {
+    id: "cyberdoge",
+    symbol: "cybrrrdoge",
+    name: "CyberDoge",
+  },
+  {
     id: "cyber-doge",
     symbol: "cyberd",
     name: "Cyber Doge",
+  },
+  {
+    id: "cyberdragon-gold",
+    symbol: "gold",
+    name: "CyberDragon Gold",
   },
   {
     id: "cybereits",
@@ -11293,6 +11928,11 @@ export const coins = [
     id: "cyberfm",
     symbol: "cyfm",
     name: "CyberFM",
+  },
+  {
+    id: "cyberkongz",
+    symbol: "kongz20",
+    name: "CYBERKONGZ",
   },
   {
     id: "cybermiles",
@@ -11330,6 +11970,16 @@ export const coins = [
     name: "Cybex",
   },
   {
+    id: "cycan-network",
+    symbol: "cyn",
+    name: "Cycan Network",
+  },
+  {
+    id: "cycle-token",
+    symbol: "cycle",
+    name: "Cycle Token",
+  },
+  {
     id: "cyclone-protocol",
     symbol: "cyc",
     name: "Cyclone Protocol",
@@ -11338,6 +11988,11 @@ export const coins = [
     id: "cyclops-treasure",
     symbol: "cytr",
     name: "Cyclops Treasure",
+  },
+  {
+    id: "cyclos",
+    symbol: "cys",
+    name: "Cyclos",
   },
   {
     id: "cy-finance",
@@ -11358,6 +12013,11 @@ export const coins = [
     id: "dacxi",
     symbol: "dacxi",
     name: "Dacxi",
+  },
+  {
+    id: "daddycake",
+    symbol: "daddycake",
+    name: "DaddyCake",
   },
   {
     id: "daddy-doge",
@@ -11415,6 +12075,11 @@ export const coins = [
     name: "Daiquilibrium",
   },
   {
+    id: "daisy",
+    symbol: "daisy",
+    name: "Daisy Protocol",
+  },
+  {
     id: "dalecoin",
     symbol: "dalc",
     name: "Dalecoin",
@@ -11435,6 +12100,11 @@ export const coins = [
     name: "Dandy Dego",
   },
   {
+    id: "danecoin",
+    symbol: "dane",
+    name: "Danecoin",
+  },
+  {
     id: "dao1",
     symbol: "dao1",
     name: "DAO1",
@@ -11445,14 +12115,14 @@ export const coins = [
     name: "DAOBet",
   },
   {
-    id: "daofi",
-    symbol: "daofi",
-    name: "DAOfi",
-  },
-  {
     id: "daohaus",
     symbol: "haus",
     name: "DAOhaus",
+  },
+  {
+    id: "dao-invest",
+    symbol: "vest",
+    name: "DAO Invest",
   },
   {
     id: "dao-maker",
@@ -11685,6 +12355,11 @@ export const coins = [
     name: "DATx",
   },
   {
+    id: "daughter-doge",
+    symbol: "ddoge",
+    name: "Daughter Doge",
+  },
+  {
     id: "dav",
     symbol: "dav",
     name: "DAV Network",
@@ -11703,6 +12378,11 @@ export const coins = [
     id: "davinci-coin",
     symbol: "dac",
     name: "Davinci Coin",
+  },
+  {
+    id: "davinci-token",
+    symbol: "vinci",
+    name: "DaVinci Token",
   },
   {
     id: "dawn-protocol",
@@ -11755,6 +12435,11 @@ export const coins = [
     name: "DEAPCOIN",
   },
   {
+    id: "deathroad",
+    symbol: "drace",
+    name: "DeathRoad",
+  },
+  {
     id: "debase",
     symbol: "debase",
     name: "Debase",
@@ -11768,11 +12453,6 @@ export const coins = [
     id: "debitum-network",
     symbol: "deb",
     name: "Debitum Network",
-  },
-  {
-    id: "debunk",
-    symbol: "dbnk",
-    name: "Debunk",
   },
   {
     id: "decent",
@@ -11805,6 +12485,11 @@ export const coins = [
     name: "Decentral Games",
   },
   {
+    id: "decentral-games-ice",
+    symbol: "ice",
+    name: "Decentral Games ICE",
+  },
+  {
     id: "decentralized-advertising",
     symbol: "dad",
     name: "DAD",
@@ -11830,19 +12515,9 @@ export const coins = [
     name: "Decentralize Currency",
   },
   {
-    id: "decentralized-data-assets-management",
-    symbol: "ddam",
-    name: "Decentralized Data Assets Management",
-  },
-  {
     id: "decentralized-machine-learning",
     symbol: "dml",
     name: "Decentralized Machine Learning Protocol",
-  },
-  {
-    id: "decentralized-mining-exchange",
-    symbol: "dmc",
-    name: "Decentralized Mining Exchange",
   },
   {
     id: "decentralized-oracle",
@@ -11885,11 +12560,6 @@ export const coins = [
     name: "Decore",
   },
   {
-    id: "decraft-finance",
-    symbol: "craft",
-    name: "deCraft Finance",
-  },
-  {
     id: "decred",
     symbol: "dcr",
     name: "Decred",
@@ -11930,6 +12600,16 @@ export const coins = [
     name: "DeepOnion",
   },
   {
+    id: "deepspace",
+    symbol: "dps",
+    name: "DEEPSPACE",
+  },
+  {
+    id: "deepspace-token",
+    symbol: "dxo",
+    name: "DeepSpace Token",
+  },
+  {
     id: "deez-nuts",
     symbol: "deeznuts",
     name: "Deez Nuts",
@@ -11938,11 +12618,6 @@ export const coins = [
     id: "defhold",
     symbol: "defo",
     name: "DefHold",
-  },
-  {
-    id: "defi-100",
-    symbol: "d100",
-    name: "Defi 100",
   },
   {
     id: "defiat",
@@ -11978,6 +12653,16 @@ export const coins = [
     id: "defi-coin",
     symbol: "defc",
     name: "DeFi Coin",
+  },
+  {
+    id: "deficonnect",
+    symbol: "dfc",
+    name: "DefiConnect",
+  },
+  {
+    id: "defi-cover-and-risk-index",
+    symbol: "dcvr",
+    name: "DeFi Cover and Risk Index",
   },
   {
     id: "defidollar",
@@ -12020,19 +12705,24 @@ export const coins = [
     name: "DefiKing",
   },
   {
+    id: "defil",
+    symbol: "dfl",
+    name: "DeFIL",
+  },
+  {
     id: "defi-nation-signals-dao",
     symbol: "dsd",
     name: "DeFi Nation Signals DAO",
   },
   {
+    id: "define",
+    symbol: "dfa",
+    name: "DeFine",
+  },
+  {
     id: "definer",
     symbol: "fin",
     name: "DeFiner",
-  },
-  {
-    id: "definex",
-    symbol: "dswap",
-    name: "Definex",
   },
   {
     id: "defini",
@@ -12145,11 +12835,6 @@ export const coins = [
     name: "DeFi Yield Protocol",
   },
   {
-    id: "defla",
-    symbol: "defla",
-    name: "Defla",
-  },
-  {
     id: "deflacash",
     symbol: "dfc",
     name: "DeflaCash",
@@ -12158,6 +12843,11 @@ export const coins = [
     id: "deflect",
     symbol: "deflct",
     name: "Deflect",
+  },
+  {
+    id: "defpace",
+    symbol: "$dpace",
+    name: "DefPace",
   },
   {
     id: "defycoinv2",
@@ -12225,9 +12915,19 @@ export const coins = [
     name: "Degov",
   },
   {
+    id: "dehero-community-token",
+    symbol: "heroes",
+    name: "Dehero Community Token",
+  },
+  {
     id: "dehive",
     symbol: "dhv",
     name: "DeHive",
+  },
+  {
+    id: "dehub",
+    symbol: "dehub",
+    name: "DeHub",
   },
   {
     id: "deimos-token",
@@ -12315,6 +13015,11 @@ export const coins = [
     name: "Denarius",
   },
   {
+    id: "denizlispor-fan-token",
+    symbol: "dnz",
+    name: "Denizlispor Fan Token",
+  },
+  {
     id: "dent",
     symbol: "dent",
     name: "Dent",
@@ -12345,6 +13050,11 @@ export const coins = [
     name: "Dequant",
   },
   {
+    id: "derace",
+    symbol: "derc",
+    name: "DeRace",
+  },
+  {
     id: "deracoin",
     symbol: "drc",
     name: "Deracoin",
@@ -12370,16 +13080,6 @@ export const coins = [
     name: "Dero",
   },
   {
-    id: "derogold",
-    symbol: "dego",
-    name: "DeroGold",
-  },
-  {
-    id: "design",
-    symbol: "dsgn",
-    name: "Design",
-  },
-  {
     id: "desire",
     symbol: "dsr",
     name: "Desire",
@@ -12395,9 +13095,19 @@ export const coins = [
     name: "DeStorage",
   },
   {
+    id: "deswap",
+    symbol: "daw",
+    name: "Deswap",
+  },
+  {
     id: "dether",
     symbol: "DTH",
     name: "Dether",
+  },
+  {
+    id: "detox",
+    symbol: "dtx",
+    name: "Detox",
   },
   {
     id: "deus-finance",
@@ -12465,6 +13175,11 @@ export const coins = [
     name: "Dexfolio",
   },
   {
+    id: "dexit-finance",
+    symbol: "dexit",
+    name: "Dexit Finance",
+  },
+  {
     id: "dexkit",
     symbol: "kit",
     name: "DexKit",
@@ -12488,6 +13203,11 @@ export const coins = [
     id: "dextoken-governance",
     symbol: "dexg",
     name: "Dextoken Governance",
+  },
+  {
+    id: "dextools",
+    symbol: "dext",
+    name: "DexTools",
   },
   {
     id: "dex-trade-coin",
@@ -12525,6 +13245,16 @@ export const coins = [
     name: "dfohub",
   },
   {
+    id: "dforce-btc",
+    symbol: "xbtc",
+    name: "dForce BTC",
+  },
+  {
+    id: "dforce-eth",
+    symbol: "xeth",
+    name: "dForce ETH",
+  },
+  {
     id: "dforce-token",
     symbol: "df",
     name: "dForce Token",
@@ -12548,11 +13278,6 @@ export const coins = [
     id: "dfyn-network",
     symbol: "dfyn",
     name: "Dfyn Network",
-  },
-  {
-    id: "dgl-coin",
-    symbol: "dgl",
-    name: "DGL Coin",
   },
   {
     id: "dgpayment",
@@ -12603,6 +13328,11 @@ export const coins = [
     id: "diamond-hands",
     symbol: "dhands",
     name: "Diamond Hands",
+  },
+  {
+    id: "diamond-hands-token",
+    symbol: "dhc",
+    name: "Diamond Hands Token",
   },
   {
     id: "diamondhold",
@@ -12770,6 +13500,11 @@ export const coins = [
     name: "Digital Reserve Currency",
   },
   {
+    id: "digital-standard-unit",
+    symbol: "dsu",
+    name: "Digital Standard Unit",
+  },
+  {
     id: "digital-ticks",
     symbol: "dtx",
     name: "Digital Ticks",
@@ -12843,6 +13578,11 @@ export const coins = [
     id: "dink-donk",
     symbol: "dink",
     name: "Dink Doink",
+  },
+  {
+    id: "dino",
+    symbol: "dino",
+    name: "Dino",
   },
   {
     id: "dino-exchange",
@@ -13005,6 +13745,11 @@ export const coins = [
     name: "Demeter Chain",
   },
   {
+    id: "dnaxcat",
+    symbol: "dxct",
+    name: "DNAxCAT",
+  },
+  {
     id: "dobermann",
     symbol: "dobe",
     name: "Dobermann",
@@ -13060,6 +13805,11 @@ export const coins = [
     name: "Dogecoin",
   },
   {
+    id: "dogecoin-2",
+    symbol: "doge2",
+    name: "Dogecoin 2.0",
+  },
+  {
     id: "dogecola",
     symbol: "dogecola",
     name: "DogeCola",
@@ -13068,6 +13818,11 @@ export const coins = [
     id: "dogedao",
     symbol: "dogedao",
     name: "DogeDao",
+  },
+  {
+    id: "dogedealer",
+    symbol: "dogedealer",
+    name: "DogeDealer",
   },
   {
     id: "dogefather",
@@ -13088,6 +13843,11 @@ export const coins = [
     id: "dogelon-mars",
     symbol: "elon",
     name: "Dogelon Mars",
+  },
+  {
+    id: "dogemon-go",
+    symbol: "dogo",
+    name: "DogemonGo",
   },
   {
     id: "dogemoon",
@@ -13120,9 +13880,24 @@ export const coins = [
     name: "Dogerise",
   },
   {
+    id: "doge-strap",
+    symbol: "drap",
+    name: "Doge Strap",
+  },
+  {
+    id: "dogestribute",
+    symbol: "dgstb",
+    name: "Dogestribute",
+  },
+  {
     id: "dogeswap",
     symbol: "doges",
     name: "Dogeswap",
+  },
+  {
+    id: "dogewarrior",
+    symbol: "dwr",
+    name: "DogeWarrior",
   },
   {
     id: "dogeyield",
@@ -13240,6 +14015,11 @@ export const coins = [
     name: "Donnie Finance",
   },
   {
+    id: "dont-kyc",
+    symbol: "dkyc",
+    name: "Don't KYC",
+  },
+  {
     id: "donu",
     symbol: "donu",
     name: "Donu",
@@ -13260,6 +14040,11 @@ export const coins = [
     name: "Doogee",
   },
   {
+    id: "doont-buy",
+    symbol: "dbuy",
+    name: "Doont Buy",
+  },
+  {
     id: "door",
     symbol: "door",
     name: "DOOR",
@@ -13275,6 +14060,11 @@ export const coins = [
     name: "DopeCoin",
   },
   {
+    id: "dope-wars-paper",
+    symbol: "paper",
+    name: "Dope Wars Paper",
+  },
+  {
     id: "dopex",
     symbol: "dpx",
     name: "Dopex",
@@ -13283,6 +14073,11 @@ export const coins = [
     id: "dopex-rebate-token",
     symbol: "rdpx",
     name: "Dopex Rebate Token",
+  },
+  {
+    id: "dopple-exchange-token",
+    symbol: "dopx",
+    name: "Dopple Exchange Token",
   },
   {
     id: "dopple-finance",
@@ -13333,6 +14128,11 @@ export const coins = [
     id: "double-ace",
     symbol: "daa",
     name: "Double Ace",
+  },
+  {
+    id: "double-bubble",
+    symbol: "dbubble",
+    name: "Double Bubble",
   },
   {
     id: "dovu",
@@ -13405,9 +14205,9 @@ export const coins = [
     name: "Dragonmusk",
   },
   {
-    id: "dragon-option",
-    symbol: "dragon",
-    name: "Dragon Option",
+    id: "dragon-slayer",
+    symbol: "drs",
+    name: "Dragon Slayer",
   },
   {
     id: "dragons-quick",
@@ -13418,6 +14218,16 @@ export const coins = [
     id: "dragonvein",
     symbol: "dvc",
     name: "DragonVein",
+  },
+  {
+    id: "dragon-warrior",
+    symbol: "gon",
+    name: "Dragon Warrior",
+  },
+  {
+    id: "drakeball-token",
+    symbol: "dball",
+    name: "DrakeBall Token",
   },
   {
     id: "draken",
@@ -13435,19 +14245,14 @@ export const coins = [
     name: "Drax",
   },
   {
-    id: "dray",
-    symbol: "dray",
-    name: "dRAY",
-  },
-  {
     id: "drc-mobility",
     symbol: "drc",
     name: "DRC Mobility",
   },
   {
-    id: "dream21",
-    symbol: "dmc",
-    name: "Dream21",
+    id: "drdoge",
+    symbol: "drdoge",
+    name: "DrDoge",
   },
   {
     id: "dreamcoin",
@@ -13478,6 +14283,11 @@ export const coins = [
     id: "drep-new",
     symbol: "drep",
     name: "Drep [new]",
+  },
+  {
+    id: "drife",
+    symbol: "drf",
+    name: "Drife",
   },
   {
     id: "dripper-finance",
@@ -13535,6 +14345,11 @@ export const coins = [
     name: "DudgX",
   },
   {
+    id: "duel-network",
+    symbol: "duel",
+    name: "Duel Network",
+  },
+  {
     id: "duet-protocol",
     symbol: "duet",
     name: "Duet Protocol",
@@ -13583,6 +14398,11 @@ export const coins = [
     id: "dust-token",
     symbol: "dust",
     name: "DUST Token",
+  },
+  {
+    id: "duxdoge",
+    symbol: "ddc",
+    name: "DuxDoge",
   },
   {
     id: "dvf",
@@ -13640,11 +14460,6 @@ export const coins = [
     name: "Dynamic Set Dollar",
   },
   {
-    id: "dynamic-supply-tracker",
-    symbol: "mort",
-    name: "Morph Tracker",
-  },
-  {
     id: "dynamite",
     symbol: "dyt",
     name: "DoYourTip",
@@ -13663,6 +14478,11 @@ export const coins = [
     id: "dyngecoin",
     symbol: "dynge",
     name: "Dyngecoin",
+  },
+  {
+    id: "dyztoken",
+    symbol: "dyz",
+    name: "DyzToken",
   },
   {
     id: "e1337",
@@ -13690,9 +14510,9 @@ export const coins = [
     name: "EagleX",
   },
   {
-    id: "eanto",
-    symbol: "ean",
-    name: "EANTO",
+    id: "early-bird",
+    symbol: "ebird",
+    name: "Early Bird",
   },
   {
     id: "earlybsc",
@@ -13708,6 +14528,11 @@ export const coins = [
     id: "earnbase",
     symbol: "ENB",
     name: "Earnbase",
+  },
+  {
+    id: "earnbusd",
+    symbol: "ebusd",
+    name: "EarnBUSD",
   },
   {
     id: "earndefi",
@@ -13788,6 +14613,11 @@ export const coins = [
     id: "eazypayza",
     symbol: "ezpay",
     name: "EazyPayZa",
+  },
+  {
+    id: "ebisu-network",
+    symbol: "ebs",
+    name: "Ebisu Network",
   },
   {
     id: "eboost",
@@ -13915,11 +14745,6 @@ export const coins = [
     name: "ECP+ Technology",
   },
   {
-    id: "ecredit",
-    symbol: "ecr",
-    name: "ECreditCoin",
-  },
-  {
     id: "edc-blockchain",
     symbol: "edc",
     name: "EDC Blockchain",
@@ -13928,6 +14753,11 @@ export const coins = [
     id: "eddaswap",
     symbol: "edda",
     name: "EDDASwap",
+  },
+  {
+    id: "eden",
+    symbol: "eden",
+    name: "EDEN",
   },
   {
     id: "edenchain",
@@ -14005,6 +14835,11 @@ export const coins = [
     name: "EFT",
   },
   {
+    id: "egame",
+    symbol: "egi",
+    name: "eGame",
+  },
+  {
     id: "eggplant",
     symbol: "eggplant",
     name: "Eggplant",
@@ -14053,6 +14888,11 @@ export const coins = [
     id: "eject",
     symbol: "eject",
     name: "Eject",
+  },
+  {
+    id: "ekta",
+    symbol: "ekta",
+    name: "Ekta",
   },
   {
     id: "elamachain",
@@ -14165,6 +15005,11 @@ export const coins = [
     name: "Elementrem",
   },
   {
+    id: "elements-2",
+    symbol: "elm",
+    name: "Elements",
+  },
+  {
     id: "elena-protocol",
     symbol: "elena",
     name: "Elena Protocol",
@@ -14210,6 +15055,11 @@ export const coins = [
     name: "Elitium",
   },
   {
+    id: "elk-finance",
+    symbol: "elk",
+    name: "Elk Finance",
+  },
+  {
     id: "ellaism",
     symbol: "ella",
     name: "Ellaism",
@@ -14218,6 +15068,11 @@ export const coins = [
     id: "ellipsis",
     symbol: "eps",
     name: "Ellipsis",
+  },
+  {
+    id: "eloin",
+    symbol: "eloin",
+    name: "Eloin",
   },
   {
     id: "eloncryptogod",
@@ -14250,6 +15105,11 @@ export const coins = [
     name: "Elongate Deluxe",
   },
   {
+    id: "eloniumcoin",
+    symbol: "elnc",
+    name: "EloniumCoin",
+  },
+  {
     id: "elon-peg",
     symbol: "elonpeg",
     name: "Elon Peg",
@@ -14258,6 +15118,11 @@ export const coins = [
     id: "elons",
     symbol: "elons",
     name: "Elons",
+  },
+  {
+    id: "elontech",
+    symbol: "etch",
+    name: "ElonTech",
   },
   {
     id: "elrond-erd-2",
@@ -14325,6 +15190,11 @@ export const coins = [
     name: "Emirex Token",
   },
   {
+    id: "emiswap",
+    symbol: "esw",
+    name: "EmiSwap",
+  },
+  {
     id: "emogi-network",
     symbol: "lol",
     name: "EMOGI Network",
@@ -14350,11 +15220,6 @@ export const coins = [
     name: "Empire Token",
   },
   {
-    id: "employment-coin",
-    symbol: "ec2",
-    name: "Employment Coin",
-  },
-  {
     id: "emporiumx",
     symbol: "epx",
     name: "EmporiumX",
@@ -14375,6 +15240,11 @@ export const coins = [
     name: "Empty Set Dollar",
   },
   {
+    id: "empty-set-share",
+    symbol: "ess",
+    name: "Empty Set Share",
+  },
+  {
     id: "emrals",
     symbol: "emrals",
     name: "Emrals",
@@ -14393,6 +15263,11 @@ export const coins = [
     id: "encrypgen",
     symbol: "dna",
     name: "EncrypGen",
+  },
+  {
+    id: "endgame-token",
+    symbol: "end",
+    name: "Endgame Token",
   },
   {
     id: "endor",
@@ -14565,11 +15440,6 @@ export const coins = [
     name: "EOX",
   },
   {
-    id: "epacoin",
-    symbol: "epc",
-    name: "EpaCoin",
-  },
-  {
     id: "epanus",
     symbol: "eps",
     name: "Epanus",
@@ -14585,6 +15455,11 @@ export const coins = [
     name: "Epic Cash",
   },
   {
+    id: "epik-prime",
+    symbol: "epik",
+    name: "Epik Prime",
+  },
+  {
     id: "epik-protocol",
     symbol: "epk",
     name: "EpiK Protocol",
@@ -14595,9 +15470,19 @@ export const coins = [
     name: "Epluscoin",
   },
   {
+    id: "epochtoken",
+    symbol: "eph",
+    name: "EpochToken",
+  },
+  {
     id: "epstein",
     symbol: "epstein",
     name: "Epstein",
+  },
+  {
+    id: "eqifi",
+    symbol: "eqx",
+    name: "EQIFi",
   },
   {
     id: "equal",
@@ -14670,6 +15555,11 @@ export const coins = [
     name: "Eros",
   },
   {
+    id: "eros-token",
+    symbol: "eros",
+    name: "Eros Token",
+  },
+  {
     id: "erotica-2",
     symbol: "erotica",
     name: "Erotica",
@@ -14703,6 +15593,11 @@ export const coins = [
     id: "eska",
     symbol: "esk",
     name: "Eska",
+  },
+  {
+    id: "eskisehir-fan-token",
+    symbol: "eses",
+    name: "Eskişehir Fan Tokens",
   },
   {
     id: "espers",
@@ -14890,6 +15785,11 @@ export const coins = [
     name: "EtherBone",
   },
   {
+    id: "etherean-socks",
+    symbol: "eth2socks",
+    name: "Etherean Socks",
+  },
+  {
     id: "etheremontoken",
     symbol: "emont",
     name: "EthermonToken",
@@ -14925,9 +15825,9 @@ export const coins = [
     name: "Ethereum Classic",
   },
   {
-    id: "ethereum-erush",
-    symbol: "eer",
-    name: "Ethereum eRush",
+    id: "ethereum-eagle-project",
+    symbol: "egl",
+    name: "Ethereum Gas Limit",
   },
   {
     id: "ethereum-gold",
@@ -14998,6 +15898,11 @@ export const coins = [
     id: "ethereum-supreme",
     symbol: "esupreme",
     name: "Ethereum Supreme",
+  },
+  {
+    id: "ethereumvault",
+    symbol: "evault",
+    name: "EthereumVault",
   },
   {
     id: "ethereum-vault",
@@ -15085,6 +15990,16 @@ export const coins = [
     name: "Etherpay",
   },
   {
+    id: "etherrock-72",
+    symbol: "pebble",
+    name: "Etherrock #72",
+  },
+  {
+    id: "ethersmart",
+    symbol: "etm",
+    name: "EtherSmart",
+  },
+  {
     id: "ethersocks",
     symbol: "sox",
     name: "Ethersocks",
@@ -15120,19 +16035,9 @@ export const coins = [
     name: "ETH/LINK Price Action Candlestick Set",
   },
   {
-    id: "eth-long-only-alpha-portfolio",
-    symbol: "eloap",
-    name: "ETH Long-Only Alpha Portfolio",
-  },
-  {
     id: "eth-momentum-trigger-set",
     symbol: "ethmo",
     name: "ETH Momentum Trigger Set",
-  },
-  {
-    id: "eth-moonshot-x-set",
-    symbol: "ethmoonx",
-    name: "ETH Moonshot X Set",
   },
   {
     id: "eth-moonshot-x-yield-set",
@@ -15153,6 +16058,11 @@ export const coins = [
     id: "ethos",
     symbol: "vgx",
     name: "Voyager Token",
+  },
+  {
+    id: "ethpad",
+    symbol: "ethpad",
+    name: "ETHPad",
   },
   {
     id: "ethplode",
@@ -15205,6 +16115,11 @@ export const coins = [
     name: "ETHUSD ADL 4H Set",
   },
   {
+    id: "ethvault",
+    symbol: "ethvault",
+    name: "ETHVault",
+  },
+  {
     id: "ethverse",
     symbol: "ethv",
     name: "Ethverse",
@@ -15228,11 +16143,6 @@ export const coins = [
     id: "etoro-euro",
     symbol: "eurx",
     name: "eToro Euro",
-  },
-  {
-    id: "etoro-pound-sterling",
-    symbol: "gbpx",
-    name: "eToro Pound Sterling",
   },
   {
     id: "etrade",
@@ -15390,6 +16300,11 @@ export const coins = [
     name: "Everus",
   },
   {
+    id: "everyape",
+    symbol: "evape",
+    name: "EveryApe",
+  },
+  {
     id: "everycoin",
     symbol: "evy",
     name: "EveryCoin",
@@ -15408,11 +16323,6 @@ export const coins = [
     id: "evil-coin",
     symbol: "evil",
     name: "Evil Coin",
-  },
-  {
-    id: "evimeria",
-    symbol: "evi",
-    name: "Evimeria",
   },
   {
     id: "evny-token",
@@ -15438,11 +16348,6 @@ export const coins = [
     id: "evrice",
     symbol: "evc",
     name: "Evrice",
-  },
-  {
-    id: "ewit",
-    symbol: "ewit",
-    name: "eWIT",
   },
   {
     id: "excavo-finance",
@@ -15610,11 +16515,6 @@ export const coins = [
     name: "EZDex",
   },
   {
-    id: "ezoow",
-    symbol: "ezw",
-    name: "EZOOW",
-  },
-  {
     id: "ezystayz",
     symbol: "ezy",
     name: "Ezystayz",
@@ -15695,14 +16595,14 @@ export const coins = [
     name: "Falcon Project",
   },
   {
-    id: "falopa",
-    symbol: "flp",
-    name: "Falopa",
-  },
-  {
     id: "famous-coin",
     symbol: "famous",
     name: "Famous Coin",
+  },
+  {
+    id: "fam-token",
+    symbol: "fam",
+    name: "FAM Token",
   },
   {
     id: "fan8",
@@ -15725,6 +16625,11 @@ export const coins = [
     name: "FANBI TOKEN",
   },
   {
+    id: "fandom-chain",
+    symbol: "kdc",
+    name: "Fandom Chain",
+  },
+  {
     id: "fango",
     symbol: "xfg",
     name: "Fango",
@@ -15738,6 +16643,11 @@ export const coins = [
     id: "fantasy-gold",
     symbol: "fgc",
     name: "Fantasy Gold",
+  },
+  {
+    id: "fantasy-tales",
+    symbol: "fts",
+    name: "Fantasy Tales",
   },
   {
     id: "fantom",
@@ -15820,6 +16730,11 @@ export const coins = [
     name: "FateBet",
   },
   {
+    id: "favecoin",
+    symbol: "fave",
+    name: "Favecoin",
+  },
+  {
     id: "fawkes-mask",
     symbol: "fmk",
     name: "Fawkes Mask",
@@ -15875,6 +16790,11 @@ export const coins = [
     name: "Feeder Finance",
   },
   {
+    id: "feed-pups",
+    symbol: "fups",
+    name: "Feed Pups",
+  },
+  {
     id: "feed-token",
     symbol: "feed",
     name: "Feed Token",
@@ -15895,6 +16815,11 @@ export const coins = [
     name: "FEG Token BSC",
   },
   {
+    id: "feichang-niu",
+    symbol: "fcn",
+    name: "Feichang Niu",
+  },
+  {
     id: "fei-protocol",
     symbol: "fei",
     name: "Fei Protocol",
@@ -15905,9 +16830,19 @@ export const coins = [
     name: "FEIRM",
   },
   {
+    id: "feisty-doge-nft",
+    symbol: "nfd",
+    name: "Feisty Doge NFT",
+  },
+  {
     id: "felix",
     symbol: "flx",
     name: "Felix",
+  },
+  {
+    id: "fenerbahce-token",
+    symbol: "fb",
+    name: "Fenerbahçe Token",
   },
   {
     id: "fera",
@@ -15960,13 +16895,18 @@ export const coins = [
     name: "Fibo Token",
   },
   {
+    id: "fidenza-527",
+    symbol: "fidenz",
+    name: "Fidenza #527",
+  },
+  {
     id: "fidex-exchange",
     symbol: "fex",
     name: "FIDEX Exchange",
   },
   {
     id: "fiestacoin",
-    symbol: "fsc",
+    symbol: "fiesta",
     name: "FiestaCoin",
   },
   {
@@ -16045,14 +16985,14 @@ export const coins = [
     name: "FingerPrint",
   },
   {
+    id: "fingerprints",
+    symbol: "prints",
+    name: "FingerprintsDAO",
+  },
+  {
     id: "finminity",
     symbol: "fmt",
     name: "Finminity",
-  },
-  {
-    id: "finnexus",
-    symbol: "fnx",
-    name: "FinNexus",
   },
   {
     id: "finple",
@@ -16095,11 +17035,6 @@ export const coins = [
     name: "FireAnts",
   },
   {
-    id: "fireball",
-    symbol: "fire",
-    name: "FIRE",
-  },
-  {
     id: "fireball-2",
     symbol: "fire",
     name: "FireBall",
@@ -16133,6 +17068,11 @@ export const coins = [
     id: "first-bitcoin",
     symbol: "bit",
     name: "First Bitcoin",
+  },
+  {
+    id: "firulais",
+    symbol: "firu",
+    name: "Firulais",
   },
   {
     id: "fisco",
@@ -16230,11 +17170,6 @@ export const coins = [
     name: "FLEX Coin",
   },
   {
-    id: "flexeth-btc-set",
-    symbol: "flexethbtc",
-    name: "FlexETH/BTC Set",
-  },
-  {
     id: "flex-finance",
     symbol: "flex",
     name: "Flex Finance",
@@ -16248,11 +17183,6 @@ export const coins = [
     id: "flits",
     symbol: "fls",
     name: "Flits",
-  },
-  {
-    id: "flit-token",
-    symbol: "flt",
-    name: "Flit Token",
   },
   {
     id: "flixxo",
@@ -16285,9 +17215,14 @@ export const coins = [
     name: "Floki Shiba Inu",
   },
   {
-    id: "florafic",
-    symbol: "fic",
-    name: "Florafic",
+    id: "floki-wife",
+    symbol: "flofe",
+    name: "Floki Wife",
+  },
+  {
+    id: "flourish-coin",
+    symbol: "flrs",
+    name: "Flourish Coin",
   },
   {
     id: "flourmix",
@@ -16390,6 +17325,11 @@ export const coins = [
     name: "FOAM",
   },
   {
+    id: "fohocoin",
+    symbol: "foho",
+    name: "FohoCoin",
+  },
+  {
     id: "foincoin",
     symbol: "foin",
     name: "Foin",
@@ -16415,6 +17355,11 @@ export const coins = [
     name: "Font",
   },
   {
+    id: "foobee",
+    symbol: "fbe",
+    name: "Foobee",
+  },
+  {
     id: "football-coin",
     symbol: "xfc",
     name: "Football Coin",
@@ -16433,6 +17378,11 @@ export const coins = [
     id: "footballstars",
     symbol: "fts",
     name: "FootballStars",
+  },
+  {
+    id: "footie-plus",
+    symbol: "footie",
+    name: "Footie Plus",
   },
   {
     id: "force-dao",
@@ -16510,11 +17460,6 @@ export const coins = [
     name: "Fortuna Sittard Fan Token",
   },
   {
-    id: "fortune1coin",
-    symbol: "ft1",
-    name: "Fortune1Coin",
-  },
-  {
     id: "forty-seven-bank",
     symbol: "fsbt",
     name: "FSBT API",
@@ -16578,11 +17523,6 @@ export const coins = [
     id: "franklin",
     symbol: "fly",
     name: "Franklin",
-  },
-  {
-    id: "frasindo-rent",
-    symbol: "fras",
-    name: "Frasindo Rent",
   },
   {
     id: "frat",
@@ -16725,11 +17665,6 @@ export const coins = [
     name: "FrozenCake",
   },
   {
-    id: "frozencoin-network",
-    symbol: "fz",
-    name: "Frozencoin Network",
-  },
-  {
     id: "fruit",
     symbol: "fruit",
     name: "Fruit",
@@ -16840,6 +17775,11 @@ export const coins = [
     name: "Fusion Energy X",
   },
   {
+    id: "fusion-heroes",
+    symbol: "fsh",
+    name: "Fusion Heroes",
+  },
+  {
     id: "futurax",
     symbol: "ftxt",
     name: "FUTURAX",
@@ -16870,6 +17810,11 @@ export const coins = [
     name: "FuturesCoin",
   },
   {
+    id: "future-star",
+    symbol: "fstar",
+    name: "Future Star",
+  },
+  {
     id: "futureswap",
     symbol: "fst",
     name: "Futureswap",
@@ -16883,11 +17828,6 @@ export const coins = [
     id: "futurov-governance-token",
     symbol: "ftv",
     name: "Futurov Governance Token",
-  },
-  {
-    id: "fuupay",
-    symbol: "fpt",
-    name: "FUUPAY",
   },
   {
     id: "fuze-token",
@@ -16975,6 +17915,11 @@ export const coins = [
     name: "Gains Farm",
   },
   {
+    id: "gaj",
+    symbol: "gaj",
+    name: "Gaj Finance",
+  },
+  {
     id: "gala",
     symbol: "gala",
     name: "Gala",
@@ -17025,11 +17970,6 @@ export const coins = [
     name: "Galilel",
   },
   {
-    id: "gallery-finance",
-    symbol: "glf",
-    name: "Gallery Finance",
-  },
-  {
     id: "gamb",
     symbol: "gmb",
     name: "GAMB",
@@ -17070,6 +18010,11 @@ export const coins = [
     name: "GameCredits",
   },
   {
+    id: "gamedao",
+    symbol: "dao",
+    name: "GameDAO",
+  },
+  {
     id: "gamee",
     symbol: "gmee",
     name: "GAMEE",
@@ -17090,9 +18035,19 @@ export const coins = [
     name: "Game-Frag",
   },
   {
+    id: "gamenft",
+    symbol: "gnft",
+    name: "GameNFT",
+  },
+  {
     id: "gameology",
     symbol: "gmy",
     name: "Gameology",
+  },
+  {
+    id: "gameologyv2",
+    symbol: "gmyx",
+    name: "Gameologyv2",
   },
   {
     id: "gamercoin",
@@ -17110,6 +18065,11 @@ export const coins = [
     name: "Game Stars",
   },
   {
+    id: "gamestarter",
+    symbol: "game",
+    name: "Gamestarter",
+  },
+  {
     id: "gamestop-finance",
     symbol: "gme",
     name: "GameStop Finance",
@@ -17120,9 +18080,9 @@ export const coins = [
     name: "Gameswap",
   },
   {
-    id: "game-x-coin",
-    symbol: "gxc",
-    name: "GameXCoin",
+    id: "gamex",
+    symbol: "gmx",
+    name: "GameX",
   },
   {
     id: "gamyfi-token",
@@ -17138,6 +18098,11 @@ export const coins = [
     id: "gangster-doge",
     symbol: "gangstadoge",
     name: "Gangster Doge",
+  },
+  {
+    id: "gan-punks",
+    symbol: "gpunks20",
+    name: "Gan Punks",
   },
   {
     id: "ganymede",
@@ -17205,11 +18170,6 @@ export const coins = [
     name: "GasToken",
   },
   {
-    id: "gastroadvisor",
-    symbol: "fork",
-    name: "GastroAdvisor",
-  },
-  {
     id: "gastrocoin",
     symbol: "gtc",
     name: "GastroCoin",
@@ -17235,11 +18195,6 @@ export const coins = [
     name: "GatorSwap",
   },
   {
-    id: "gazecoin",
-    symbol: "gze",
-    name: "GazeCoin",
-  },
-  {
     id: "gazetv",
     symbol: "gaze",
     name: "GazeTV",
@@ -17253,11 +18208,6 @@ export const coins = [
     id: "gcn-coin",
     symbol: "gcn",
     name: "GCN Coin",
-  },
-  {
-    id: "gdac-token",
-    symbol: "gt",
-    name: "GDAC Token",
   },
   {
     id: "gdoge-finance",
@@ -17360,6 +18310,11 @@ export const coins = [
     name: "Genesis Network",
   },
   {
+    id: "genesis-pool",
+    symbol: "gpool",
+    name: "Genesis Pool",
+  },
+  {
     id: "genesis-shards",
     symbol: "gs",
     name: "Genesis Shards",
@@ -17448,11 +18403,6 @@ export const coins = [
     id: "gerowallet",
     symbol: "gero",
     name: "GeroWallet",
-  },
-  {
-    id: "ges",
-    symbol: "ges",
-    name: "GES",
   },
   {
     id: "get-doge",
@@ -17611,7 +18561,7 @@ export const coins = [
   },
   {
     id: "glitchy",
-    symbol: "glitchy",
+    symbol: "gly",
     name: "Glitchy",
   },
   {
@@ -17785,11 +18735,6 @@ export const coins = [
     name: "GoalTime N",
   },
   {
-    id: "goat-cash",
-    symbol: "goat",
-    name: "Goat Cash",
-  },
-  {
     id: "goatcoin",
     symbol: "goat",
     name: "Goatcoin",
@@ -17840,6 +18785,11 @@ export const coins = [
     name: "GogolCoin",
   },
   {
+    id: "goku-inu",
+    symbol: "goku",
+    name: "Goku Inu",
+  },
+  {
     id: "gokumarket-credit",
     symbol: "gmc",
     name: "GokuMarket Credit",
@@ -17880,11 +18830,6 @@ export const coins = [
     name: "Gold Coin Reserve",
   },
   {
-    id: "golden-bridge-coin",
-    symbol: "gbc",
-    name: "Golden Bridge Coin",
-  },
-  {
     id: "golden-doge",
     symbol: "gdoge",
     name: "Golden Doge",
@@ -17893,6 +18838,11 @@ export const coins = [
     id: "golden-goose",
     symbol: "gold",
     name: "Golden Goose",
+  },
+  {
+    id: "golden-kitty-cake",
+    symbol: "gkcake",
+    name: "Golden Kitty Cake",
   },
   {
     id: "golden-ratio-coin",
@@ -17915,9 +18865,19 @@ export const coins = [
     name: "GoldeNugget",
   },
   {
+    id: "golden-york",
+    symbol: "goldyork",
+    name: "Golden York",
+  },
+  {
     id: "golder-coin",
     symbol: "gldr",
     name: "Golder Coin",
+  },
+  {
+    id: "goldex-token",
+    symbol: "gldx",
+    name: "Goldex Token",
   },
   {
     id: "goldfarm",
@@ -18055,11 +19015,6 @@ export const coins = [
     name: "Gorilla-Fi",
   },
   {
-    id: "gorillayield",
-    symbol: "yape",
-    name: "GorillaYield",
-  },
-  {
     id: "gossipcoin",
     symbol: "goss",
     name: "GOSSIP-Coin",
@@ -18113,11 +19068,6 @@ export const coins = [
     id: "gpu-coin",
     symbol: "gpu",
     name: "GPU Coin",
-  },
-  {
-    id: "grabity",
-    symbol: "gbt",
-    name: "Grabity",
   },
   {
     id: "grace-period-token",
@@ -18220,6 +19170,11 @@ export const coins = [
     name: "GreenCandles",
   },
   {
+    id: "green-climate-world",
+    symbol: "wgc",
+    name: "Green Climate World",
+  },
+  {
     id: "greencoin",
     symbol: "gre",
     name: "Greencoin",
@@ -18228,6 +19183,11 @@ export const coins = [
     id: "green-dildo-finance",
     symbol: "gdildo",
     name: "Green Dildo Finance",
+  },
+  {
+    id: "greeneum-network",
+    symbol: "green",
+    name: "Greeneum Network",
   },
   {
     id: "greenheart-cbd",
@@ -18265,6 +19225,11 @@ export const coins = [
     name: "Green World",
   },
   {
+    id: "greenzonex",
+    symbol: "gzx",
+    name: "GreenZoneX",
+  },
+  {
     id: "grey-token",
     symbol: "grey",
     name: "Grey Token",
@@ -18285,9 +19250,19 @@ export const coins = [
     name: "Gridcoin",
   },
   {
-    id: "grimcoin",
-    symbol: "grim",
-    name: "Grimcoin",
+    id: "gridzone",
+    symbol: "zone",
+    name: "GridZone.io",
+  },
+  {
+    id: "griffin-art",
+    symbol: "gart",
+    name: "Griffin Art",
+  },
+  {
+    id: "grill-farm",
+    symbol: "grill",
+    name: "Grill Farm",
   },
   {
     id: "grimm",
@@ -18295,9 +19270,19 @@ export const coins = [
     name: "Grimm",
   },
   {
+    id: "grimtoken",
+    symbol: "grim",
+    name: "GrimToken",
+  },
+  {
     id: "grin",
     symbol: "grin",
     name: "Grin",
+  },
+  {
+    id: "grind-token",
+    symbol: "grind",
+    name: "Grind Token",
   },
   {
     id: "groestlcoin",
@@ -18313,11 +19298,6 @@ export const coins = [
     id: "groovy-finance",
     symbol: "gvy",
     name: "Groovy Finance",
-  },
-  {
-    id: "growers-international",
-    symbol: "grwi",
-    name: "GrowersCoin",
   },
   {
     id: "growing-fi",
@@ -18350,6 +19330,11 @@ export const coins = [
     name: "GRPL Finance",
   },
   {
+    id: "grumpydoge-punks",
+    symbol: "gpunks",
+    name: "GrumpyDoge Punks",
+  },
+  {
     id: "gsenetwork",
     symbol: "gse",
     name: "GSENetwork",
@@ -18375,6 +19360,11 @@ export const coins = [
     name: "GT STAR Token",
   },
   {
+    id: "gu",
+    symbol: "GÜ",
+    name: "GÜ",
+  },
+  {
     id: "guapcoin",
     symbol: "guap",
     name: "Guapcoin",
@@ -18383,6 +19373,11 @@ export const coins = [
     id: "guarded-ether",
     symbol: "geth",
     name: "Guarded Ether",
+  },
+  {
+    id: "guardian-token",
+    symbol: "guard",
+    name: "Guardian Token",
   },
   {
     id: "guider",
@@ -18398,11 +19393,6 @@ export const coins = [
     id: "gulden",
     symbol: "nlg",
     name: "Gulden",
-  },
-  {
-    id: "gulf-bits-coin",
-    symbol: "gbt",
-    name: "Gulf Bits Coin",
   },
   {
     id: "gulf-coin-gold",
@@ -18428,6 +19418,11 @@ export const coins = [
     id: "guss-one",
     symbol: "guss",
     name: "GUSS.ONE",
+  },
+  {
+    id: "gutter-cat-gang",
+    symbol: "gcg",
+    name: "Gutter Cat Gang",
   },
   {
     id: "gxchain",
@@ -18503,6 +19498,11 @@ export const coins = [
     id: "halcyon",
     symbol: "hal",
     name: "Halcyon",
+  },
+  {
+    id: "halfpizza",
+    symbol: "piza",
+    name: "Half Pizza",
   },
   {
     id: "halo-platform",
@@ -18670,6 +19670,11 @@ export const coins = [
     name: "Hashgard",
   },
   {
+    id: "hashmasks",
+    symbol: "mask20",
+    name: "Hashmasks",
+  },
+  {
     id: "hashnet-biteco",
     symbol: "hnb",
     name: "HashNet BitEco",
@@ -18695,11 +19700,6 @@ export const coins = [
     name: "Hash Token",
   },
   {
-    id: "hatch",
-    symbol: "hatch",
-    name: "Hatch",
-  },
-  {
     id: "hatch-dao",
     symbol: "hatch",
     name: "Hatch DAO",
@@ -18723,6 +19723,11 @@ export const coins = [
     id: "havens-nook",
     symbol: "hxn",
     name: "Havens Nook",
+  },
+  {
+    id: "haven-token",
+    symbol: "haven",
+    name: "Haven Token",
   },
   {
     id: "havven",
@@ -18895,14 +19900,14 @@ export const coins = [
     name: "Helio",
   },
   {
-    id: "helio-power-token",
-    symbol: "thpt",
-    name: "HELIO POWER TOKEN",
-  },
-  {
     id: "helios-cash",
     symbol: "heo",
     name: "Helios Cash",
+  },
+  {
+    id: "helios-charts",
+    symbol: "$sol",
+    name: "Helios Charts",
   },
   {
     id: "helium",
@@ -18995,9 +20000,19 @@ export const coins = [
     name: "HERO",
   },
   {
+    id: "herobattle",
+    symbol: "hrb",
+    name: "Herobattle",
+  },
+  {
     id: "herocoin",
     symbol: "play",
     name: "HEROcoin",
+  },
+  {
+    id: "herodoge",
+    symbol: "herodoge",
+    name: "HeroDoge",
   },
   {
     id: "hero-node",
@@ -19020,6 +20035,11 @@ export const coins = [
     name: "Herum",
   },
   {
+    id: "hesh-fi",
+    symbol: "hesh",
+    name: "Hesh.Fi",
+  },
+  {
     id: "hex",
     symbol: "hex",
     name: "HEX",
@@ -19035,9 +20055,9 @@ export const coins = [
     name: "HEY-BITCOIN",
   },
   {
-    id: "hgh-token",
-    symbol: "hgh",
-    name: "HGH Token",
+    id: "hibiki-finance",
+    symbol: "hibiki",
+    name: "Hibiki Finance",
   },
   {
     id: "hiblocks",
@@ -19053,6 +20073,11 @@ export const coins = [
     id: "hidden-coin",
     symbol: "hdn",
     name: "Hidden Coin",
+  },
+  {
+    id: "hi-dollar",
+    symbol: "hi",
+    name: "hi Dollar",
   },
   {
     id: "higamecoin",
@@ -19180,7 +20205,7 @@ export const coins = [
     name: "HodlTree",
   },
   {
-    id: "hodooi.com",
+    id: "hodooi-com",
     symbol: "hod",
     name: "HoDooi.com",
   },
@@ -19193,6 +20218,11 @@ export const coins = [
     id: "hogl-finance",
     symbol: "hogl",
     name: "HOGL Finance",
+  },
+  {
+    id: "hokkaido-inu-bsc",
+    symbol: "hokk",
+    name: "Hokkaidu Inu BSC",
   },
   {
     id: "hokkaidu-inu",
@@ -19225,11 +20255,6 @@ export const coins = [
     name: "Holiday Chain",
   },
   {
-    id: "holistic-btc-set",
-    symbol: "tcapbtcusdc",
-    name: "Holistic BTC Set",
-  },
-  {
     id: "holistic-eth-set",
     symbol: "tcapethdai",
     name: "Holistic ETH Set",
@@ -19243,6 +20268,11 @@ export const coins = [
     id: "hollygold",
     symbol: "hgold",
     name: "HollyGold",
+  },
+  {
+    id: "holographic-doge",
+    symbol: "hodo",
+    name: "Holographic Doge",
   },
   {
     id: "holotoken",
@@ -19268,6 +20298,11 @@ export const coins = [
     id: "holy-trinity",
     symbol: "holy",
     name: "Holy Trinity",
+  },
+  {
+    id: "homecoin",
+    symbol: "home",
+    name: "HomeCoin",
   },
   {
     id: "home-coin",
@@ -19305,9 +20340,39 @@ export const coins = [
     name: "Honey",
   },
   {
+    id: "honeybear",
+    symbol: "bear",
+    name: "HoneyBear",
+  },
+  {
     id: "honeycomb-2",
     symbol: "honey",
     name: "Honeycomb",
+  },
+  {
+    id: "honey-defi",
+    symbol: "honey",
+    name: "Honey Defi",
+  },
+  {
+    id: "honeyfarm-finance",
+    symbol: "honey",
+    name: "HoneyFarm Finance",
+  },
+  {
+    id: "honeymoon-token",
+    symbol: "moon",
+    name: "HoneyMOON Token",
+  },
+  {
+    id: "honeypad",
+    symbol: "honey",
+    name: "HONEYPAD",
+  },
+  {
+    id: "honey-token",
+    symbol: "sweet",
+    name: "Honey Token",
   },
   {
     id: "honk-honk",
@@ -19515,34 +20580,14 @@ export const coins = [
     name: "HUNT",
   },
   {
-    id: "huobi-bitcoin-cash",
-    symbol: "hbch",
-    name: "Huobi Bitcoin Cash",
-  },
-  {
     id: "huobi-btc",
     symbol: "hbtc",
     name: "Huobi BTC",
   },
   {
-    id: "huobi-ethereum",
-    symbol: "heth",
-    name: "Huobi Ethereum",
-  },
-  {
     id: "huobi-fil",
     symbol: "hfil",
     name: "Huobi Fil",
-  },
-  {
-    id: "huobi-litecoin",
-    symbol: "hltc",
-    name: "Huobi Litecoin",
-  },
-  {
-    id: "huobi-polkadot",
-    symbol: "hdot",
-    name: "Huobi Polkadot",
   },
   {
     id: "huobi-pool-token",
@@ -19588,6 +20633,11 @@ export const coins = [
     id: "husky",
     symbol: "husky",
     name: "Husky",
+  },
+  {
+    id: "husky-avax",
+    symbol: "husky",
+    name: "Husky AVAX",
   },
   {
     id: "huskyshiba",
@@ -19770,6 +20820,11 @@ export const coins = [
     name: "Hyve",
   },
   {
+    id: "hzm-coin",
+    symbol: "hzm",
+    name: "HZM Coin",
+  },
+  {
     id: "i0coin",
     symbol: "i0c",
     name: "I0Coin",
@@ -19815,6 +20870,11 @@ export const coins = [
     name: "IBEX",
   },
   {
+    id: "ibg-token",
+    symbol: "ibg",
+    name: "iBG Token",
+  },
+  {
     id: "ibithub",
     symbol: "ibh",
     name: "iBitHub",
@@ -19833,6 +20893,11 @@ export const coins = [
     id: "icarus-finance",
     symbol: "ica",
     name: "Icarus Finance",
+  },
+  {
+    id: "icarus-network",
+    symbol: "ica",
+    name: "Icarus Network",
   },
   {
     id: "icebreak-r",
@@ -19895,9 +20960,9 @@ export const coins = [
     name: "Idena",
   },
   {
-    id: "idextools",
-    symbol: "dext",
-    name: "DexTools",
+    id: "idia",
+    symbol: "idia",
+    name: "Impossible Decentralized Incubator Access",
   },
   {
     id: "idk",
@@ -19963,11 +21028,6 @@ export const coins = [
     id: "idot",
     symbol: "idot",
     name: "iDOT",
-  },
-  {
-    id: "ieos",
-    symbol: "ieos",
-    name: "iEOS",
   },
   {
     id: "ieth",
@@ -20040,6 +21100,16 @@ export const coins = [
     name: "IKOMP",
   },
   {
+    id: "ikura-token",
+    symbol: "ikura",
+    name: "Ikura Token",
+  },
+  {
+    id: "ilayer",
+    symbol: "ilayer",
+    name: "iLayer",
+  },
+  {
     id: "ilcoin",
     symbol: "ilc",
     name: "ILCOIN",
@@ -20065,11 +21135,6 @@ export const coins = [
     name: "ImageCoin",
   },
   {
-    id: "imbtc",
-    symbol: "imbtc",
-    name: "imBTC",
-  },
-  {
     id: "ime-lab",
     symbol: "lime",
     name: "iMe Lab",
@@ -20078,6 +21143,16 @@ export const coins = [
     id: "imm",
     symbol: "imm",
     name: "IMM",
+  },
+  {
+    id: "imm-coin",
+    symbol: "imc",
+    name: "IMM COIN",
+  },
+  {
+    id: "immutable",
+    symbol: "dara",
+    name: "Immutable",
   },
   {
     id: "imo",
@@ -20193,6 +21268,16 @@ export const coins = [
     id: "infinito",
     symbol: "inft",
     name: "Infinito",
+  },
+  {
+    id: "infinity",
+    symbol: "it",
+    name: "Infinity Token",
+  },
+  {
+    id: "infinitycake",
+    symbol: "incake",
+    name: "InfinityCake",
   },
   {
     id: "infinity-economics",
@@ -20325,11 +21410,6 @@ export const coins = [
     name: "INSaNe",
   },
   {
-    id: "insight-chain",
-    symbol: "inb",
-    name: "Insight Chain",
-  },
-  {
     id: "insight-protocol",
     symbol: "inx",
     name: "Insight Protocol",
@@ -20343,6 +21423,11 @@ export const coins = [
     id: "instadapp",
     symbol: "inst",
     name: "Instadapp",
+  },
+  {
+    id: "instinct",
+    symbol: "instinct",
+    name: "Instinct",
   },
   {
     id: "insula",
@@ -20385,19 +21470,14 @@ export const coins = [
     name: "Integrity",
   },
   {
-    id: "intelligence-quickly-chain",
-    symbol: "iqc",
-    name: "Intelligence Quickly Chain",
-  },
-  {
-    id: "intelligent-eth-set-ii",
-    symbol: "inteth",
-    name: "Intelligent ETH Set II",
-  },
-  {
     id: "intelligent-investment-chain",
     symbol: "iic",
     name: "Intelligent Investment Chain",
+  },
+  {
+    id: "intelligent-mining",
+    symbol: "im",
+    name: "Intelligent Mining",
   },
   {
     id: "intelligent-ratio-set",
@@ -20463,6 +21543,11 @@ export const coins = [
     id: "interop",
     symbol: "trop",
     name: "Interop",
+  },
+  {
+    id: "intersola",
+    symbol: "isola",
+    name: "Intersola",
   },
   {
     id: "intervalue",
@@ -20603,6 +21688,11 @@ export const coins = [
     id: "iotex",
     symbol: "iotx",
     name: "IoTeX",
+  },
+  {
+    id: "iown",
+    symbol: "iown",
+    name: "iOWN Token",
   },
   {
     id: "ipchain",
@@ -20750,6 +21840,11 @@ export const coins = [
     name: "Iungo",
   },
   {
+    id: "ivogel",
+    symbol: "ivg",
+    name: "IVOGEL",
+  },
+  {
     id: "ivy-mining",
     symbol: "ivy",
     name: "Ivy Mining",
@@ -20773,11 +21868,6 @@ export const coins = [
     id: "ize",
     symbol: "ize",
     name: "IZE",
-  },
-  {
-    id: "izeroium",
-    symbol: "izer",
-    name: "IZEROIUM",
   },
   {
     id: "izichain",
@@ -20945,11 +22035,6 @@ export const coins = [
     name: "Jigstack",
   },
   {
-    id: "jinbi-token",
-    symbol: "jnb",
-    name: "Jinbi Token",
-  },
-  {
     id: "jindoge",
     symbol: "jindoge",
     name: "Jindoge",
@@ -20970,6 +22055,11 @@ export const coins = [
     name: "JNTR/e",
   },
   {
+    id: "jobcash",
+    symbol: "jch",
+    name: "JobCash",
+  },
+  {
     id: "jobchain",
     symbol: "job",
     name: "Jobchain",
@@ -20978,6 +22068,11 @@ export const coins = [
     id: "jobscoin",
     symbol: "jobs",
     name: "Jobscoin",
+  },
+  {
+    id: "joe",
+    symbol: "joe",
+    name: "JOE",
   },
   {
     id: "joint",
@@ -21028,11 +22123,6 @@ export const coins = [
     id: "joys",
     symbol: "joys",
     name: "JOYS",
-  },
-  {
-    id: "joyso",
-    symbol: "joy",
-    name: "JOYSO",
   },
   {
     id: "jpyc",
@@ -21160,6 +22250,11 @@ export const coins = [
     name: "Kabosu",
   },
   {
+    id: "kaby-arena",
+    symbol: "kaby",
+    name: "Kaby Arena",
+  },
+  {
     id: "kadena",
     symbol: "kda",
     name: "Kadena",
@@ -21170,9 +22265,24 @@ export const coins = [
     name: "Kai Inu",
   },
   {
+    id: "kaikeninu",
+    symbol: "kaiken",
+    name: "KaikenInu",
+  },
+  {
+    id: "kaiken-shiba",
+    symbol: "kshib",
+    name: "Kaiken Shiba",
+  },
+  {
     id: "kala",
     symbol: "kala",
     name: "Kala",
+  },
+  {
+    id: "kalata",
+    symbol: "kala",
+    name: "Kalata Protocol",
   },
   {
     id: "kalicoin",
@@ -21200,11 +22310,6 @@ export const coins = [
     name: "Kambria",
   },
   {
-    id: "kambria-yield-tuning-engine",
-    symbol: "kyte",
-    name: "Kambria Yield Tuning Engine",
-  },
-  {
     id: "kampay",
     symbol: "kampay",
     name: "Kampay",
@@ -21220,14 +22325,14 @@ export const coins = [
     name: "KanadeCoin",
   },
   {
+    id: "kanaloa-network",
+    symbol: "kana",
+    name: "Kanaloa Network",
+  },
+  {
     id: "kangal",
     symbol: "kangal",
     name: "Kangal",
-  },
-  {
-    id: "kansas-city-chiefs-win-super-bowl",
-    symbol: "chiefs",
-    name: "Kansas City Chiefs Win Super Bowl",
   },
   {
     id: "karaganda-token",
@@ -21255,6 +22360,11 @@ export const coins = [
     name: "Karma DAO",
   },
   {
+    id: "karsiyaka-taraftar-token",
+    symbol: "ksk",
+    name: "Karsiyaka Taraftar Token",
+  },
+  {
     id: "karura",
     symbol: "kar",
     name: "Karura",
@@ -21280,9 +22390,19 @@ export const coins = [
     name: "Kattana",
   },
   {
+    id: "kauri",
+    symbol: "kau",
+    name: "Kauri",
+  },
+  {
     id: "kava",
     symbol: "kava",
     name: "Kava.io",
+  },
+  {
+    id: "kava-swap",
+    symbol: "swp",
+    name: "Kava Swap",
   },
   {
     id: "kawaiinu",
@@ -21308,6 +22428,11 @@ export const coins = [
     id: "kcash",
     symbol: "kcash",
     name: "Kcash",
+  },
+  {
+    id: "kcc-memepad",
+    symbol: "kccm",
+    name: "KCC MemePad",
   },
   {
     id: "kccpad",
@@ -21388,6 +22513,11 @@ export const coins = [
     id: "kenny-token",
     symbol: "kenny",
     name: "Kenny Token",
+  },
+  {
+    id: "kephi-gallery",
+    symbol: "kphi",
+    name: "Kephi Gallery",
   },
   {
     id: "kepler-network",
@@ -21625,14 +22755,14 @@ export const coins = [
     name: "Kitcoin",
   },
   {
+    id: "kitsune-inu",
+    symbol: "kitsu",
+    name: "Kitsune Inu",
+  },
+  {
     id: "kittenfinance",
     symbol: "kif",
     name: "KittenFinance",
-  },
-  {
-    id: "kittoken",
-    symbol: "kit",
-    name: "Kittoken",
   },
   {
     id: "kittycake",
@@ -21668,6 +22798,11 @@ export const coins = [
     id: "klay-token",
     symbol: "klay",
     name: "Klaytn",
+  },
+  {
+    id: "klear-finance",
+    symbol: "klear",
+    name: "Klear Finance",
   },
   {
     id: "kleekai",
@@ -21755,6 +22890,11 @@ export const coins = [
     name: "Koda Finance",
   },
   {
+    id: "kodiak",
+    symbol: "kodi",
+    name: "Kodiak",
+  },
+  {
     id: "koduro",
     symbol: "koduro",
     name: "Koduro",
@@ -21763,6 +22903,11 @@ export const coins = [
     id: "koel-coin",
     symbol: "koel",
     name: "Koel Coin",
+  },
+  {
+    id: "kogecoin",
+    symbol: "kogecoin",
+    name: "KogeCoin",
   },
   {
     id: "koho-chain",
@@ -21800,11 +22945,6 @@ export const coins = [
     name: "KokoSwap",
   },
   {
-    id: "kolin",
-    symbol: "kolin",
-    name: "Kolin",
-  },
-  {
     id: "koloop-basic",
     symbol: "kpc",
     name: "Koloop Basic",
@@ -21813,6 +22953,11 @@ export const coins = [
     id: "komet",
     symbol: "komet",
     name: "Komet",
+  },
+  {
+    id: "kommunitas",
+    symbol: "kom",
+    name: "Kommunitas",
   },
   {
     id: "komodo",
@@ -21828,6 +22973,11 @@ export const coins = [
     id: "kong-defi",
     symbol: "kong",
     name: "Kong Defi",
+  },
+  {
+    id: "kong-land-alpha-citizenship",
+    symbol: "citizen",
+    name: "KONG Land Alpha Citizenship",
   },
   {
     id: "kongz-vault-nftx",
@@ -21848,6 +22998,11 @@ export const coins = [
     id: "kora-network",
     symbol: "knt",
     name: "Kora Network",
+  },
+  {
+    id: "korss-chain-launchpad",
+    symbol: "kclp",
+    name: "Kross Chain Launchpad",
   },
   {
     id: "koto",
@@ -21875,6 +23030,11 @@ export const coins = [
     name: "KPOP Fan Token",
   },
   {
+    id: "kranz-token",
+    symbol: "krz",
+    name: "Kranz Token",
+  },
+  {
     id: "kreds",
     symbol: "kreds",
     name: "Kreds",
@@ -21888,6 +23048,11 @@ export const coins = [
     id: "kronn",
     symbol: "krex",
     name: "Kronn",
+  },
+  {
+    id: "kronobit",
+    symbol: "knb",
+    name: "Kronobit",
   },
   {
     id: "krown",
@@ -21908,6 +23073,11 @@ export const coins = [
     id: "kryptokrona",
     symbol: "xkr",
     name: "Kryptokrona",
+  },
+  {
+    id: "kryptomon",
+    symbol: "kmon",
+    name: "Kryptomon",
   },
   {
     id: "krypton-token",
@@ -21945,11 +23115,6 @@ export const coins = [
     name: "KuboCoin",
   },
   {
-    id: "kucoin-launchpad",
-    symbol: "kclp",
-    name: "KuCoin LaunchPad",
-  },
-  {
     id: "kucoin-shares",
     symbol: "kcs",
     name: "KuCoin Token",
@@ -21963,6 +23128,11 @@ export const coins = [
     id: "kuende",
     symbol: "kue",
     name: "Kuende",
+  },
+  {
+    id: "kukachu",
+    symbol: "kuka",
+    name: "Kukachu",
   },
   {
     id: "kuky-star",
@@ -21983,6 +23153,11 @@ export const coins = [
     id: "kupp",
     symbol: "kupp",
     name: "KUPP",
+  },
+  {
+    id: "kurai-metaverse",
+    symbol: "kurai",
+    name: "Kurai MetaVerse",
   },
   {
     id: "kurrent",
@@ -22110,6 +23285,16 @@ export const coins = [
     name: "Lance Coin",
   },
   {
+    id: "lanceria",
+    symbol: "lanc",
+    name: "Lanceria",
+  },
+  {
+    id: "landshare",
+    symbol: "land",
+    name: "Landshare",
+  },
+  {
     id: "lapis",
     symbol: "lps",
     name: "Lapis",
@@ -22120,14 +23305,14 @@ export const coins = [
     name: "Largo Coin",
   },
   {
+    id: "laser-eyes",
+    symbol: "lasereyes",
+    name: "Laser Eyes",
+  },
+  {
     id: "latamcash",
     symbol: "lmch",
     name: "Latamcash",
-  },
-  {
-    id: "latino-token",
-    symbol: "latino",
-    name: "Latino Token",
   },
   {
     id: "latiumx",
@@ -22160,6 +23345,11 @@ export const coins = [
     name: "LaunchX",
   },
   {
+    id: "launchzone",
+    symbol: "lz",
+    name: "LaunchZone",
+  },
+  {
     id: "lavacake-finance",
     symbol: "lava",
     name: "LavaCake Finance",
@@ -22168,6 +23358,11 @@ export const coins = [
     id: "lavaswap",
     symbol: "lava",
     name: "Lavaswap",
+  },
+  {
+    id: "layer-1-quality-index",
+    symbol: "l1q",
+    name: "Layer 1 Quality Index",
   },
   {
     id: "lazydoge",
@@ -22245,6 +23440,11 @@ export const coins = [
     name: "Ledgis",
   },
   {
+    id: "ledgity",
+    symbol: "lty",
+    name: "Ledgity",
+  },
+  {
     id: "leek-token",
     symbol: "leek",
     name: "Leek Token",
@@ -22280,6 +23480,11 @@ export const coins = [
     name: "LGO Token",
   },
   {
+    id: "lekan",
+    symbol: "lrk",
+    name: "Lekan",
+  },
+  {
     id: "lemochain",
     symbol: "lemo",
     name: "LemoChain",
@@ -22306,7 +23511,7 @@ export const coins = [
   },
   {
     id: "lendefi",
-    symbol: "LDFI",
+    symbol: "ldfi",
     name: "Lendefi",
   },
   {
@@ -22503,6 +23708,11 @@ export const coins = [
     id: "lightcoin",
     symbol: "lhc",
     name: "Lightcoin",
+  },
+  {
+    id: "light-defi",
+    symbol: "light",
+    name: "Light Defi",
   },
   {
     id: "lightening-cash",
@@ -22855,6 +24065,11 @@ export const coins = [
     name: "Lithium",
   },
   {
+    id: "lithium-finance",
+    symbol: "lith",
+    name: "Lithium Finance",
+  },
+  {
     id: "lith-token",
     symbol: "lith",
     name: "Lith Token",
@@ -22880,6 +24095,11 @@ export const coins = [
     name: "Littlesesame",
   },
   {
+    id: "little-ugly-duck",
+    symbol: "lud",
+    name: "Little Ugly Duck",
+  },
+  {
     id: "livenodes",
     symbol: "lno",
     name: "Livenodes",
@@ -22898,6 +24118,11 @@ export const coins = [
     id: "live-swap-coin",
     symbol: "lsc",
     name: "Live Swap Coin",
+  },
+  {
+    id: "livetrade-token",
+    symbol: "ltd",
+    name: "LiveTrade Token",
   },
   {
     id: "lixir-protocol",
@@ -22970,9 +24195,24 @@ export const coins = [
     name: "LOCK Token",
   },
   {
+    id: "lofi-defi",
+    symbol: "lofi",
+    name: "Lofi Defi",
+  },
+  {
+    id: "logs",
+    symbol: "logs",
+    name: "LOGS",
+  },
+  {
     id: "loki-network",
     symbol: "oxen",
     name: "Oxen",
+  },
+  {
+    id: "loltoken",
+    symbol: "lol",
+    name: "LOLTOKEN",
   },
   {
     id: "lonelyfans",
@@ -23010,6 +24250,11 @@ export const coins = [
     name: "Loopring",
   },
   {
+    id: "loserchick-egg",
+    symbol: "egg",
+    name: "LoserChick EGG",
+  },
+  {
     id: "loser-coin",
     symbol: "lowb",
     name: "Loser Coin",
@@ -23023,6 +24268,11 @@ export const coins = [
     id: "lotdog",
     symbol: "lotdog",
     name: "Lotdog",
+  },
+  {
+    id: "loterra",
+    symbol: "lota",
+    name: "LoTerra",
   },
   {
     id: "lotoblock",
@@ -23065,9 +24315,19 @@ export const coins = [
     name: "Love Doge",
   },
   {
+    id: "love-earth-coin",
+    symbol: "lec",
+    name: "Love Earth Coin",
+  },
+  {
     id: "lovehearts",
     symbol: "lvh",
     name: "LoveHearts",
+  },
+  {
+    id: "low-float-gem",
+    symbol: "lfg",
+    name: "Low Float Gem",
   },
   {
     id: "low-orbit-crypto-cannon",
@@ -23150,6 +24410,11 @@ export const coins = [
     name: "Ludos Protocol",
   },
   {
+    id: "luffy-inu",
+    symbol: "luffy",
+    name: "Luffy Inu",
+  },
+  {
     id: "lukki-operating-token",
     symbol: "lot",
     name: "Lukki Operating Token",
@@ -23173,6 +24438,11 @@ export const coins = [
     id: "lumeneo",
     symbol: "lmo",
     name: "Lumeneo",
+  },
+  {
+    id: "lumenswap",
+    symbol: "lsp",
+    name: "Lumenswap",
   },
   {
     id: "lumi-credits",
@@ -23305,9 +24575,9 @@ export const coins = [
     name: "Lyra",
   },
   {
-    id: "lyze",
-    symbol: "lze",
-    name: "LYZE",
+    id: "m7-vault",
+    symbol: "vault",
+    name: "M7 Vault",
   },
   {
     id: "macaronswap",
@@ -23335,6 +24605,11 @@ export const coins = [
     name: "Macoin",
   },
   {
+    id: "madagascar-token",
+    symbol: "$time",
+    name: "Madagascar Token",
+  },
+  {
     id: "mad-bull-token",
     symbol: "mbull",
     name: "Mad Bull Token",
@@ -23350,19 +24625,24 @@ export const coins = [
     name: "Maecenas",
   },
   {
+    id: "mage-doge",
+    symbol: "mgdg",
+    name: "Mage Doge",
+  },
+  {
     id: "magi",
     symbol: "xmg",
     name: "Magi",
   },
   {
+    id: "magic-beasties",
+    symbol: "bsts",
+    name: "Magic Beasties",
+  },
+  {
     id: "magic-cube",
     symbol: "mcc",
     name: "Magic Cube Coin",
-  },
-  {
-    id: "magic-e-stock",
-    symbol: "msb",
-    name: "Magic E-stock",
   },
   {
     id: "magic-internet-money",
@@ -23388,6 +24668,11 @@ export const coins = [
     id: "mahadao",
     symbol: "maha",
     name: "MahaDAO",
+  },
+  {
+    id: "maidcoin",
+    symbol: "$maid",
+    name: "MaidCoin",
   },
   {
     id: "maidsafecoin",
@@ -23440,11 +24725,6 @@ export const coins = [
     name: "MakiSwap",
   },
   {
-    id: "malamute-finance",
-    symbol: "mally",
-    name: "Malamute Finance",
-  },
-  {
     id: "malt-stablecoin",
     symbol: "malt",
     name: "Malt Stablecoin",
@@ -23480,6 +24760,11 @@ export const coins = [
     name: "MANEKI Vault (NFTX)",
   },
   {
+    id: "manga-token",
+    symbol: "$manga",
+    name: "Manga Token",
+  },
+  {
     id: "mangochain",
     symbol: "mgp",
     name: "MangoChain",
@@ -23495,11 +24780,6 @@ export const coins = [
     name: "Mango Markets",
   },
   {
-    id: "mangu",
-    symbol: "mnguz",
-    name: "Mangu",
-  },
-  {
     id: "manifold-finance",
     symbol: "fold",
     name: "Manifold Finance",
@@ -23508,11 +24788,6 @@ export const coins = [
     id: "manna",
     symbol: "manna",
     name: "Manna",
-  },
-  {
-    id: "mano-coin",
-    symbol: "mano",
-    name: "Mano Coin",
   },
   {
     id: "mantis-network",
@@ -23588,6 +24863,11 @@ export const coins = [
     id: "market-arbitrage-coin",
     symbol: "marc",
     name: "Market Arbitrage Coin",
+  },
+  {
+    id: "marketmove",
+    symbol: "move",
+    name: "MarketMove",
   },
   {
     id: "marketpeak",
@@ -23745,6 +25025,11 @@ export const coins = [
     name: "Guppy",
   },
   {
+    id: "mate",
+    symbol: "mate",
+    name: "Mate",
+  },
+  {
     id: "math",
     symbol: "math",
     name: "MATH",
@@ -23795,6 +25080,11 @@ export const coins = [
     name: "Matic Aave Interest Bearing YFI",
   },
   {
+    id: "maticlaunch",
+    symbol: "mtcl",
+    name: "MaticLaunch",
+  },
+  {
     id: "matic-network",
     symbol: "matic",
     name: "Polygon",
@@ -23835,11 +25125,6 @@ export const coins = [
     name: "Maxonrow",
   },
   {
-    id: "max-property-group",
-    symbol: "mpg",
-    name: "Max Property Group",
-  },
-  {
     id: "max-token",
     symbol: "max",
     name: "MAX Token",
@@ -23875,14 +25160,14 @@ export const coins = [
     name: "MBM Token",
   },
   {
-    id: "mcbase-finance",
-    symbol: "mcbase",
-    name: "McBase Finance",
-  },
-  {
     id: "mcdex",
     symbol: "mcb",
     name: "MCDEX",
+  },
+  {
+    id: "mcfinance",
+    symbol: "mcf",
+    name: "MCFinance",
   },
   {
     id: "mchain",
@@ -23898,6 +25183,11 @@ export const coins = [
     id: "mci-coin",
     symbol: "cyclub",
     name: "Cyclub",
+  },
+  {
+    id: "mcn-ventures",
+    symbol: "mcn",
+    name: "MCN Ventures",
   },
   {
     id: "mcobit",
@@ -23943,11 +25233,6 @@ export const coins = [
     id: "meconcash",
     symbol: "mch",
     name: "Meconcash",
-  },
-  {
-    id: "mecro-coin",
-    symbol: "mec",
-    name: "Mecro Coin",
   },
   {
     id: "media-licensing-token",
@@ -24025,6 +25310,11 @@ export const coins = [
     name: "Medusa",
   },
   {
+    id: "meebits",
+    symbol: "meebits20",
+    name: "Meebits",
+  },
+  {
     id: "meeb-master",
     symbol: "meeb",
     name: "Meeb Master",
@@ -24068,6 +25358,11 @@ export const coins = [
     id: "megarise",
     symbol: "megarise",
     name: "MegaRise",
+  },
+  {
+    id: "megatech",
+    symbol: "mgt",
+    name: "Megatech",
   },
   {
     id: "melalie",
@@ -24130,9 +25425,24 @@ export const coins = [
     name: "Memefund",
   },
   {
+    id: "meme-games",
+    symbol: "mgames",
+    name: "Meme Games",
+  },
+  {
     id: "meme-lordz",
     symbol: "$lordz",
     name: "Meme Lordz",
+  },
+  {
+    id: "meme-ltd",
+    symbol: "meme20",
+    name: "MEME LTD",
+  },
+  {
+    id: "memenopoly-money",
+    symbol: "mnop",
+    name: "Memenopoly Money",
   },
   {
     id: "memepad",
@@ -24163,6 +25473,11 @@ export const coins = [
     id: "menlo-one",
     symbol: "one",
     name: "Menlo One",
+  },
+  {
+    id: "mensa-protocol",
+    symbol: "mensa",
+    name: "Mensa Protocol",
   },
   {
     id: "meowcat",
@@ -24355,6 +25670,11 @@ export const coins = [
     name: "Metaprediction",
   },
   {
+    id: "metaseer",
+    symbol: "metas",
+    name: "Metaseer",
+  },
+  {
     id: "meta-vault-nftx",
     symbol: "meta",
     name: "META Vault (NFTX)",
@@ -24465,6 +25785,11 @@ export const coins = [
     name: "MIAMI",
   },
   {
+    id: "miamicoin",
+    symbol: "mia",
+    name: "MiamiCoin",
+  },
+  {
     id: "mib-coin",
     symbol: "mib",
     name: "MIB Coin",
@@ -24503,6 +25828,11 @@ export const coins = [
     id: "micromoney",
     symbol: "amm",
     name: "MicroMoney",
+  },
+  {
+    id: "microshiba",
+    symbol: "microshib",
+    name: "MicroSHIBA",
   },
   {
     id: "microtuber",
@@ -24630,6 +25960,11 @@ export const coins = [
     name: "Mincoin",
   },
   {
+    id: "mindcell",
+    symbol: "mdc",
+    name: "MindCell",
+  },
+  {
     id: "mindcoin",
     symbol: "mnd",
     name: "MindCoin",
@@ -24700,9 +26035,19 @@ export const coins = [
     name: "MiniBitcoin",
   },
   {
+    id: "minibnb",
+    symbol: "minibnb",
+    name: "MiniBNB",
+  },
+  {
     id: "minicake",
     symbol: "minicake",
     name: "MiniCake",
+  },
+  {
+    id: "mini-cardano",
+    symbol: "mada",
+    name: "Mini Cardano",
   },
   {
     id: "minidoge",
@@ -24725,9 +26070,19 @@ export const coins = [
     name: "Mini Floki Shiba",
   },
   {
+    id: "minifootball",
+    symbol: "minifootball",
+    name: "Minifootball",
+  },
+  {
     id: "mini-hollywood-doge",
     symbol: "mollydoge⭐",
     name: "Mini Hollywood Doge",
+  },
+  {
+    id: "minimals",
+    symbol: "mms",
+    name: "Minimals",
   },
   {
     id: "minishib",
@@ -24735,9 +26090,19 @@ export const coins = [
     name: "MiniShib",
   },
   {
+    id: "mini-shiba",
+    symbol: "minishiba",
+    name: "Mini Shiba",
+  },
+  {
     id: "minishib-token",
     symbol: "minishib",
     name: "miniSHIB Token",
+  },
+  {
+    id: "miniusdc",
+    symbol: "miniusdc",
+    name: "MiniUSDC",
   },
   {
     id: "mint-club",
@@ -24758,6 +26123,11 @@ export const coins = [
     id: "minty-art",
     symbol: "minty",
     name: "Minty Art",
+  },
+  {
+    id: "mintyswap",
+    symbol: "mintys",
+    name: "MintySwap",
   },
   {
     id: "minute-vault-nftx",
@@ -24960,6 +26330,11 @@ export const coins = [
     name: "Mixty Finance",
   },
   {
+    id: "mktcash",
+    symbol: "mch",
+    name: "Mktcash",
+  },
+  {
     id: "mktcoin",
     symbol: "mlm",
     name: "MktCoin",
@@ -25130,11 +26505,6 @@ export const coins = [
     name: "Mogul Productions",
   },
   {
-    id: "moji-experience-points",
-    symbol: "mexp",
-    name: "MOJI Experience Points",
-  },
-  {
     id: "mojocoin",
     symbol: "mojo",
     name: "Mojocoin",
@@ -25270,11 +26640,6 @@ export const coins = [
     name: "MONEY PARTY",
   },
   {
-    id: "money-plant-token",
-    symbol: "mpt",
-    name: "Money Plant Token",
-  },
-  {
     id: "money-printer-go-brrr-set",
     symbol: "brrr",
     name: "Money Printer Go Brrr Set",
@@ -25288,6 +26653,11 @@ export const coins = [
     id: "moneytoken",
     symbol: "imt",
     name: "MoneyToken",
+  },
+  {
+    id: "monfter",
+    symbol: "mon",
+    name: "Monfter",
   },
   {
     id: "mongo-coin",
@@ -25325,6 +26695,11 @@ export const coins = [
     name: "Monster Slayer Cash",
   },
   {
+    id: "monster-valley",
+    symbol: "monster",
+    name: "Monster Valley",
+  },
+  {
     id: "moochii",
     symbol: "moochii",
     name: "Moochii",
@@ -25333,6 +26708,11 @@ export const coins = [
     id: "moola",
     symbol: "mla",
     name: "Moola",
+  },
+  {
+    id: "moola-market",
+    symbol: "moo",
+    name: "Moola Market",
   },
   {
     id: "moon",
@@ -25358,6 +26738,11 @@ export const coins = [
     id: "moonbase",
     symbol: "mbbased",
     name: "Moonbase",
+  },
+  {
+    id: "moonbear-finance",
+    symbol: "mbf",
+    name: "MoonBear Finance",
   },
   {
     id: "moonbeers",
@@ -25530,6 +26915,11 @@ export const coins = [
     name: "MoonPirate",
   },
   {
+    id: "moonpot",
+    symbol: "pots",
+    name: "Moonpot",
+  },
+  {
     id: "moonpump",
     symbol: "pump",
     name: "MoonPump",
@@ -25558,6 +26948,11 @@ export const coins = [
     id: "moonrise",
     symbol: "moonrise",
     name: "MoonRise",
+  },
+  {
+    id: "moonriver",
+    symbol: "movr",
+    name: "Moonriver",
   },
   {
     id: "moonshield-finance",
@@ -25607,7 +27002,7 @@ export const coins = [
   {
     id: "moontography",
     symbol: "mtgy",
-    name: "The Moontography Project",
+    name: "Moontography",
   },
   {
     id: "moontoken",
@@ -25628,6 +27023,11 @@ export const coins = [
     id: "moonwalk",
     symbol: "moonwalk",
     name: "MoonWalk",
+  },
+  {
+    id: "moonwilly",
+    symbol: "mnwl",
+    name: "MoonWilly",
   },
   {
     id: "moonwolf-io",
@@ -25718,6 +27118,11 @@ export const coins = [
     id: "motocoin",
     symbol: "moto",
     name: "Motocoin",
+  },
+  {
+    id: "mound-token",
+    symbol: "mnd",
+    name: "Mound Token",
   },
   {
     id: "mouse",
@@ -25820,9 +27225,19 @@ export const coins = [
     name: "MultiBridge",
   },
   {
+    id: "multigame",
+    symbol: "multi",
+    name: "Multigame",
+  },
+  {
     id: "multimillion",
     symbol: "mmm",
     name: "MultiMillion",
+  },
+  {
+    id: "multipad",
+    symbol: "mpad",
+    name: "MultiPad",
   },
   {
     id: "multiplay",
@@ -25860,6 +27275,16 @@ export const coins = [
     name: "Munch Token",
   },
   {
+    id: "murphycat",
+    symbol: "murphy",
+    name: "MURPHYCAT",
+  },
+  {
+    id: "mus",
+    symbol: "mus",
+    name: "Mus",
+  },
+  {
     id: "musd",
     symbol: "musd",
     name: "mStable USD",
@@ -25883,6 +27308,11 @@ export const coins = [
     id: "musk",
     symbol: "musk",
     name: "Musk",
+  },
+  {
+    id: "muso-finance",
+    symbol: "muso",
+    name: "MUSO Finance",
   },
   {
     id: "must",
@@ -25925,6 +27355,11 @@ export const coins = [
     name: "MVP",
   },
   {
+    id: "mvp-coin",
+    symbol: "mvp",
+    name: "MVP Coin",
+  },
+  {
     id: "mxc",
     symbol: "mxc",
     name: "MXC",
@@ -25965,14 +27400,29 @@ export const coins = [
     name: "My Crypto Play",
   },
   {
+    id: "my-defi-legends",
+    symbol: "dlegends",
+    name: "My DeFi Legends",
+  },
+  {
     id: "my-defi-pet",
     symbol: "dpet",
     name: "My DeFi Pet",
   },
   {
+    id: "my-farm-pet",
+    symbol: "myfarmpet",
+    name: "My Farm Pet",
+  },
+  {
     id: "myfichain",
     symbol: "myfi",
     name: "MyFiChain",
+  },
+  {
+    id: "myfriends",
+    symbol: "myfriends",
+    name: "MyFriends",
   },
   {
     id: "my-identity-coin",
@@ -25985,9 +27435,9 @@ export const coins = [
     name: "MYKEY",
   },
   {
-    id: "mykonos-coin",
-    symbol: "myk",
-    name: "Mykonos Coin",
+    id: "my-lotto-coin",
+    symbol: "myl",
+    name: "My Lotto Coin",
   },
   {
     id: "mymn",
@@ -26020,6 +27470,11 @@ export const coins = [
     name: "Myteamcoin",
   },
   {
+    id: "myth-token",
+    symbol: "myth",
+    name: "Myth Token",
+  },
+  {
     id: "mytoken",
     symbol: "mt",
     name: "MyToken",
@@ -26028,11 +27483,6 @@ export const coins = [
     id: "mytracknet-token",
     symbol: "mtnt",
     name: "Mytracknet Token",
-  },
-  {
-    id: "mytvchain",
-    symbol: "mytv",
-    name: "MyTVchain",
   },
   {
     id: "myubi",
@@ -26140,6 +27590,11 @@ export const coins = [
     name: "Nano Doge Token",
   },
   {
+    id: "nano-dogecoin",
+    symbol: "ndc",
+    name: "Nano Dogecoin",
+  },
+  {
     id: "nantrade",
     symbol: "nan",
     name: "NanTrade",
@@ -26160,14 +27615,14 @@ export const coins = [
     name: "NAR Token",
   },
   {
-    id: "naruto-bsc",
-    symbol: "naruto2",
-    name: "Naruto BSC",
-  },
-  {
     id: "narwhale",
     symbol: "nawa",
     name: "Narwhale",
+  },
+  {
+    id: "nasa-doge",
+    symbol: "nasadoge",
+    name: "Nasa Doge",
   },
   {
     id: "nasdacoin",
@@ -26245,6 +27700,11 @@ export const coins = [
     name: "Near",
   },
   {
+    id: "nearpad",
+    symbol: "pad",
+    name: "NearPad",
+  },
+  {
     id: "neblio",
     symbol: "nebl",
     name: "Neblio",
@@ -26320,6 +27780,11 @@ export const coins = [
     name: "Neonic Finance",
   },
   {
+    id: "neos-credits",
+    symbol: "ncr",
+    name: "Neos Credits",
+  },
+  {
     id: "neoworld-cash",
     symbol: "nash",
     name: "NeoWorld Cash",
@@ -26370,6 +27835,16 @@ export const coins = [
     name: "Netcoin",
   },
   {
+    id: "netcoincapital",
+    symbol: "ncc",
+    name: "Netcoincapital",
+  },
+  {
+    id: "nether",
+    symbol: "ntr",
+    name: "Nether",
+  },
+  {
     id: "netko",
     symbol: "netko",
     name: "Netko",
@@ -26398,11 +27873,6 @@ export const coins = [
     id: "netvrk",
     symbol: "ntvrk",
     name: "Netvrk",
-  },
-  {
-    id: "netzcoin",
-    symbol: "netz",
-    name: "Netzcoin",
   },
   {
     id: "neumark",
@@ -26468,6 +27938,16 @@ export const coins = [
     id: "new-bitshares",
     symbol: "nbs",
     name: "New BitShares",
+  },
+  {
+    id: "new-chance",
+    symbol: "nce",
+    name: "New Chance",
+  },
+  {
+    id: "newdex-token",
+    symbol: "dex",
+    name: "Newdex Token",
   },
   {
     id: "newinu",
@@ -26615,6 +28095,11 @@ export const coins = [
     name: "NFTb",
   },
   {
+    id: "nftblackmarket",
+    symbol: "nbm",
+    name: "NFTBlackmarket",
+  },
+  {
     id: "nftbooks",
     symbol: "nftbs",
     name: "NFTBooks",
@@ -26633,6 +28118,16 @@ export const coins = [
     id: "nft-index",
     symbol: "nfti",
     name: "NFT Index",
+  },
+  {
+    id: "nftlaunch",
+    symbol: "nftl",
+    name: "NFTLaunch",
+  },
+  {
+    id: "nftlegends",
+    symbol: "nfl",
+    name: "NFTLegends",
   },
   {
     id: "nftlootbox",
@@ -26660,6 +28155,11 @@ export const coins = [
     name: "NFTMusic.ai",
   },
   {
+    id: "nftpad",
+    symbol: "nftpad",
+    name: "NFTPad",
+  },
+  {
     id: "nft-platform-index",
     symbol: "NFTP",
     name: "NFT Platform Index",
@@ -26683,6 +28183,11 @@ export const coins = [
     id: "nft-stars",
     symbol: "nfts",
     name: "NFT Stars",
+  },
+  {
+    id: "nft-starter",
+    symbol: "nst",
+    name: "NFT Starter",
   },
   {
     id: "nftswaps",
@@ -26745,9 +28250,9 @@ export const coins = [
     name: "Nickel",
   },
   {
-    id: "nifdo-protocol",
-    symbol: "nfd",
-    name: "NIFDO Protocol",
+    id: "niftynft",
+    symbol: "nifty",
+    name: "NiftyNFT",
   },
   {
     id: "night-life-crypto",
@@ -26783,6 +28288,11 @@ export const coins = [
     id: "ninja-doge",
     symbol: "$ninjadoge",
     name: "Ninja Doge",
+  },
+  {
+    id: "ninja-panda-inu",
+    symbol: "npi",
+    name: "Ninja Panda Inu",
   },
   {
     id: "ninjaswap",
@@ -26828,6 +28338,11 @@ export const coins = [
     id: "nix-platform",
     symbol: "nix",
     name: "NIX",
+  },
+  {
+    id: "nkcl-classic",
+    symbol: "nkclc",
+    name: "NKCL Classic",
   },
   {
     id: "nkn",
@@ -26945,6 +28460,11 @@ export const coins = [
     name: "Nominex",
   },
   {
+    id: "non-fungible-toke",
+    symbol: "toke",
+    name: "Non-Fungible TOKE",
+  },
+  {
     id: "non-fungible-yearn",
     symbol: "nfy",
     name: "Non-Fungible Yearn",
@@ -27050,6 +28570,11 @@ export const coins = [
     name: "NPO Coin",
   },
   {
+    id: "nrgy-defi",
+    symbol: "nrgy",
+    name: "NRGY Defi",
+  },
+  {
     id: "nss-coin",
     symbol: "nss",
     name: "NSS Coin",
@@ -27095,14 +28620,19 @@ export const coins = [
     name: "Nuggets",
   },
   {
-    id: "nullex",
-    symbol: "nlx",
-    name: "NulleX",
+    id: "nuke-token",
+    symbol: "nuke",
+    name: "Nuke Token",
   },
   {
     id: "nuls",
     symbol: "nuls",
     name: "Nuls",
+  },
+  {
+    id: "number-1-token",
+    symbol: "nr1",
+    name: "Number 1 Token",
   },
   {
     id: "numeraire",
@@ -27123,6 +28653,11 @@ export const coins = [
     id: "nut-money",
     symbol: "nut",
     name: "Nut Money",
+  },
+  {
+    id: "nuts-gaming",
+    symbol: "nutsg",
+    name: "NUTS Gaming",
   },
   {
     id: "nuvo-cash",
@@ -27210,11 +28745,6 @@ export const coins = [
     name: "OBIC",
   },
   {
-    id: "obitan-chain",
-    symbol: "obtc",
-    name: "Obitan Chain",
-  },
-  {
     id: "oblichain",
     symbol: "obc",
     name: "Oblichain",
@@ -27265,6 +28795,11 @@ export const coins = [
     name: "OctaPay",
   },
   {
+    id: "octaplex-network",
+    symbol: "plx",
+    name: "Octaplex Network",
+  },
+  {
     id: "octax",
     symbol: "octax",
     name: "OctaX",
@@ -27283,6 +28818,11 @@ export const coins = [
     id: "octofi",
     symbol: "octo",
     name: "OctoFi",
+  },
+  {
+    id: "octopus-network",
+    symbol: "oct",
+    name: "Octopus Network",
   },
   {
     id: "octopus-protocol",
@@ -27365,6 +28905,11 @@ export const coins = [
     name: "Offshift",
   },
   {
+    id: "ogcnode",
+    symbol: "org",
+    name: "Ogcnode",
+  },
+  {
     id: "og-fan-token",
     symbol: "og",
     name: "OG Fan Token",
@@ -27423,6 +28968,11 @@ export const coins = [
     id: "olcf",
     symbol: "olcf",
     name: "OLCF",
+  },
+  {
+    id: "olecoin",
+    symbol: "ole",
+    name: "OleCoin",
   },
   {
     id: "olivecash",
@@ -27485,6 +29035,11 @@ export const coins = [
     name: "OMG Network",
   },
   {
+    id: "omlira",
+    symbol: "oml",
+    name: "Omlira",
+  },
+  {
     id: "omni",
     symbol: "omni",
     name: "Omni",
@@ -27503,6 +29058,11 @@ export const coins = [
     id: "omni-real-estate-token",
     symbol: "ort",
     name: "Omni Real Estate Token",
+  },
+  {
+    id: "omnis",
+    symbol: "omnis",
+    name: "OMNIS",
   },
   {
     id: "omnitude",
@@ -27560,6 +29120,11 @@ export const coins = [
     name: "oneETH",
   },
   {
+    id: "onefuse",
+    symbol: "onefuse",
+    name: "oneFUSE",
+  },
+  {
     id: "one-genesis",
     symbol: "og",
     name: "One Genesis",
@@ -27583,6 +29148,16 @@ export const coins = [
     id: "onelink",
     symbol: "onelink",
     name: "oneLINK",
+  },
+  {
+    id: "onemoon",
+    symbol: "onemoon",
+    name: "OneMoon",
+  },
+  {
+    id: "oneperl",
+    symbol: "oneperl",
+    name: "onePERL",
   },
   {
     id: "oneroot-network",
@@ -27648,6 +29223,16 @@ export const coins = [
     id: "online-expo",
     symbol: "expo",
     name: "Expo Token",
+  },
+  {
+    id: "only1",
+    symbol: "like",
+    name: "Only1",
+  },
+  {
+    id: "only-1-token",
+    symbol: "o1t",
+    name: "Only 1 Token",
   },
   {
     id: "onlysimps",
@@ -27743,6 +29328,11 @@ export const coins = [
     id: "open-predict-token",
     symbol: "opt",
     name: "OpenPredict Token",
+  },
+  {
+    id: "openswap",
+    symbol: "oswap",
+    name: "OpenSwap",
   },
   {
     id: "opes-wrapped-pe",
@@ -27845,14 +29435,14 @@ export const coins = [
     name: "Orbs",
   },
   {
-    id: "orb-v2",
-    symbol: "orb",
-    name: "Orb V2",
-  },
-  {
     id: "orbyt-token",
     symbol: "orbyt",
     name: "ORBYT Token",
+  },
+  {
+    id: "orca",
+    symbol: "orca",
+    name: "Orca",
   },
   {
     id: "orcax",
@@ -27878,6 +29468,11 @@ export const coins = [
     id: "organix",
     symbol: "ogx",
     name: "Organix",
+  },
+  {
+    id: "orica",
+    symbol: "ori",
+    name: "Orica",
   },
   {
     id: "orient",
@@ -27980,6 +29575,11 @@ export const coins = [
     name: "EstxCoin",
   },
   {
+    id: "os",
+    symbol: "os",
+    name: "EthOS",
+  },
+  {
     id: "osina",
     symbol: "osina",
     name: "OSINA",
@@ -28010,9 +29610,19 @@ export const coins = [
     name: "OT Compound Dai",
   },
   {
+    id: "ot-eth-usdc",
+    symbol: "ot-ethusdc-29dec2022",
+    name: "OT-ETH/USDC",
+  },
+  {
     id: "otocash",
     symbol: "oto",
     name: "OTOCASH",
+  },
+  {
+    id: "ot-pendle-eth",
+    symbol: "ot-pe-29dec2022",
+    name: "OT-PENDLE/ETH",
   },
   {
     id: "ourglass",
@@ -28030,14 +29640,14 @@ export const coins = [
     name: "Our Pay",
   },
   {
+    id: "ovato",
+    symbol: "ovo",
+    name: "Ovato",
+  },
+  {
     id: "overline-emblem",
     symbol: "emb",
     name: "Overline Emblem",
-  },
-  {
-    id: "over-powered-coin",
-    symbol: "opcx",
-    name: "Over Powered Coin",
   },
   {
     id: "oviex",
@@ -28068,6 +29678,16 @@ export const coins = [
     id: "owndata",
     symbol: "own",
     name: "OWNDATA",
+  },
+  {
+    id: "ownix",
+    symbol: "onx",
+    name: "Ownix",
+  },
+  {
+    id: "ownly",
+    symbol: "own",
+    name: "Ownly",
   },
   {
     id: "own-token",
@@ -28118,11 +29738,6 @@ export const coins = [
     id: "p2p",
     symbol: "p2p",
     name: "P2P",
-  },
-  {
-    id: "p2pgo",
-    symbol: "p2pg",
-    name: "P2PGO",
   },
   {
     id: "p2p-network",
@@ -28285,6 +29900,11 @@ export const coins = [
     name: "Pando",
   },
   {
+    id: "pandora-protocol",
+    symbol: "pndr",
+    name: "Pandora Protocol",
+  },
+  {
     id: "pangea",
     symbol: "xpat",
     name: "Pangea Arbitration Token (Bitnation)",
@@ -28318,6 +29938,11 @@ export const coins = [
     id: "panvala-pan",
     symbol: "pan",
     name: "Panvala Pan",
+  },
+  {
+    id: "papacake",
+    symbol: "papacake",
+    name: "PapaCake",
   },
   {
     id: "papa-doge",
@@ -28358,6 +29983,11 @@ export const coins = [
     id: "parachute",
     symbol: "par",
     name: "Parachute",
+  },
+  {
+    id: "paradox",
+    symbol: "pdox",
+    name: "Paradox",
   },
   {
     id: "paralink-network",
@@ -28425,9 +30055,9 @@ export const coins = [
     name: "Particle",
   },
   {
-    id: "partner",
-    symbol: "prc",
-    name: "Partner",
+    id: "party-of-the-living-dead",
+    symbol: "DEAD",
+    name: "Party Of The Living Dead",
   },
   {
     id: "pascalcoin",
@@ -28511,8 +30141,8 @@ export const coins = [
   },
   {
     id: "paxos-standard",
-    symbol: "pax",
-    name: "Paxos Standard",
+    symbol: "usdp",
+    name: "Pax Dollar",
   },
   {
     id: "payaccept",
@@ -28558,6 +30188,11 @@ export const coins = [
     id: "paynet-coin",
     symbol: "payn",
     name: "PayNet Coin",
+  },
+  {
+    id: "paynshop",
+    symbol: "payns",
+    name: "Paynshop",
   },
   {
     id: "payou-finance",
@@ -28608,6 +30243,11 @@ export const coins = [
     id: "payyoda",
     symbol: "yot",
     name: "PayYoda",
+  },
+  {
+    id: "payzus",
+    symbol: "pzs",
+    name: "Payzus",
   },
   {
     id: "pazzy",
@@ -28785,6 +30425,11 @@ export const coins = [
     name: "Peony Coin",
   },
   {
+    id: "peoples-punk",
+    symbol: "dddd",
+    name: "People's Punk",
+  },
+  {
     id: "peos",
     symbol: "peos",
     name: "pEOS",
@@ -28870,6 +30515,11 @@ export const coins = [
     name: "PER Project",
   },
   {
+    id: "perra",
+    symbol: "perra",
+    name: "Perra",
+  },
+  {
     id: "persistence",
     symbol: "xprt",
     name: "Persistence",
@@ -28888,6 +30538,11 @@ export const coins = [
     id: "pesobit",
     symbol: "psb",
     name: "Pesobit",
+  },
+  {
+    id: "pet-games",
+    symbol: "petg",
+    name: "Pet Games",
   },
   {
     id: "peth18c",
@@ -28955,6 +30610,11 @@ export const coins = [
     name: "Pharma Pay Coin",
   },
   {
+    id: "phifi-finance",
+    symbol: "phifiv2",
+    name: "PhiFi Finance",
+  },
+  {
     id: "philips-pay-coin",
     symbol: "ppc",
     name: "PHILLIPS PAY COIN",
@@ -28968,6 +30628,11 @@ export const coins = [
     id: "philscurrency",
     symbol: "wage",
     name: "Digiwage",
+  },
+  {
+    id: "phoenixchain",
+    symbol: "pcn",
+    name: "PhoenixChain",
   },
   {
     id: "phoenixcoin",
@@ -28993,6 +30658,11 @@ export const coins = [
     id: "phoenix-protocol",
     symbol: "phx",
     name: "Phoenix Protocol",
+  },
+  {
+    id: "phoenix-token",
+    symbol: "phx",
+    name: "Phoenix Token",
   },
   {
     id: "phoneum",
@@ -29130,6 +30800,11 @@ export const coins = [
     name: "Pilot",
   },
   {
+    id: "pinecone-finance",
+    symbol: "pct",
+    name: "Pinecone Finance",
+  },
+  {
     id: "pinkcoin",
     symbol: "pink",
     name: "Pinkcoin",
@@ -29158,6 +30833,11 @@ export const coins = [
     id: "pinksale",
     symbol: "pinksale",
     name: "PinkSale",
+  },
+  {
+    id: "pinkslip-finance",
+    symbol: "pslip",
+    name: "Pinkslip Finance",
   },
   {
     id: "pinkswap-token",
@@ -29208,6 +30888,11 @@ export const coins = [
     id: "pitch",
     symbol: "pitch",
     name: "Pitch",
+  },
+  {
+    id: "pitquidity",
+    symbol: "pitqd",
+    name: "Pitquidity",
   },
   {
     id: "pivot-token",
@@ -29293,6 +30978,16 @@ export const coins = [
     id: "planetwatch",
     symbol: "planets",
     name: "PlanetWatch",
+  },
+  {
+    id: "plant2earn",
+    symbol: "p2e",
+    name: "Plant2Earn",
+  },
+  {
+    id: "plant-vs-undead-token",
+    symbol: "pvu",
+    name: "Plant vs Undead Token",
   },
   {
     id: "plasma-finance",
@@ -29475,11 +31170,6 @@ export const coins = [
     name: "POC Chain",
   },
   {
-    id: "pocket-arena",
-    symbol: "poc",
-    name: "Pocket Arena",
-  },
-  {
     id: "pocket-bomb",
     symbol: "pbom",
     name: "Pocket Bomb",
@@ -29488,6 +31178,11 @@ export const coins = [
     id: "pocketcoin",
     symbol: "pkoin",
     name: "Pocketcoin",
+  },
+  {
+    id: "pocket-doge",
+    symbol: "pdoge",
+    name: "Pocket Doge",
   },
   {
     id: "pocket-node",
@@ -29528,6 +31223,11 @@ export const coins = [
     id: "pogged-finance",
     symbol: "pog",
     name: "Pogged Finance",
+  },
+  {
+    id: "pointpay",
+    symbol: "pxp",
+    name: "PointPay",
   },
   {
     id: "pokeball",
@@ -29575,9 +31275,19 @@ export const coins = [
     name: "Polars Governance Token",
   },
   {
+    id: "polar-sync",
+    symbol: "polar",
+    name: "Polar Sync",
+  },
+  {
     id: "policedoge",
     symbol: "policedoge",
     name: "PoliceDOGE",
+  },
+  {
+    id: "polinate",
+    symbol: "poli",
+    name: "Polinate",
   },
   {
     id: "polis",
@@ -29607,7 +31317,7 @@ export const coins = [
   {
     id: "polkacover",
     symbol: "cvr",
-    name: "Polkacover",
+    name: "PolkaCover",
   },
   {
     id: "polkadex",
@@ -29663,6 +31373,21 @@ export const coins = [
     id: "polkamarkets",
     symbol: "polk",
     name: "Polkamarkets",
+  },
+  {
+    id: "polkamonster",
+    symbol: "pkmon",
+    name: "PolkaMonster",
+  },
+  {
+    id: "polkaparty",
+    symbol: "polp",
+    name: "PolkaParty",
+  },
+  {
+    id: "polkaplay",
+    symbol: "polo",
+    name: "NftyPlay",
   },
   {
     id: "polkarare",
@@ -29765,11 +31490,6 @@ export const coins = [
     name: "PolyFi",
   },
   {
-    id: "polygaj",
-    symbol: "gaj",
-    name: "PolyGaj",
-  },
-  {
     id: "polygold",
     symbol: "polygold",
     name: "PolyGold",
@@ -29800,19 +31520,24 @@ export const coins = [
     name: "Polylastic",
   },
   {
+    id: "polylauncher",
+    symbol: "angel",
+    name: "Polylauncher",
+  },
+  {
     id: "polylion",
     symbol: "lion",
     name: "PolyLion",
   },
   {
+    id: "polymath",
+    symbol: "poly",
+    name: "Polymath",
+  },
+  {
     id: "polymath-finance",
     symbol: "pmf",
     name: "PolyMath.Finance",
-  },
-  {
-    id: "polymath-network",
-    symbol: "poly",
-    name: "Polymath Network",
   },
   {
     id: "polymoon",
@@ -29865,6 +31590,11 @@ export const coins = [
     name: "PolyShiba",
   },
   {
+    id: "polyshield",
+    symbol: "shi3ld",
+    name: "PolyShield",
+  },
+  {
     id: "polystar",
     symbol: "polystar",
     name: "PolyStar",
@@ -29895,6 +31625,11 @@ export const coins = [
     name: "PolyVolve Finance",
   },
   {
+    id: "polywave",
+    symbol: "wave",
+    name: "polyWAVE",
+  },
+  {
     id: "polywhale",
     symbol: "krill",
     name: "Polywhale",
@@ -29918,6 +31653,11 @@ export const coins = [
     id: "polyyield-token",
     symbol: "yield",
     name: "PolyYield Token",
+  },
+  {
+    id: "polyyork",
+    symbol: "york",
+    name: "PolyYork",
   },
   {
     id: "polyzap",
@@ -29948,6 +31688,11 @@ export const coins = [
     id: "poodle",
     symbol: "poodl",
     name: "Poodl Token",
+  },
+  {
+    id: "poofcash",
+    symbol: "poof",
+    name: "PoofCash",
   },
   {
     id: "poolcoin",
@@ -29983,11 +31728,6 @@ export const coins = [
     id: "pop",
     symbol: "pop!",
     name: "POP",
-  },
-  {
-    id: "popchain",
-    symbol: "pch",
-    name: "Popchain",
   },
   {
     id: "pop-chest-token",
@@ -30045,6 +31785,11 @@ export const coins = [
     name: "Porte Token",
   },
   {
+    id: "port-finance",
+    symbol: "port",
+    name: "Port Finance",
+  },
+  {
     id: "portion",
     symbol: "prt",
     name: "Portion",
@@ -30053,6 +31798,11 @@ export const coins = [
     id: "pos-coin",
     symbol: "pos",
     name: "POS Coin",
+  },
+  {
+    id: "position-token",
+    symbol: "posi",
+    name: "Position Token",
   },
   {
     id: "postcoin",
@@ -30065,9 +31815,19 @@ export const coins = [
     name: "Potcoin",
   },
   {
+    id: "potent-coin",
+    symbol: "ptt",
+    name: "Potent Coin",
+  },
+  {
     id: "potentiam",
     symbol: "ptm",
     name: "Potentiam",
+  },
+  {
+    id: "povo-finance",
+    symbol: "povo",
+    name: "Povo Finance",
   },
   {
     id: "powerbalt",
@@ -30153,11 +31913,6 @@ export const coins = [
     id: "pressone",
     symbol: "prs",
     name: "PressOne",
-  },
-  {
-    id: "presto",
-    symbol: "prstx",
-    name: "PRESTO",
   },
   {
     id: "previse",
@@ -30250,6 +32005,16 @@ export const coins = [
     name: "PRiVCY",
   },
   {
+    id: "privi-trax",
+    symbol: "trax",
+    name: "Privi Trax",
+  },
+  {
+    id: "prize-coin",
+    symbol: "prz",
+    name: "Prize Coin",
+  },
+  {
     id: "prizm",
     symbol: "pzm",
     name: "Prizm",
@@ -30328,6 +32093,11 @@ export const coins = [
     id: "prometeus",
     symbol: "prom",
     name: "Prometeus",
+  },
+  {
+    id: "promise-token",
+    symbol: "promise",
+    name: "Promise Token",
   },
   {
     id: "promotionchain",
@@ -30438,6 +32208,11 @@ export const coins = [
     id: "proximax",
     symbol: "xpx",
     name: "ProximaX",
+  },
+  {
+    id: "proxy",
+    symbol: "prxy",
+    name: "Proxy",
   },
   {
     id: "proxynode",
@@ -30590,19 +32365,34 @@ export const coins = [
     name: "Punk Female",
   },
   {
+    id: "punk-floor",
+    symbol: "floor",
+    name: "PUNK Floor",
+  },
+  {
     id: "punk-vault-nftx",
     symbol: "punk",
     name: "Punk Vault (NFTX)",
   },
   {
-    id: "punk-zombie",
-    symbol: "punk-zombie",
-    name: "Punk Zombie",
+    id: "pup-doge",
+    symbol: "pupdoge",
+    name: "Pup Doge",
   },
   {
     id: "pupper",
     symbol: "pup",
     name: "Pupper",
+  },
+  {
+    id: "puppies-network",
+    symbol: "ppn",
+    name: "Puppies Network",
+  },
+  {
+    id: "puppy-doge",
+    symbol: "puppy",
+    name: "Puppy Doge",
   },
   {
     id: "pups-vault-nftx",
@@ -30670,14 +32460,14 @@ export const coins = [
     name: "pxGOLD Synthetic Gold Expiring 31 Mar 2022",
   },
   {
-    id: "pxusd-synthetic-usd-expiring-1-april-2021",
-    symbol: "pxusd-mar2021",
-    name: "pxUSD Synthetic USD Expiring 1 April 2021",
-  },
-  {
     id: "pxusd-synthetic-usd-expiring-31-mar-2022",
     symbol: "pxusd-mar2022",
     name: "pxUSD Synthetic USD Expiring 31 Mar 2022",
+  },
+  {
+    id: "pylon-eco-token",
+    symbol: "petn",
+    name: "Pylon Eco Token",
   },
   {
     id: "pylon-finance",
@@ -30708,6 +32498,11 @@ export const coins = [
     id: "pyrk",
     symbol: "pyrk",
     name: "Pyrk",
+  },
+  {
+    id: "pyromaniac",
+    symbol: "pyro",
+    name: "Pyromaniac",
   },
   {
     id: "pyro-network",
@@ -30780,9 +32575,19 @@ export const coins = [
     name: "Q DeFi Rating & Governance Token v2.0",
   },
   {
+    id: "qfinance",
+    symbol: "qfi",
+    name: "QFinance",
+  },
+  {
     id: "qian-governance-token",
     symbol: "kun",
     name: "QIAN Governance Token",
+  },
+  {
+    id: "qian-second-generation-dollar",
+    symbol: "qsd",
+    name: "QIAN Second Generation Dollar",
   },
   {
     id: "qi-dao",
@@ -30825,6 +32630,11 @@ export const coins = [
     name: "Qobit",
   },
   {
+    id: "qoiniq",
+    symbol: "qiq",
+    name: "QoinIQ",
+  },
+  {
     id: "qoober",
     symbol: "qoob",
     name: "QOOBER",
@@ -30838,6 +32648,11 @@ export const coins = [
     id: "qredit",
     symbol: "xqr",
     name: "Qredit",
+  },
+  {
+    id: "qredo",
+    symbol: "qrdo",
+    name: "Qredo",
   },
   {
     id: "qtum",
@@ -30863,6 +32678,11 @@ export const coins = [
     id: "quam-network",
     symbol: "quam",
     name: "Quam Network",
+  },
+  {
+    id: "quannabu",
+    symbol: "qbu",
+    name: "Quannabu",
   },
   {
     id: "quantfury",
@@ -30903,6 +32723,11 @@ export const coins = [
     id: "quasarcoin",
     symbol: "qac",
     name: "Quasarcoin",
+  },
+  {
+    id: "qubit",
+    symbol: "qbt",
+    name: "Qubit",
   },
   {
     id: "quebecoin",
@@ -30970,11 +32795,6 @@ export const coins = [
     name: "Quiztok",
   },
   {
-    id: "qunqun",
-    symbol: "qun",
-    name: "QunQun",
-  },
-  {
     id: "quotation-coin",
     symbol: "quot",
     name: "Quotation Coin",
@@ -30998,6 +32818,11 @@ export const coins = [
     id: "qwertycoin",
     symbol: "qwc",
     name: "Qwertycoin",
+  },
+  {
+    id: "qzkcoin",
+    symbol: "qzk",
+    name: "QZKCoin",
   },
   {
     id: "r34p",
@@ -31045,9 +32870,19 @@ export const coins = [
     name: "Radicle",
   },
   {
+    id: "radio-caca",
+    symbol: "raca",
+    name: "Radio Caca",
+  },
+  {
     id: "radium",
     symbol: "val",
     name: "Validity",
+  },
+  {
+    id: "radix",
+    symbol: "xrd",
+    name: "Radix",
   },
   {
     id: "rae-token",
@@ -31090,9 +32925,19 @@ export const coins = [
     name: "Raiden Network Token",
   },
   {
+    id: "raid-token",
+    symbol: "raid",
+    name: "Raid Token",
+  },
+  {
     id: "rai-finance",
     symbol: "rai",
     name: "RAI Finance",
+  },
+  {
+    id: "raijin",
+    symbol: "raijin",
+    name: "Raijin",
   },
   {
     id: "railgun",
@@ -31100,9 +32945,14 @@ export const coins = [
     name: "Railgun",
   },
   {
+    id: "rainbowtoken",
+    symbol: "rainbowtoken",
+    name: "RainbowToken",
+  },
+  {
     id: "rainbow-token",
     symbol: "rnbw",
-    name: "Rainbow Token",
+    name: "HaloDAO",
   },
   {
     id: "rainicorn",
@@ -31170,6 +33020,11 @@ export const coins = [
     name: "Random",
   },
   {
+    id: "rangers-fan-token",
+    symbol: "rft",
+    name: "Rangers Fan Token",
+  },
+  {
     id: "rank-token",
     symbol: "rank",
     name: "Rank Token",
@@ -31208,11 +33063,6 @@ export const coins = [
     id: "raptor-finance",
     symbol: "raptr",
     name: "Raptor Finance",
-  },
-  {
-    id: "rapture",
-    symbol: "rap",
-    name: "Rapture",
   },
   {
     id: "rare",
@@ -31315,19 +33165,9 @@ export const coins = [
     name: "Read This Contract",
   },
   {
-    id: "real",
-    symbol: "real",
-    name: "Real Estate Asset Ledger",
-  },
-  {
     id: "real-coin",
     symbol: "real",
     name: "Real Coin",
-  },
-  {
-    id: "real-estate-sales-platform",
-    symbol: "rsp",
-    name: "Real-estate Sales Platform",
   },
   {
     id: "realfevr",
@@ -31390,6 +33230,11 @@ export const coins = [
     name: "Rebit",
   },
   {
+    id: "reborn-dollar",
+    symbol: "rebd",
+    name: "Reborn Dollar",
+  },
+  {
     id: "rebound",
     symbol: "rebound",
     name: "Rebound",
@@ -31398,6 +33243,11 @@ export const coins = [
     id: "rechain",
     symbol: "rech",
     name: "ReChain",
+  },
+  {
+    id: "recharge",
+    symbol: "rcg",
+    name: "Recharge",
   },
   {
     id: "recharge-finance",
@@ -31430,6 +33280,11 @@ export const coins = [
     name: "Reddcoin",
   },
   {
+    id: "reddoge",
+    symbol: "reddoge",
+    name: "RedDoge",
+  },
+  {
     id: "redfeg",
     symbol: "redfeg",
     name: "RedFeg",
@@ -31453,6 +33308,11 @@ export const coins = [
     id: "red-pulse",
     symbol: "phb",
     name: "Phoenix Global",
+  },
+  {
+    id: "redshiba",
+    symbol: "redshiba",
+    name: "RedShiba",
   },
   {
     id: "reecoin",
@@ -31535,14 +33395,14 @@ export const coins = [
     name: "Regiment Finance",
   },
   {
-    id: "relax-protocol",
-    symbol: "rlx",
-    name: "RELAX Protocol",
-  },
-  {
     id: "relayer-network",
     symbol: "rlr",
     name: "Relayer Network (OLD)",
+  },
+  {
+    id: "relay-token",
+    symbol: "relay",
+    name: "Relay Token",
   },
   {
     id: "release-ico-project",
@@ -31568,6 +33428,11 @@ export const coins = [
     id: "relite-finance",
     symbol: "reli",
     name: "Relite Finance",
+  },
+  {
+    id: "remex",
+    symbol: "rmx",
+    name: "RemeX",
   },
   {
     id: "remita-coin",
@@ -31645,6 +33510,11 @@ export const coins = [
     name: "Repo Coin",
   },
   {
+    id: "republic-of-dogs",
+    symbol: "rod",
+    name: "Republic of Dogs",
+  },
+  {
     id: "republic-protocol",
     symbol: "ren",
     name: "REN",
@@ -31715,9 +33585,9 @@ export const coins = [
     name: "Revelation coin",
   },
   {
-    id: "reviewbase",
-    symbol: "rview",
-    name: "ReviewBase",
+    id: "reverse",
+    symbol: "rvrs",
+    name: "Reverse",
   },
   {
     id: "review-capital",
@@ -31735,6 +33605,11 @@ export const coins = [
     name: "Revolution Populi",
   },
   {
+    id: "revolver-token",
+    symbol: "$rvlvr",
+    name: "Revolver Token",
+  },
+  {
     id: "revomon",
     symbol: "revo",
     name: "Revomon",
@@ -31750,6 +33625,11 @@ export const coins = [
     name: "REVV",
   },
   {
+    id: "reward-hunters-token",
+    symbol: "rht",
+    name: "Reward Hunters Token",
+  },
+  {
     id: "rewardiqa",
     symbol: "rew",
     name: "Rewardiqa",
@@ -31760,9 +33640,29 @@ export const coins = [
     name: "Rewards",
   },
   {
+    id: "rewards-bunny",
+    symbol: "rbunny",
+    name: "Rewards Bunny",
+  },
+  {
+    id: "rewards-token",
+    symbol: "rewards",
+    name: "Rewards Token",
+  },
+  {
     id: "rex",
     symbol: "rex",
     name: "Imbrex",
+  },
+  {
+    id: "rey",
+    symbol: "rey",
+    name: "Reyna",
+  },
+  {
+    id: "rezerve",
+    symbol: "rzrv",
+    name: "Rezerve",
   },
   {
     id: "rfbtc",
@@ -31775,11 +33675,6 @@ export const coins = [
     name: "rFIS",
   },
   {
-    id: "rfyield-finance",
-    symbol: "rfy",
-    name: "RFYield Finance",
-  },
-  {
     id: "rheaprotocol",
     symbol: "rhea",
     name: "Rhea Protocol",
@@ -31788,6 +33683,16 @@ export const coins = [
     id: "rhegic2",
     symbol: "rhegic2",
     name: "rHEGIC2",
+  },
+  {
+    id: "rhinos-finance",
+    symbol: "rho",
+    name: "Rhinos Finance",
+  },
+  {
+    id: "rhythm",
+    symbol: "rhythm",
+    name: "Rhythm",
   },
   {
     id: "ricefarm",
@@ -31813,6 +33718,11 @@ export const coins = [
     id: "rich-doge-coin",
     symbol: "richdoge 💲",
     name: "Rich Doge Coin",
+  },
+  {
+    id: "richduck",
+    symbol: "RICHDUCK",
+    name: "RICHDUCK",
   },
   {
     id: "richie",
@@ -32020,6 +33930,16 @@ export const coins = [
     name: "RoboCalls",
   },
   {
+    id: "robodoge-coin",
+    symbol: "robodoge",
+    name: "RoboDoge Coin",
+  },
+  {
+    id: "robofi-token",
+    symbol: "vics",
+    name: "RoboFi Token",
+  },
+  {
     id: "robonomics-network",
     symbol: "xrt",
     name: "Robonomics Network",
@@ -32096,7 +34016,7 @@ export const coins = [
   },
   {
     id: "rocki",
-    symbol: "rocks",
+    symbol: "rocki",
     name: "Rocki",
   },
   {
@@ -32112,7 +34032,7 @@ export const coins = [
   {
     id: "roge",
     symbol: "roge",
-    name: "Roge",
+    name: "Rogue Doge",
   },
   {
     id: "roiyal-coin",
@@ -32120,9 +34040,9 @@ export const coins = [
     name: "ROIyal Coin",
   },
   {
-    id: "rom-token",
-    symbol: "rom",
-    name: "ROM Token",
+    id: "romeo-doge",
+    symbol: "romeodoge",
+    name: "Romeo Doge",
   },
   {
     id: "ronpaulcoin",
@@ -32235,6 +34155,11 @@ export const coins = [
     name: "Roxe",
   },
   {
+    id: "royal-bnb",
+    symbol: "rb",
+    name: "Royal BNB",
+  },
+  {
     id: "royal-doge",
     symbol: "rdoge",
     name: "Royal Doge",
@@ -32250,11 +34175,6 @@ export const coins = [
     name: "Royal Protocol",
   },
   {
-    id: "rozeus",
-    symbol: "roz",
-    name: "Rozeus",
-  },
-  {
     id: "rubic",
     symbol: "rbc",
     name: "Rubic",
@@ -32268,6 +34188,11 @@ export const coins = [
     id: "rubycoin",
     symbol: "rby",
     name: "Rubycoin",
+  },
+  {
+    id: "ruby-currency",
+    symbol: "rbc",
+    name: "Ruby Currency",
   },
   {
     id: "ruff",
@@ -32355,11 +34280,6 @@ export const coins = [
     name: "RussellCoin",
   },
   {
-    id: "russian-miner-coin",
-    symbol: "rmc",
-    name: "Russian Miner Coin",
-  },
-  {
     id: "rutheneum",
     symbol: "rth",
     name: "Rutheneum",
@@ -32383,6 +34303,11 @@ export const coins = [
     id: "ryo",
     symbol: "ryo",
     name: "Ryo Currency",
+  },
+  {
+    id: "ryoshis-vision",
+    symbol: "ryoshi",
+    name: "Ryoshis Vision",
   },
   {
     id: "ryoshi-token",
@@ -32440,9 +34365,9 @@ export const coins = [
     name: "SafCoin",
   },
   {
-    id: "safe2",
-    symbol: "safe2",
-    name: "SAFE2",
+    id: "safeaffinity",
+    symbol: "affinity",
+    name: "SafeAffinity",
   },
   {
     id: "safeass",
@@ -32675,6 +34600,11 @@ export const coins = [
     name: "SafeMoon",
   },
   {
+    id: "safemoonavax",
+    symbol: "safemoona",
+    name: "SafemoonAvax",
+  },
+  {
     id: "safemooncash",
     symbol: "safemooncash",
     name: "SafeMoonCash",
@@ -32755,6 +34685,11 @@ export const coins = [
     name: "Safe SeaFood Coin",
   },
   {
+    id: "safe-shield",
+    symbol: "sfshld",
+    name: "Safe Shield",
+  },
+  {
     id: "safespace",
     symbol: "safespace",
     name: "SafeSpace",
@@ -32825,11 +34760,6 @@ export const coins = [
     name: "saffron.finance",
   },
   {
-    id: "safron",
-    symbol: "sfn",
-    name: "Safron",
-  },
-  {
     id: "safuyield-protocol",
     symbol: "safuyield",
     name: "SafuYield Protocol",
@@ -32848,11 +34778,6 @@ export const coins = [
     id: "sail",
     symbol: "sail",
     name: "SAIL",
-  },
-  {
-    id: "saint-fame",
-    symbol: "fame",
-    name: "SAINT FAME: Genesis Shirt",
   },
   {
     id: "saint-token",
@@ -32877,7 +34802,7 @@ export const coins = [
   {
     id: "sak3",
     symbol: "sak3",
-    name: "SAK3",
+    name: "SAKE",
   },
   {
     id: "sake-token",
@@ -32888,6 +34813,11 @@ export const coins = [
     id: "sakhalin-husky",
     symbol: "SAHU",
     name: "Sakhalin Husky",
+  },
+  {
+    id: "sakura",
+    symbol: "sku",
+    name: "Sakura",
   },
   {
     id: "sakura-bloom",
@@ -32935,6 +34865,11 @@ export const coins = [
     name: "Salvation Finance",
   },
   {
+    id: "samecoin",
+    symbol: "same",
+    name: "Samecoin",
+  },
+  {
     id: "samoyedcoin",
     symbol: "samo",
     name: "Samoyedcoin",
@@ -32958,6 +34893,11 @@ export const coins = [
     id: "san-diego-coin",
     symbol: "sand",
     name: "San Diego Coin",
+  },
+  {
+    id: "sandman",
+    symbol: "sandman",
+    name: "SandMan",
   },
   {
     id: "sanshu-inu",
@@ -32995,11 +34935,6 @@ export const coins = [
     name: "Saren",
   },
   {
-    id: "saros",
-    symbol: "saros",
-    name: "SAROS",
-  },
-  {
     id: "sashimi",
     symbol: "sashimi",
     name: "Sashimi",
@@ -33028,11 +34963,6 @@ export const coins = [
     id: "satopay-yield-token",
     symbol: "spy",
     name: "Satopay Yield Token",
-  },
-  {
-    id: "satoshivision-coin",
-    symbol: "svc",
-    name: "Satoshivision Coin",
   },
   {
     id: "satozhi",
@@ -33073,11 +35003,6 @@ export const coins = [
     id: "savebritney",
     symbol: "sbrt",
     name: "SaveBritney",
-  },
-  {
-    id: "savedroid",
-    symbol: "svd",
-    name: "Savedroid",
   },
   {
     id: "savenode",
@@ -33165,6 +35090,11 @@ export const coins = [
     name: "Scaleswap Token",
   },
   {
+    id: "scan-defi",
+    symbol: "scan",
+    name: "Scan DeFi",
+  },
+  {
     id: "scanetchain",
     symbol: "swc",
     name: "Scanetchain",
@@ -33185,6 +35115,11 @@ export const coins = [
     name: "SCC",
   },
   {
+    id: "s-c-corinthians-fan-token",
+    symbol: "sccp",
+    name: "S.C. Corinthians Fan Token",
+  },
+  {
     id: "scex",
     symbol: "scex",
     name: "sCEX",
@@ -33198,6 +35133,11 @@ export const coins = [
     id: "schillingcoin",
     symbol: "sch",
     name: "Schilling-Coin",
+  },
+  {
+    id: "schnoodle",
+    symbol: "snood",
+    name: "Schnoodle",
   },
   {
     id: "scholarship-coin",
@@ -33255,6 +35195,11 @@ export const coins = [
     name: "Score Milk",
   },
   {
+    id: "score-token",
+    symbol: "score",
+    name: "Score Token",
+  },
+  {
     id: "scorpion-token",
     symbol: "scorp",
     name: "Scorpion Token",
@@ -33263,6 +35208,11 @@ export const coins = [
     id: "scorum",
     symbol: "scr",
     name: "Scorum",
+  },
+  {
+    id: "scream",
+    symbol: "scream",
+    name: "Scream",
   },
   {
     id: "scribe",
@@ -33345,6 +35295,11 @@ export const coins = [
     name: "Seal Finance",
   },
   {
+    id: "sea-swap-global",
+    symbol: "ssg",
+    name: "Sea Swap Global",
+  },
+  {
     id: "sechain",
     symbol: "snn",
     name: "SeChain",
@@ -33358,6 +35313,11 @@ export const coins = [
     id: "secret-erc20",
     symbol: "wscrt",
     name: "Secret (ERC20)",
+  },
+  {
+    id: "secret-finance",
+    symbol: "sefi",
+    name: "Secret Finance",
   },
   {
     id: "secretsky-finance",
@@ -33448,11 +35408,6 @@ export const coins = [
     id: "seer",
     symbol: "seer",
     name: "Seer",
-  },
-  {
-    id: "sefi",
-    symbol: "sefi",
-    name: "SEFI",
   },
   {
     id: "seigniorage-shares",
@@ -33560,6 +35515,11 @@ export const coins = [
     name: "Sequence",
   },
   {
+    id: "serbian-cave-hermit",
+    symbol: "serbiancavehermit",
+    name: "Serbian Cave Hermit",
+  },
+  {
     id: "serenity",
     symbol: "srnt",
     name: "Serenity",
@@ -33660,6 +35620,11 @@ export const coins = [
     name: "Shabu Shabu",
   },
   {
+    id: "shade-cash",
+    symbol: "shade",
+    name: "Shade Cash",
+  },
+  {
     id: "shadetech",
     symbol: "shd",
     name: "Shadetech",
@@ -33712,7 +35677,7 @@ export const coins = [
   {
     id: "share-2",
     symbol: "share",
-    name: "Share",
+    name: "SuperNova Share",
   },
   {
     id: "shareat",
@@ -33721,8 +35686,8 @@ export const coins = [
   },
   {
     id: "sharedstake-governance-token",
-    symbol: "sgt",
-    name: "SharedStake Governance Token",
+    symbol: "sgtv2",
+    name: "SharedStake Governance Token v2",
   },
   {
     id: "sharering",
@@ -33745,6 +35710,16 @@ export const coins = [
     name: "SHD Cash",
   },
   {
+    id: "shebolleth-commerce",
+    symbol: "sbecom",
+    name: "SheBollETH Commerce",
+  },
+  {
+    id: "shed-coin",
+    symbol: "shed",
+    name: "Shed Coin",
+  },
+  {
     id: "sheesh-it-is-bussin-bussin",
     symbol: "sheesh",
     name: "Sheesh it is bussin bussin",
@@ -33765,6 +35740,11 @@ export const coins = [
     name: "SHENG",
   },
   {
+    id: "sherpa",
+    symbol: "sherpa",
+    name: "Sherpa",
+  },
+  {
     id: "shiba-bsc",
     symbol: "shibsc",
     name: "SHIBA BSC",
@@ -33773,6 +35753,11 @@ export const coins = [
     id: "shibacash",
     symbol: "shibacash",
     name: "ShibaCash",
+  },
+  {
+    id: "shiba-chocolate",
+    symbol: "shoco",
+    name: "Shiba Chocolate",
   },
   {
     id: "shiba-cloud",
@@ -33860,9 +35845,19 @@ export const coins = [
     name: "Shiba Swim",
   },
   {
+    id: "shibavax",
+    symbol: "shibx",
+    name: "Shibavax",
+  },
+  {
     id: "shibby",
     symbol: "shibby",
     name: "Shibby",
+  },
+  {
+    id: "shib-cake",
+    symbol: "shibcake",
+    name: "SHIB CAKE",
   },
   {
     id: "shiberus-inu",
@@ -33873,6 +35868,11 @@ export const coins = [
     id: "shibmerican",
     symbol: "shibmerican",
     name: "Shibmerican",
+  },
+  {
+    id: "shiden",
+    symbol: "sdn",
+    name: "Shiden Network",
   },
   {
     id: "shield",
@@ -33933,6 +35933,11 @@ export const coins = [
     id: "shilling",
     symbol: "sh",
     name: "Shilling",
+  },
+  {
+    id: "shillmoon",
+    symbol: "shillmoon",
+    name: "ShillMoon",
   },
   {
     id: "shincoin",
@@ -34048,11 +36053,6 @@ export const coins = [
     id: "shuffle-monster",
     symbol: "shuf",
     name: "Shuffle Monster",
-  },
-  {
-    id: "shuttleone",
-    symbol: "szo",
-    name: "ShuttleOne",
   },
   {
     id: "shyft-network-2",
@@ -34180,9 +36180,19 @@ export const coins = [
     name: "Silver Stonks",
   },
   {
+    id: "silver-token",
+    symbol: "silver",
+    name: "Silver Token",
+  },
+  {
     id: "silverway",
     symbol: "slv",
     name: "Silverway",
+  },
+  {
+    id: "simba-empire",
+    symbol: "sim",
+    name: "Simba Empire",
   },
   {
     id: "simba-storage-token",
@@ -34205,9 +36215,9 @@ export const coins = [
     name: "Simian Finance",
   },
   {
-    id: "simplechain",
-    symbol: "sipc",
-    name: "SimpleChain",
+    id: "simple",
+    symbol: "simple",
+    name: "SIMPLE",
   },
   {
     id: "simple-cool-automatic-money",
@@ -34390,6 +36400,16 @@ export const coins = [
     name: "SkyHub",
   },
   {
+    id: "skyrim-finance",
+    symbol: "skyrim",
+    name: "Skyrim Finance",
+  },
+  {
+    id: "skyx-token",
+    symbol: "skyx",
+    name: "SkyX Token",
+  },
+  {
     id: "slam-token",
     symbol: "slam",
     name: "Slam Token",
@@ -34418,6 +36438,11 @@ export const coins = [
     id: "slink",
     symbol: "slink",
     name: "sLINK",
+  },
+  {
+    id: "slink-labs",
+    symbol: "slab",
+    name: "Slink Labs",
   },
   {
     id: "slnv2",
@@ -34530,6 +36555,11 @@ export const coins = [
     name: "Smart Valor",
   },
   {
+    id: "smart-wallet-token",
+    symbol: "swt",
+    name: "Smart Wallet Token",
+  },
+  {
     id: "smartway-finance",
     symbol: "smart",
     name: "Smartway.Finance",
@@ -34548,6 +36578,11 @@ export const coins = [
     id: "smaugs-nft",
     symbol: "smg",
     name: "Smaugs NFT",
+  },
+  {
+    id: "smd-coin",
+    symbol: "smd",
+    name: "SMD Coin",
   },
   {
     id: "smegmars",
@@ -34605,6 +36640,11 @@ export const coins = [
     name: "Earneo",
   },
   {
+    id: "snap-token",
+    symbol: "snap",
+    name: "SNAP!",
+  },
+  {
     id: "snetwork",
     symbol: "snet",
     name: "Snetwork",
@@ -34618,6 +36658,11 @@ export const coins = [
     id: "snglsdao-governance-token",
     symbol: "sgt",
     name: "snglsDAO Governance Token",
+  },
+  {
+    id: "snoopdoge",
+    symbol: "snoop",
+    name: "SnoopDoge",
   },
   {
     id: "snoop-doge",
@@ -34645,6 +36690,11 @@ export const coins = [
     name: "SnowBlossom",
   },
   {
+    id: "snowcrash-token",
+    symbol: "nora",
+    name: "SnowCrash Token",
+  },
+  {
     id: "snowgecoin",
     symbol: "snowge",
     name: "SnowgeCoin",
@@ -34668,11 +36718,6 @@ export const coins = [
     id: "soak-token",
     symbol: "soak",
     name: "Soak Token",
-  },
-  {
-    id: "soar",
-    symbol: "skym",
-    name: "SkyMap",
   },
   {
     id: "soar-2",
@@ -34775,6 +36820,16 @@ export const coins = [
     name: "Solana",
   },
   {
+    id: "solanasail-governance-token",
+    symbol: "gsail",
+    name: "SolanaSail Governance Token",
+  },
+  {
+    id: "solanax",
+    symbol: "sold",
+    name: "Solanax",
+  },
+  {
     id: "solanium",
     symbol: "slim",
     name: "Solanium",
@@ -34808,6 +36863,11 @@ export const coins = [
     id: "solarite",
     symbol: "solarite",
     name: "Solarite",
+  },
+  {
+    id: "solarmoon",
+    symbol: "solar",
+    name: "Solarmoon",
   },
   {
     id: "solarys",
@@ -34873,6 +36933,11 @@ export const coins = [
     id: "sombe",
     symbol: "sbe",
     name: "Sombe",
+  },
+  {
+    id: "sombra-network",
+    symbol: "smbr",
+    name: "Sombra",
   },
   {
     id: "somee-advertising-token",
@@ -34970,9 +37035,9 @@ export const coins = [
     name: "ChainZ Arena",
   },
   {
-    id: "sound-blockchain-protocol",
-    symbol: "Berry",
-    name: "Berry",
+    id: "south-african-tether",
+    symbol: "xzar",
+    name: "South African Tether",
   },
   {
     id: "southxchange-coin",
@@ -35000,6 +37065,11 @@ export const coins = [
     name: "SovranoCoin",
   },
   {
+    id: "sovreign-governance-token",
+    symbol: "reign",
+    name: "Sovreign Governance Token",
+  },
+  {
     id: "sovryn",
     symbol: "esov",
     name: "Sovryn",
@@ -35008,11 +37078,6 @@ export const coins = [
     id: "sowing-network",
     symbol: "zseed",
     name: "Sowing.Network",
-  },
-  {
-    id: "sp8de",
-    symbol: "spx",
-    name: "Sp8de",
   },
   {
     id: "space-cat",
@@ -35083,6 +37148,11 @@ export const coins = [
     id: "spacepenguin",
     symbol: "pngn",
     name: "SpacePenguin",
+  },
+  {
+    id: "spaceport-coin",
+    symbol: "spc",
+    name: "SpacePort Coin",
   },
   {
     id: "spacerat",
@@ -35210,6 +37280,11 @@ export const coins = [
     name: "Spectrum Cash",
   },
   {
+    id: "spectrum-token",
+    symbol: "spec",
+    name: "Spectrum Token",
+  },
+  {
     id: "speedcash",
     symbol: "scs",
     name: "Speedcash",
@@ -35255,9 +37330,19 @@ export const coins = [
     name: "Social Activity Token",
   },
   {
+    id: "spherium",
+    symbol: "sphri",
+    name: "Spherium",
+  },
+  {
     id: "spheroid-universe",
     symbol: "sph",
     name: "Spheroid Universe",
+  },
+  {
+    id: "sphynx-network",
+    symbol: "sph",
+    name: "Sphynx Network",
   },
   {
     id: "spice",
@@ -35355,11 +37440,6 @@ export const coins = [
     name: "Spots",
   },
   {
-    id: "springrole",
-    symbol: "spring",
-    name: "SpringRole",
-  },
-  {
     id: "sprink",
     symbol: "sprink",
     name: "Sprink",
@@ -35450,6 +37530,11 @@ export const coins = [
     name: "Stabinol",
   },
   {
+    id: "stable-1inch",
+    symbol: "one1inch",
+    name: "Stable 1inch",
+  },
+  {
     id: "stable-asset",
     symbol: "sta",
     name: "STABLE ASSET",
@@ -35458,6 +37543,11 @@ export const coins = [
     id: "stablegaj",
     symbol: "sgaj",
     name: "StableGaj",
+  },
+  {
+    id: "stable-uni",
+    symbol: "oneuni",
+    name: "Stable UNI",
   },
   {
     id: "stableusd",
@@ -35495,11 +37585,6 @@ export const coins = [
     name: "Stafi",
   },
   {
-    id: "stakd-finance",
-    symbol: "stakd",
-    name: "Stakd Finance",
-  },
-  {
     id: "stakecube",
     symbol: "scc",
     name: "Stakecube",
@@ -35528,11 +37613,6 @@ export const coins = [
     id: "stakedxym",
     symbol: "stxym",
     name: "stakedXYM",
-  },
-  {
-    id: "staked-yaxis",
-    symbol: "syax",
-    name: "Staked yAxis",
   },
   {
     id: "stakedzen",
@@ -35600,14 +37680,34 @@ export const coins = [
     name: "Stand Share",
   },
   {
+    id: "star-atlas",
+    symbol: "atlas",
+    name: "Star Atlas",
+  },
+  {
+    id: "star-atlas-dao",
+    symbol: "polis",
+    name: "Star Atlas DAO",
+  },
+  {
     id: "starbase",
     symbol: "star",
     name: "Starbase",
   },
   {
+    id: "starbaseuniverse",
+    symbol: "suni",
+    name: "StarbaseUniverse",
+  },
+  {
     id: "starblock",
     symbol: "stb",
     name: "StarBlock",
+  },
+  {
+    id: "starbound",
+    symbol: "sbd",
+    name: "Starbound",
   },
   {
     id: "starbugs-shards",
@@ -35618,6 +37718,11 @@ export const coins = [
     id: "starchain",
     symbol: "stc",
     name: "StarChain",
+  },
+  {
+    id: "star-crunch",
+    symbol: "starc",
+    name: "Star Crunch",
   },
   {
     id: "starcurve",
@@ -35650,6 +37755,16 @@ export const coins = [
     name: "StarLink",
   },
   {
+    id: "starminer-ore-token",
+    symbol: "ore",
+    name: "StarMiner ORE Token",
+  },
+  {
+    id: "starmon-token",
+    symbol: "smon",
+    name: "StarMon Token",
+  },
+  {
     id: "starname",
     symbol: "iov",
     name: "Starname",
@@ -35670,9 +37785,24 @@ export const coins = [
     name: "StarShip",
   },
   {
+    id: "starship-token",
+    symbol: "stars",
+    name: "StarShip Token",
+  },
+  {
     id: "startcoin",
     symbol: "start",
     name: "Startcoin",
+  },
+  {
+    id: "starterra",
+    symbol: "stt",
+    name: "StarTerra",
+  },
+  {
+    id: "startfi",
+    symbol: "stfi",
+    name: "StartFi",
   },
   {
     id: "startup-boost-token",
@@ -35703,6 +37833,11 @@ export const coins = [
     id: "status",
     symbol: "SNT",
     name: "Status",
+  },
+  {
+    id: "staysafu",
+    symbol: "safu",
+    name: "StaySAFU",
   },
   {
     id: "staysbase",
@@ -35785,6 +37920,11 @@ export const coins = [
     name: "Step Finance",
   },
   {
+    id: "step-hero",
+    symbol: "hero",
+    name: "Step Hero",
+  },
+  {
     id: "stib-token",
     symbol: "sti",
     name: "StiB",
@@ -35850,6 +37990,11 @@ export const coins = [
     name: "Stonk",
   },
   {
+    id: "stonkinu",
+    symbol: "stonk",
+    name: "StonkInu",
+  },
+  {
     id: "stonks",
     symbol: "stonk",
     name: "STONKS",
@@ -35863,6 +38008,16 @@ export const coins = [
     id: "stopelon",
     symbol: "stopelon",
     name: "StopElon",
+  },
+  {
+    id: "storage-area-network-anywhere",
+    symbol: "sana",
+    name: "Storage Area Network Anywhere",
+  },
+  {
+    id: "store-of-value-token",
+    symbol: "sov",
+    name: "Store of Value Token",
   },
   {
     id: "storeum",
@@ -35890,9 +38045,19 @@ export const coins = [
     name: "StormX",
   },
   {
+    id: "storm-token",
+    symbol: "storm",
+    name: "Storm Token",
+  },
+  {
     id: "storx",
     symbol: "srx",
     name: "StorX",
+  },
+  {
+    id: "story",
+    symbol: "story",
+    name: "Story",
   },
   {
     id: "stox",
@@ -35950,9 +38115,14 @@ export const coins = [
     name: "Stream Protocol",
   },
   {
-    id: "streamr-datacoin",
+    id: "streamr",
     symbol: "data",
     name: "Streamr",
+  },
+  {
+    id: "streamr-xdata",
+    symbol: "xdata",
+    name: "Streamr XDATA",
   },
   {
     id: "street-cred",
@@ -36010,14 +38180,14 @@ export const coins = [
     name: "sTSLA",
   },
   {
-    id: "stvke-network",
-    symbol: "stv",
-    name: "STVKE",
-  },
-  {
     id: "subgame",
     symbol: "sgb",
     name: "SubGame",
+  },
+  {
+    id: "subme",
+    symbol: "sub",
+    name: "Subme",
   },
   {
     id: "substratum",
@@ -36035,6 +38205,16 @@ export const coins = [
     name: "Sugarchain",
   },
   {
+    id: "sugarland",
+    symbol: "sugar",
+    name: "Sugarland",
+  },
+  {
+    id: "sukhavati-network",
+    symbol: "skt",
+    name: "Sukhavati Network",
+  },
+  {
     id: "suku",
     symbol: "SUKU",
     name: "SUKU",
@@ -36048,6 +38228,11 @@ export const coins = [
     id: "sumokoin",
     symbol: "sumo",
     name: "Sumokoin",
+  },
+  {
+    id: "sumswap",
+    symbol: "sum",
+    name: "SumSwap",
   },
   {
     id: "sun",
@@ -36078,6 +38263,16 @@ export const coins = [
     id: "suniswap",
     symbol: "suni",
     name: "sUniswap",
+  },
+  {
+    id: "sunny-aggregator",
+    symbol: "sunny",
+    name: "Sunny Aggregator",
+  },
+  {
+    id: "sunrise",
+    symbol: "sunc",
+    name: "Sunrise",
   },
   {
     id: "sun-token",
@@ -36130,9 +38325,19 @@ export const coins = [
     name: "SuperFarm",
   },
   {
+    id: "super-floki",
+    symbol: "sloki",
+    name: "Super Floki",
+  },
+  {
     id: "super-gold",
     symbol: "spg",
     name: "Super Gold",
+  },
+  {
+    id: "super-heavy-booster-4",
+    symbol: "shb4",
+    name: "Super Heavy Booster 4",
   },
   {
     id: "super-hero",
@@ -36153,6 +38358,11 @@ export const coins = [
     id: "supernova-protocol",
     symbol: "supern",
     name: "SuperNova Protocol",
+  },
+  {
+    id: "superrare",
+    symbol: "rare",
+    name: "SuperRare",
   },
   {
     id: "super-saiya-jin",
@@ -36255,11 +38465,6 @@ export const coins = [
     name: "Suvereno",
   },
   {
-    id: "swaap-stablecoin",
-    symbol: "sap",
-    name: "Swaap Stablecoin",
-  },
-  {
     id: "swace",
     symbol: "swace",
     name: "Swace",
@@ -36310,6 +38515,11 @@ export const coins = [
     name: "SwapDEX",
   },
   {
+    id: "swaperry",
+    symbol: "perry",
+    name: "Swaperry",
+  },
+  {
     id: "swapfolio",
     symbol: "swfl",
     name: "Swapfolio",
@@ -36317,7 +38527,7 @@ export const coins = [
   {
     id: "swapp",
     symbol: "swapp",
-    name: "Swapp",
+    name: "SWAPP Protocol",
   },
   {
     id: "swapship",
@@ -36350,6 +38560,11 @@ export const coins = [
     name: "Swarm City",
   },
   {
+    id: "swarm-markets",
+    symbol: "smt",
+    name: "Swarm Markets",
+  },
+  {
     id: "swass-finance",
     symbol: "swass",
     name: "SWASS Finance",
@@ -36363,11 +38578,6 @@ export const coins = [
     id: "swerve-dao",
     symbol: "swrv",
     name: "Swerve",
-  },
-  {
-    id: "swe-token",
-    symbol: "swet",
-    name: "SWE Token",
   },
   {
     id: "swftcoin",
@@ -36525,6 +38735,11 @@ export const coins = [
     name: "SYBC Coin",
   },
   {
+    id: "syfin",
+    symbol: "syf",
+    name: "Syfin",
+  },
+  {
     id: "sylo",
     symbol: "sylo",
     name: "Sylo",
@@ -36538,6 +38753,16 @@ export const coins = [
     id: "symverse",
     symbol: "sym",
     name: "SymVerse",
+  },
+  {
+    id: "synapse-2",
+    symbol: "syn",
+    name: "Synapse",
+  },
+  {
+    id: "synapse-network",
+    symbol: "snp",
+    name: "Synapse Network",
   },
   {
     id: "synchrobitcoin",
@@ -36575,7 +38800,7 @@ export const coins = [
     name: "SynLev",
   },
   {
-    id: "syntheify-token",
+    id: "synthetify-token",
     symbol: "sny",
     name: "Synthetify Token",
   },
@@ -36593,6 +38818,11 @@ export const coins = [
     id: "syscoin",
     symbol: "sys",
     name: "Syscoin",
+  },
+  {
+    id: "tabank",
+    symbol: "tab",
+    name: "Tabank",
   },
   {
     id: "taboo-token",
@@ -36690,6 +38920,11 @@ export const coins = [
     name: "Taler",
   },
   {
+    id: "talken",
+    symbol: "talk",
+    name: "Talken",
+  },
+  {
     id: "talleo",
     symbol: "tlo",
     name: "Talleo",
@@ -36743,6 +38978,11 @@ export const coins = [
     id: "tardigrades-finance",
     symbol: "trdg",
     name: "Tardigrades Finance",
+  },
+  {
+    id: "tarot",
+    symbol: "tarot",
+    name: "Tarot",
   },
   {
     id: "tartarus",
@@ -36815,6 +39055,11 @@ export const coins = [
     name: "TCGCoin",
   },
   {
+    id: "tcgcoin-2-0",
+    symbol: "tcg2",
+    name: "TCGCoin 2.0",
+  },
+  {
     id: "tcoin-fun",
     symbol: "tco",
     name: "Tcoin.fun",
@@ -36843,6 +39088,11 @@ export const coins = [
     id: "team-vitality-fan-token",
     symbol: "vit",
     name: "Team Vitality Fan Token",
+  },
+  {
+    id: "teaswap-art",
+    symbol: "tsa",
+    name: "Teaswap Art",
   },
   {
     id: "tea-token",
@@ -36940,6 +39190,11 @@ export const coins = [
     name: "Tenet",
   },
   {
+    id: "tengu",
+    symbol: "tengu",
+    name: "Tengu",
+  },
+  {
     id: "tenset",
     symbol: "10set",
     name: "Tenset",
@@ -36947,7 +39202,7 @@ export const coins = [
   {
     id: "tenshi",
     symbol: "tenshi",
-    name: "Tenshi",
+    name: "Tenshi v2",
   },
   {
     id: "tenup",
@@ -37032,7 +39287,12 @@ export const coins = [
   {
     id: "teslafunds",
     symbol: "tsf",
-    name: "Teslafunds",
+    name: "Transaction Service Fee",
+  },
+  {
+    id: "tesla-inu",
+    symbol: "tesinu",
+    name: "Tesla Inu",
   },
   {
     id: "teslasafe",
@@ -37075,9 +39335,19 @@ export const coins = [
     name: "Tetra Pay",
   },
   {
+    id: "tetu",
+    symbol: "tetu",
+    name: "TETU Reward Token",
+  },
+  {
     id: "tewken",
     symbol: "tewken",
     name: "TEWKEN",
+  },
+  {
+    id: "texo",
+    symbol: "texo",
+    name: "tEXO",
   },
   {
     id: "tezos",
@@ -37103,11 +39373,6 @@ export const coins = [
     id: "the-abyss",
     symbol: "abyss",
     name: "Abyss",
-  },
-  {
-    id: "the-apis",
-    symbol: "api",
-    name: "The APIS",
   },
   {
     id: "thebigcoin",
@@ -37153,6 +39418,26 @@ export const coins = [
     id: "the-crypto-prophecies",
     symbol: "tcp",
     name: "The Crypto Prophecies",
+  },
+  {
+    id: "thecryptspace",
+    symbol: "crypt",
+    name: "TheCryptSpace",
+  },
+  {
+    id: "the-crypt-space",
+    symbol: "crypt",
+    name: "The Crypt Space",
+  },
+  {
+    id: "the-doge-nft",
+    symbol: "dog",
+    name: "The Doge NFT",
+  },
+  {
+    id: "the-doge-world",
+    symbol: "tdw",
+    name: "The Doge World",
   },
   {
     id: "the-everlasting-parachain",
@@ -37265,6 +39550,16 @@ export const coins = [
     name: "THENODE",
   },
   {
+    id: "the-open-network",
+    symbol: "toncoin",
+    name: "The Open Network",
+  },
+  {
+    id: "theos",
+    symbol: "theos",
+    name: "Theos",
+  },
+  {
     id: "the-pablo-token",
     symbol: "pablo",
     name: "The Pablo Token",
@@ -37273,6 +39568,11 @@ export const coins = [
     id: "the-people-coin",
     symbol: "peeps",
     name: "The People’s Coin",
+  },
+  {
+    id: "the-portal",
+    symbol: "portal",
+    name: "The Portal",
   },
   {
     id: "the-real-golden-inu",
@@ -37300,11 +39600,6 @@ export const coins = [
     name: "The Smokehouse Finance",
   },
   {
-    id: "the-swedish-trust",
-    symbol: "swed",
-    name: "The Swedish Trust",
-  },
-  {
     id: "theta-fuel",
     symbol: "tfuel",
     name: "Theta Fuel",
@@ -37328,11 +39623,6 @@ export const coins = [
     id: "the-transfer-token",
     symbol: "ttt",
     name: "The Transfer Token",
-  },
-  {
-    id: "the-truth",
-    symbol: "ufo",
-    name: "The Truth",
   },
   {
     id: "the-vault",
@@ -37373,6 +39663,11 @@ export const coins = [
     id: "thorchain-erc20",
     symbol: "rune",
     name: "THORChain (ERC20)",
+  },
+  {
+    id: "thor-doge",
+    symbol: "thoge",
+    name: "Thor Doge",
   },
   {
     id: "thorecash",
@@ -37440,9 +39735,24 @@ export const coins = [
     name: "Thunder",
   },
   {
+    id: "thunderada-app",
+    symbol: "thunderada",
+    name: "ThunderADA.app",
+  },
+  {
+    id: "thunderbnb",
+    symbol: "thunderbnb",
+    name: "ThunderBNB",
+  },
+  {
     id: "thunderbolt",
     symbol: "bolt",
     name: "ThunderBolt",
+  },
+  {
+    id: "thundereth",
+    symbol: "thundereth",
+    name: "ThunderETH",
   },
   {
     id: "thunder-swap",
@@ -37463,6 +39773,16 @@ export const coins = [
     id: "tianya-token",
     symbol: "tyt",
     name: "Tianya Token",
+  },
+  {
+    id: "tianyu-finance",
+    symbol: "tyc",
+    name: "Tianyu Finance",
+  },
+  {
+    id: "tican",
+    symbol: "tia",
+    name: "Tican",
   },
   {
     id: "ticket2lambo",
@@ -37560,11 +39880,6 @@ export const coins = [
     name: "Time Space Chain",
   },
   {
-    id: "tinfoil-finance",
-    symbol: "tin",
-    name: "Tinfoil Finance",
-  },
-  {
     id: "tinkucoin",
     symbol: "tinku",
     name: "TinkuCoin",
@@ -37603,6 +39918,11 @@ export const coins = [
     id: "tixl-new",
     symbol: "txl",
     name: "Tixl",
+  },
+  {
+    id: "tkbtoken",
+    symbol: "tkb",
+    name: "TKBToken",
   },
   {
     id: "tkn-token",
@@ -37668,6 +39988,11 @@ export const coins = [
     id: "tokamak-network",
     symbol: "ton",
     name: "Tokamak Network",
+  },
+  {
+    id: "tokemak",
+    symbol: "toke",
+    name: "Tokemak",
   },
   {
     id: "tokemon",
@@ -37760,6 +40085,16 @@ export const coins = [
     name: "Tokenplace",
   },
   {
+    id: "tokenplay",
+    symbol: "top",
+    name: "Tokenplay",
+  },
+  {
+    id: "token-play",
+    symbol: "tp3",
+    name: "Token Play",
+  },
+  {
     id: "token-pocket",
     symbol: "tpt",
     name: "Token Pocket",
@@ -37825,6 +40160,11 @@ export const coins = [
     name: "Tolar",
   },
   {
+    id: "toll-free-swap",
+    symbol: "toll",
+    name: "Toll Free Swap",
+  },
+  {
     id: "tomatotoken",
     symbol: "tomato",
     name: "TomatoToken",
@@ -37873,6 +40213,11 @@ export const coins = [
     id: "tonestra",
     symbol: "tnr",
     name: "Tonestra",
+  },
+  {
+    id: "tonstarter",
+    symbol: "tos",
+    name: "TONStarter",
   },
   {
     id: "tontoken",
@@ -37945,6 +40290,11 @@ export const coins = [
     name: "Torex",
   },
   {
+    id: "torg",
+    symbol: "torg",
+    name: "TORG",
+  },
+  {
     id: "torj-world",
     symbol: "torj",
     name: "TORJ World",
@@ -38008,6 +40358,11 @@ export const coins = [
     id: "totemfi",
     symbol: "totm",
     name: "TotemFi",
+  },
+  {
+    id: "totem-finance",
+    symbol: "totem",
+    name: "Totem Finance",
   },
   {
     id: "to-the-mars",
@@ -38110,11 +40465,6 @@ export const coins = [
     name: "Transcodium",
   },
   {
-    id: "transfast",
-    symbol: "fastx",
-    name: "TRANSFAST",
-  },
-  {
     id: "transfercoin",
     symbol: "tx",
     name: "Transfercoin",
@@ -38125,9 +40475,19 @@ export const coins = [
     name: "Transmute",
   },
   {
+    id: "transparent-token",
+    symbol: "transparent",
+    name: "Transparent Token",
+  },
+  {
     id: "tratok",
     symbol: "trat",
     name: "Tratok",
+  },
+  {
+    id: "trava-finance",
+    symbol: "trava",
+    name: "Trava Finance",
   },
   {
     id: "travel-care",
@@ -38285,6 +40645,11 @@ export const coins = [
     name: "Tripio",
   },
   {
+    id: "trip-leverage-token",
+    symbol: "tlt",
+    name: "Trip Leverage Token",
+  },
+  {
     id: "trips-community",
     symbol: "trips",
     name: "Trips Community",
@@ -38383,11 +40748,6 @@ export const coins = [
     id: "tronfamily",
     symbol: "fat",
     name: "TRONFamily",
-  },
-  {
-    id: "trongamecenterdiamonds",
-    symbol: "tgcd",
-    name: "TronGameCenterDiamonds",
   },
   {
     id: "tron-game-center-token",
@@ -38635,14 +40995,19 @@ export const coins = [
     name: "Tugz",
   },
   {
-    id: "tulip-seed",
-    symbol: "stlp",
-    name: "Tulip Seed",
+    id: "tundra-token",
+    symbol: "tundra",
+    name: "Tundra Token",
   },
   {
     id: "tune",
     symbol: "tun",
     name: "TUNE",
+  },
+  {
+    id: "tune-fm",
+    symbol: "jam",
+    name: "Tune.Fm",
   },
   {
     id: "tune-token",
@@ -38663,6 +41028,11 @@ export const coins = [
     id: "turkeychain",
     symbol: "tkc",
     name: "TurkeyChain",
+  },
+  {
+    id: "turkiye-basketbol-federasyonu-token",
+    symbol: "tbft",
+    name: "Turkiye Basketbol Federasyonu Token",
   },
   {
     id: "turtle",
@@ -38728,6 +41098,11 @@ export const coins = [
     id: "two-prime-ff1-token",
     symbol: "ff1",
     name: "Two Prime FF1 Token",
+  },
+  {
+    id: "txa",
+    symbol: "txa",
+    name: "TXA",
   },
   {
     id: "tycoon",
@@ -38860,6 +41235,11 @@ export const coins = [
     name: "Uniform Fiscal Object",
   },
   {
+    id: "ufo-gaming",
+    symbol: "ufo",
+    name: "Ufo Gaming",
+  },
+  {
     id: "ugas-jun21",
     symbol: "ugas-jun21",
     name: "uGAS-JUN21 Token Expiring 30 Jun 2021",
@@ -38970,6 +41350,11 @@ export const coins = [
     name: "UMI",
   },
   {
+    id: "umi-digital",
+    symbol: "umi",
+    name: "Umi Digital",
+  },
+  {
     id: "unagii-dai",
     symbol: "udai",
     name: "Unagii Dai",
@@ -39018,6 +41403,11 @@ export const coins = [
     id: "uncle-scrooge-finance",
     symbol: "crooge",
     name: "Uncle Scrooge Finance",
+  },
+  {
+    id: "underminegold",
+    symbol: "umg",
+    name: "UnderMineGold",
   },
   {
     id: "undo-token",
@@ -39380,6 +41770,11 @@ export const coins = [
     name: "United Emirate Decentralized Coin",
   },
   {
+    id: "united-farmers-finance",
+    symbol: "uff",
+    name: "United Farmers Finance",
+  },
+  {
     id: "united-token",
     symbol: "uted",
     name: "United",
@@ -39388,11 +41783,6 @@ export const coins = [
     id: "united-traders-token",
     symbol: "utt",
     name: "United Traders Token",
-  },
-  {
-    id: "unitopia-token",
-    symbol: "uto",
-    name: "UniTopia Token",
   },
   {
     id: "unit-protocol",
@@ -39413,11 +41803,6 @@ export const coins = [
     id: "unitus",
     symbol: "uis",
     name: "Unitus",
-  },
-  {
-    id: "unitydao",
-    symbol: "uty",
-    name: "UnityDAO",
   },
   {
     id: "unity-network",
@@ -39478,6 +41863,11 @@ export const coins = [
     id: "universal-us-dollar",
     symbol: "upusd",
     name: "Universal US Dollar",
+  },
+  {
+    id: "universe-coin",
+    symbol: "unis",
+    name: "Universe Coin",
   },
   {
     id: "universe-token",
@@ -39550,9 +41940,19 @@ export const coins = [
     name: "UnoSwap",
   },
   {
+    id: "unreal-finance",
+    symbol: "ugt",
+    name: "Unreal Finance",
+  },
+  {
     id: "unslashed-finance",
     symbol: "usf",
     name: "Unslashed Finance",
+  },
+  {
+    id: "unvest",
+    symbol: "unv",
+    name: "Unvest",
   },
   {
     id: "upbnb",
@@ -39563,11 +41963,6 @@ export const coins = [
     id: "upbots",
     symbol: "ubxt",
     name: "UpBots",
-  },
-  {
-    id: "upbtc-token",
-    symbol: "upb",
-    name: "UPBTC Token",
   },
   {
     id: "upcoin",
@@ -39613,6 +42008,11 @@ export const coins = [
     id: "upper-pound",
     symbol: "gbpu",
     name: "Upper Pound",
+  },
+  {
+    id: "uppsme",
+    symbol: "upps",
+    name: "UppsMe",
   },
   {
     id: "upshib",
@@ -39662,7 +42062,7 @@ export const coins = [
   {
     id: "urus-token",
     symbol: "urus",
-    name: "Urus Token",
+    name: "Aurox Token",
   },
   {
     id: "usda",
@@ -39798,6 +42198,11 @@ export const coins = [
     id: "v4p0rr15e",
     symbol: "vrise",
     name: "VaporRISE",
+  },
+  {
+    id: "vabble",
+    symbol: "vab",
+    name: "Vabble",
   },
   {
     id: "vacay",
@@ -39940,6 +42345,11 @@ export const coins = [
     name: "VapersCoin",
   },
   {
+    id: "varen",
+    symbol: "vrn",
+    name: "Varen",
+  },
+  {
     id: "variable-time-dollar",
     symbol: "vtd",
     name: "Variable Time Dollar",
@@ -39960,6 +42370,11 @@ export const coins = [
     name: "Vault Guardian Token",
   },
   {
+    id: "vaulty-token",
+    symbol: "vlty",
+    name: "Vaulty Token",
+  },
+  {
     id: "vaultz",
     symbol: "vaultz",
     name: "Vaultz",
@@ -39978,6 +42393,11 @@ export const coins = [
     id: "vbzrx",
     symbol: "vbzrx",
     name: "bZx Vesting Token",
+  },
+  {
+    id: "vcash",
+    symbol: "xvc",
+    name: "Vcash",
   },
   {
     id: "vcash-token",
@@ -40020,9 +42440,14 @@ export const coins = [
     name: "VEED",
   },
   {
-    id: "vega-coin",
+    id: "vega-protocol",
     symbol: "vega",
-    name: "Vega Coin",
+    name: "Vega Protocol",
+  },
+  {
+    id: "vegasdoge",
+    symbol: "vegas",
+    name: "VegasDoge",
   },
   {
     id: "vegawallet-token",
@@ -40065,9 +42490,19 @@ export const coins = [
     name: "VELO Token",
   },
   {
+    id: "vempire-ddao",
+    symbol: "vemp",
+    name: "vEmpire DDAO",
+  },
+  {
     id: "vena-network",
     symbol: "vena",
     name: "Vena Network",
+  },
+  {
+    id: "vendit",
+    symbol: "vndt",
+    name: "Vendit",
   },
   {
     id: "venjocoin",
@@ -40078,6 +42513,11 @@ export const coins = [
     id: "venox",
     symbol: "vnx",
     name: "Venox",
+  },
+  {
+    id: "vention",
+    symbol: "vention",
+    name: "Vention",
   },
   {
     id: "venus",
@@ -40350,11 +42790,6 @@ export const coins = [
     name: "Viberate",
   },
   {
-    id: "vice-industry-token",
-    symbol: "vit",
-    name: "Vice Industry Token",
-  },
-  {
     id: "vice-network",
     symbol: "vn",
     name: "Vice Network",
@@ -40363,6 +42798,11 @@ export const coins = [
     id: "vicetoken",
     symbol: "vicex",
     name: "ViceToken",
+  },
+  {
+    id: "vicewrld",
+    symbol: "vice",
+    name: "Vicewrld",
   },
   {
     id: "victorum",
@@ -40413,6 +42853,11 @@ export const coins = [
     id: "vig",
     symbol: "vig",
     name: "VIG",
+  },
+  {
+    id: "viking-legend",
+    symbol: "viking",
+    name: "Viking Legend",
   },
   {
     id: "viking-swap",
@@ -40508,11 +42953,6 @@ export const coins = [
     id: "vitadao",
     symbol: "vita",
     name: "VitaDAO",
-  },
-  {
-    id: "vitae",
-    symbol: "vitae",
-    name: "Vitae",
   },
   {
     id: "vite",
@@ -40670,11 +43110,6 @@ export const coins = [
     name: "VPNCoin",
   },
   {
-    id: "vslice",
-    symbol: "vsl",
-    name: "vSlice",
-  },
-  {
     id: "vspacex",
     symbol: "vspacex",
     name: "vSpaceX",
@@ -40725,6 +43160,11 @@ export const coins = [
     name: "Vyndao",
   },
   {
+    id: "vynk-chain",
+    symbol: "vync",
+    name: "VYNK Chain",
+  },
+  {
     id: "w3bpush",
     symbol: "w3b",
     name: "W3bPUSH",
@@ -40765,16 +43205,6 @@ export const coins = [
     name: "WAIFU Vault (NFTX)",
   },
   {
-    id: "waivlength",
-    symbol: "waiv",
-    name: "Waivlength",
-  },
-  {
-    id: "wal",
-    symbol: "wal",
-    name: "WAL",
-  },
-  {
     id: "waletoken",
     symbol: "wtn",
     name: "Waletoken",
@@ -40785,14 +43215,14 @@ export const coins = [
     name: "Wallet Plus X",
   },
   {
+    id: "wallet-swap",
+    symbol: "wswap",
+    name: "Wallet Swap",
+  },
+  {
     id: "wall-street-baby",
     symbol: "wsb",
     name: "Wall Street Baby",
-  },
-  {
-    id: "wallstreetbets-coin",
-    symbol: "wsbc",
-    name: "WallStreetBets Coin",
   },
   {
     id: "wall-street-bets-dapp",
@@ -40820,9 +43250,19 @@ export const coins = [
     name: "Waltonchain",
   },
   {
+    id: "wanaka-farm",
+    symbol: "wana",
+    name: "Wanaka Farm",
+  },
+  {
     id: "wanchain",
     symbol: "wan",
     name: "Wanchain",
+  },
+  {
+    id: "wanderlust",
+    symbol: "wander",
+    name: "Wanderlust",
   },
   {
     id: "wandx",
@@ -40875,11 +43315,6 @@ export const coins = [
     name: "Water Finance",
   },
   {
-    id: "water-token-2",
-    symbol: "wtr",
-    name: "Liquid Finance",
-  },
-  {
     id: "wault",
     symbol: "waultx",
     name: "Wault",
@@ -40900,9 +43335,9 @@ export const coins = [
     name: "WaultSwap Polygon",
   },
   {
-    id: "wav3",
-    symbol: "wav3",
-    name: "WAV3",
+    id: "wault-usd",
+    symbol: "wusd",
+    name: "Wault USD",
   },
   {
     id: "wave-edu-coin",
@@ -41100,11 +43535,6 @@ export const coins = [
     name: "Werewolf Coin",
   },
   {
-    id: "weshow",
-    symbol: "wet",
-    name: "WeShow Token",
-  },
-  {
     id: "wesing-coin",
     symbol: "wsc",
     name: "WeSing Coin",
@@ -41123,6 +43553,11 @@ export const coins = [
     id: "wetrust",
     symbol: "trst",
     name: "WeTrust",
+  },
+  {
+    id: "weyu",
+    symbol: "weyu",
+    name: "WEYU",
   },
   {
     id: "w-green-pay",
@@ -41160,9 +43595,9 @@ export const coins = [
     name: "WhaleRoom",
   },
   {
-    id: "whalesburg",
-    symbol: "wbt",
-    name: "Whalesburg",
+    id: "whalestreet-shrimp-token",
+    symbol: "$hrimp",
+    name: "WhaleStreet $hrimp Token",
   },
   {
     id: "wheat-token",
@@ -41238,6 +43673,11 @@ export const coins = [
     id: "wick-finance",
     symbol: "wick",
     name: "Wick Finance",
+  },
+  {
+    id: "widecoin",
+    symbol: "wcn",
+    name: "Widecoin",
   },
   {
     id: "wider-coin",
@@ -41375,6 +43815,11 @@ export const coins = [
     name: "Wise",
   },
   {
+    id: "wish-finance-2",
+    symbol: "wish",
+    name: "Wish Finance",
+  },
+  {
     id: "witchain",
     symbol: "wit",
     name: "WITChain",
@@ -41383,6 +43828,11 @@ export const coins = [
     id: "witch-token",
     symbol: "witch",
     name: "Witch Token",
+  },
+  {
+    id: "wiva",
+    symbol: "wiva",
+    name: "WIVA",
   },
   {
     id: "wixlar",
@@ -41450,6 +43900,11 @@ export const coins = [
     name: "WOM Protocol",
   },
   {
+    id: "wonderland",
+    symbol: "time",
+    name: "Wonderland",
+  },
+  {
     id: "woodcoin",
     symbol: "log",
     name: "Woodcoin",
@@ -41460,6 +43915,11 @@ export const coins = [
     name: "Woofy",
   },
   {
+    id: "woo-network",
+    symbol: "woo",
+    name: "WOO Network",
+  },
+  {
     id: "woonkly-defi",
     symbol: "wdefi",
     name: "Woonkly Defi",
@@ -41468,11 +43928,6 @@ export const coins = [
     id: "woonkly-power",
     symbol: "woop",
     name: "Woonkly Power",
-  },
-  {
-    id: "wootrade-network",
-    symbol: "woo",
-    name: "Wootrade Network",
   },
   {
     id: "wordlex",
@@ -41550,6 +44005,11 @@ export const coins = [
     name: "WPP Token",
   },
   {
+    id: "wraith",
+    symbol: "wraith",
+    name: "Wraith",
+  },
+  {
     id: "wrapped-anatha",
     symbol: "wanatha",
     name: "Wrapped ANATHA",
@@ -41585,6 +44045,11 @@ export const coins = [
     name: "Wrapped CELO",
   },
   {
+    id: "wrapped-celo-dollar",
+    symbol: "wcusd",
+    name: "Wrapped Celo Dollar",
+  },
+  {
     id: "wrapped-centrifuge",
     symbol: "wcfg",
     name: "Wrapped Centrifuge",
@@ -41610,6 +44075,11 @@ export const coins = [
     name: "Wrapped-DGLD",
   },
   {
+    id: "wrapped-ducatusx",
+    symbol: "wducx",
+    name: "Wrapped DucatusX",
+  },
+  {
     id: "wrapped-ecomi",
     symbol: "womi",
     name: "Wrapped ECOMI",
@@ -41618,6 +44088,11 @@ export const coins = [
     id: "wrapped-fantom",
     symbol: "wftm",
     name: "Wrapped Fantom",
+  },
+  {
+    id: "wrapped-fct",
+    symbol: "wfct",
+    name: "Wrapped FCT",
   },
   {
     id: "wrapped-filecoin",
@@ -41630,14 +44105,14 @@ export const coins = [
     name: "Wrapped Gen-0 CryptoKitties",
   },
   {
-    id: "wrapped-huobi-token",
-    symbol: "wht",
-    name: "Wrapped Huobi Token",
-  },
-  {
     id: "wrapped-ilcoin",
     symbol: "wilc",
     name: "Wrapped ILCOIN",
+  },
+  {
+    id: "wrapped-iotex",
+    symbol: "wiotx",
+    name: "Wrapped IoTex",
   },
   {
     id: "wrapped-kcs",
@@ -41655,6 +44130,11 @@ export const coins = [
     name: "Wrapped Moon Cats",
   },
   {
+    id: "wrapped-ncg",
+    symbol: "wncg",
+    name: "Wrapped NCG",
+  },
+  {
     id: "wrapped-newyorkcoin",
     symbol: "wnyc",
     name: "Wrapped NewYorkCoin",
@@ -41663,6 +44143,11 @@ export const coins = [
     id: "wrapped-nxm",
     symbol: "wnxm",
     name: "Wrapped NXM",
+  },
+  {
+    id: "wrapped-one",
+    symbol: "wone",
+    name: "Wrapped One",
   },
   {
     id: "wrapped-origin-axie",
@@ -41678,11 +44163,6 @@ export const coins = [
     id: "wrapped-shift",
     symbol: "wshift",
     name: "Wrapped Shift",
-  },
-  {
-    id: "wrapped-shuttleone",
-    symbol: "wszo",
-    name: "Wrapped Shuttleone",
   },
   {
     id: "wrapped-statera",
@@ -41720,6 +44200,16 @@ export const coins = [
     name: "Wrapped Virgin Gen-0 CryptoKittties",
   },
   {
+    id: "wrapped-widecoin",
+    symbol: "wwcn",
+    name: "Wrapped Widecoin",
+  },
+  {
+    id: "wrapped-wit",
+    symbol: "ewit",
+    name: "Wrapped Wit",
+  },
+  {
     id: "wrapped-x42-protocol",
     symbol: "wx42",
     name: "Wrapped X42 Protocol",
@@ -41743,6 +44233,11 @@ export const coins = [
     id: "wrapped-zcash",
     symbol: "wzec",
     name: "Wrapped Zcash",
+  },
+  {
+    id: "wula",
+    symbol: "wula",
+    name: "Wula",
   },
   {
     id: "wxcoin",
@@ -41818,6 +44313,11 @@ export const coins = [
     id: "xbe-token",
     symbol: "xbe",
     name: "XBE Token",
+  },
+  {
+    id: "xbit",
+    symbol: "xbt",
+    name: "Xbit",
   },
   {
     id: "x-block",
@@ -42115,6 +44615,11 @@ export const coins = [
     name: "XMON",
   },
   {
+    id: "xnft",
+    symbol: "xnft",
+    name: "xNFT Protocol",
+  },
+  {
     id: "xnode",
     symbol: "xnode",
     name: "XNODE",
@@ -42138,6 +44643,11 @@ export const coins = [
     id: "xp",
     symbol: "xp",
     name: "XP",
+  },
+  {
+    id: "xpandacoin",
+    symbol: "xpc",
+    name: "XPandaCoin",
   },
   {
     id: "xpool",
@@ -42170,9 +44680,19 @@ export const coins = [
     name: "Xriba",
   },
   {
+    id: "xroad",
+    symbol: "xri",
+    name: "XRoad",
+  },
+  {
     id: "xrpalike-gene",
     symbol: "xag",
     name: "Xrpalike Gene",
+  },
+  {
+    id: "xrp-apes",
+    symbol: "xrpape",
+    name: "XRP Apes",
   },
   {
     id: "xrp-bep2",
@@ -42220,9 +44740,9 @@ export const coins = [
     name: "XSwap",
   },
   {
-    id: "xtake",
-    symbol: "xtk",
-    name: "Xtake",
+    id: "xtblock-token",
+    symbol: "xtt-b20",
+    name: "XTblock Token",
   },
   {
     id: "xtcom-token",
@@ -42285,6 +44805,11 @@ export const coins = [
     name: "xWIN Finance",
   },
   {
+    id: "x-world-games",
+    symbol: "xwg",
+    name: "X World Games",
+  },
+  {
     id: "xx-platform",
     symbol: "xxp",
     name: "XX Platform",
@@ -42308,6 +44833,11 @@ export const coins = [
     id: "yadacoin",
     symbol: "yda",
     name: "YadaCoin",
+  },
+  {
+    id: "yaki-gold",
+    symbol: "yag",
+    name: "Yaki Gold",
   },
   {
     id: "yakuza-dao",
@@ -42375,19 +44905,14 @@ export const coins = [
     name: "YD-BTC-JUN21",
   },
   {
-    id: "yd-btc-mar21",
-    symbol: "yd-btc-mar21",
-    name: "YD-BTC-MAR21",
-  },
-  {
     id: "yd-eth-jun21",
     symbol: "yd-eth-jun21",
     name: "YD-ETH-JUN21",
   },
   {
-    id: "yd-eth-mar21",
-    symbol: "yd-eth-mar21",
-    name: "YD-ETH-MAR21",
+    id: "ydragon",
+    symbol: "ydr",
+    name: "YDragon",
   },
   {
     id: "yeabrswap",
@@ -42560,11 +45085,6 @@ export const coins = [
     name: "YENTEN",
   },
   {
-    id: "yep-coin",
-    symbol: "YEP",
-    name: "YEP Coin",
-  },
-  {
     id: "yes",
     symbol: "yes",
     name: "YES",
@@ -42698,11 +45218,6 @@ export const coins = [
     id: "yfii-gold",
     symbol: "yfiig",
     name: "YFII Gold",
-  },
-  {
-    id: "yfiii",
-    symbol: "yfiii",
-    name: "YFIII",
   },
   {
     id: "yfiking-finance",
@@ -42895,6 +45410,11 @@ export const coins = [
     name: "YieldX",
   },
   {
+    id: "yield-yak",
+    symbol: "yak",
+    name: "Yield Yak",
+  },
+  {
     id: "yinbi",
     symbol: "yinbi",
     name: "Yinbi",
@@ -42925,9 +45445,9 @@ export const coins = [
     name: "Yocoin",
   },
   {
-    id: "yo-coin",
+    id: "yocoinyoco",
     symbol: "yoco",
-    name: "Yoco Finance",
+    name: "YocoinYOCO",
   },
   {
     id: "yoink",
@@ -42945,6 +45465,11 @@ export const coins = [
     name: "YOLOCash",
   },
   {
+    id: "yoloverse",
+    symbol: "yolov",
+    name: "YoloVerse",
+  },
+  {
     id: "yoo-ecology",
     symbol: "yoo",
     name: "Yoo Ecology",
@@ -42953,6 +45478,11 @@ export const coins = [
     id: "yooshi",
     symbol: "yooshi",
     name: "YooShi",
+  },
+  {
+    id: "yoplex",
+    symbol: "yplx",
+    name: "Yoplex",
   },
   {
     id: "yottacoin",
@@ -42985,6 +45515,11 @@ export const coins = [
     name: "Young Boys Fan Token",
   },
   {
+    id: "youswap",
+    symbol: "you",
+    name: "YouSwap",
+  },
+  {
     id: "yoyow",
     symbol: "yoyow",
     name: "YOYOW",
@@ -43000,6 +45535,16 @@ export const coins = [
     name: "yRise Finance",
   },
   {
+    id: "ysl",
+    symbol: "ysl",
+    name: "YSL",
+  },
+  {
+    id: "ysl-io",
+    symbol: "sysl",
+    name: "YSL.IO",
+  },
+  {
     id: "ysoy-chain",
     symbol: "ysoy",
     name: "YSOY Chain",
@@ -43013,6 +45558,11 @@ export const coins = [
     id: "ytho-online",
     symbol: "ytho",
     name: "YTHO Online",
+  },
+  {
+    id: "ytofu",
+    symbol: "ytofu",
+    name: "yTOFU",
   },
   {
     id: "ytsla-finance",
@@ -43038,6 +45588,11 @@ export const coins = [
     id: "yuang-coin",
     symbol: "yuang",
     name: "Yuang Coin",
+  },
+  {
+    id: "yucreat",
+    symbol: "yuc",
+    name: "Yucreat",
   },
   {
     id: "yui-hinata",
@@ -43080,11 +45635,6 @@ export const coins = [
     name: "yUSDC (BUSD pool)",
   },
   {
-    id: "yusd-synthetic-token-expiring-31-december-2020",
-    symbol: "uUSDwETH-DEC",
-    name: "uUSDwETH Synthetic Token Expiring 31 December 2020",
-  },
-  {
     id: "yusra",
     symbol: "yusra",
     name: "YUSRA",
@@ -43115,6 +45665,11 @@ export const coins = [
     name: "Zabaku Inu",
   },
   {
+    id: "zabu-token",
+    symbol: "zabu",
+    name: "Zabu Token",
+  },
+  {
     id: "zaif-token",
     symbol: "zaif",
     name: "Zaif Token",
@@ -43143,6 +45698,11 @@ export const coins = [
     id: "zarcash",
     symbol: "zarh",
     name: "Zarhexcash",
+  },
+  {
+    id: "zasset-zusd",
+    symbol: "zusd",
+    name: "Zasset zUSD",
   },
   {
     id: "zbank-token",
@@ -43178,6 +45738,11 @@ export const coins = [
     id: "zcoin",
     symbol: "firo",
     name: "Firo",
+  },
+  {
+    id: "zcon-protocol",
+    symbol: "zcon",
+    name: "Zcon Protocol",
   },
   {
     id: "zcore",
@@ -43290,11 +45855,6 @@ export const coins = [
     name: "ZEON Network",
   },
   {
-    id: "zeon-2",
-    symbol: "zeon",
-    name: "Zeon",
-  },
-  {
     id: "zeppelin-dao",
     symbol: "zep",
     name: "Zeppelin Dao",
@@ -43308,11 +45868,6 @@ export const coins = [
     id: "zero",
     symbol: "zer",
     name: "Zero",
-  },
-  {
-    id: "zero-carbon-project",
-    symbol: "zcc",
-    name: "Zero Carbon Project",
   },
   {
     id: "zero-collateral-dai",
@@ -43350,6 +45905,11 @@ export const coins = [
     name: "Zerozed",
   },
   {
+    id: "zetacoin",
+    symbol: "zet",
+    name: "Zetacoin",
+  },
+  {
     id: "zeto",
     symbol: "ztc",
     name: "ZeTo",
@@ -43378,11 +45938,6 @@ export const coins = [
     id: "zg",
     symbol: "zg",
     name: "ZG Token",
-  },
-  {
-    id: "zg-blockchain-token",
-    symbol: "zgt",
-    name: "ZG Blockchain Token",
   },
   {
     id: "zhegic",
@@ -43550,6 +46105,11 @@ export const coins = [
     name: "ZOM",
   },
   {
+    id: "zomainfinity",
+    symbol: "zin",
+    name: "ZomaInfinity",
+  },
+  {
     id: "zombie-farm",
     symbol: "zombie",
     name: "Zombie Farm",
@@ -43570,6 +46130,11 @@ export const coins = [
     name: "ZOO - Crypto World",
   },
   {
+    id: "zookeeper",
+    symbol: "zoo",
+    name: "ZooKeeper",
+  },
+  {
     id: "zoomcoin",
     symbol: "zoom",
     name: "Zoomcoin",
@@ -43578,6 +46143,11 @@ export const coins = [
     id: "zoom-protocol",
     symbol: "zom",
     name: "Zoom Protocol",
+  },
+  {
+    id: "zooshi",
+    symbol: "zooshi",
+    name: "Zooshi",
   },
   {
     id: "zoo-token",
@@ -43628,11 +46198,6 @@ export const coins = [
     id: "ztranzit-coin",
     symbol: "ztnz",
     name: "Ztranzit Coin",
-  },
-  {
-    id: "zucoinchain",
-    symbol: "zcc",
-    name: "ZuCoinChain",
   },
   {
     id: "zuescrowdfunding",
